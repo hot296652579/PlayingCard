@@ -6604,3 +6604,455 @@ myProp = 0;
 2023-03-02T10:44:27.056Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
 2023-03-02T10:44:27.057Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
 https://github.com/highlightjs/highlight.js/issues/2277
+2023-03-02T12:44:18.607Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:50:35.495Z - log: [Scene] The thing you want to instantiate is nilTypeError: The thing you want to instantiate is nil
+    at instantiate (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:112360:17)
+    at PrefabUtil.getPrefabForSerialize (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/utils.ccc:1:4110)
+    at PrefabSceneProxy.serialize (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/prefab-scene-proxy.ccc:1:4530)
+    at PrefabSceneProxy.save (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/prefab-scene-proxy.ccc:1:4801)
+    at PrefabSceneFacade.saveScene (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/prefab-scene-facade.ccc:1:3019)
+    at SceneFacadeManager.saveScene (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:7669)
+2023-03-02T12:50:35.545Z - error: [Window] The thing you want to instantiate is nilTypeError: The thing you want to instantiate is nil
+    at <process:scene>
+    at instantiate (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:112360:17)
+    at PrefabUtil.getPrefabForSerialize (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/utils.ccc:1:4110)
+    at PrefabSceneProxy.serialize (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/prefab-scene-proxy.ccc:1:4530)
+    at PrefabSceneProxy.save (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scene/proxy/prefab-scene-proxy.ccc:1:4801)
+    at PrefabSceneFacade.saveScene (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/prefab-scene-facade.ccc:1:3019)
+    at SceneFacadeManager.saveScene (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:7669)
+2023-03-02T12:50:38.263Z - warn: 
+2023-03-02T12:50:39.523Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.534Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.535Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.535Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.536Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-03-02T12:50:39.536Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-03-02T12:50:39.543Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.544Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.544Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.544Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.544Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.544Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.544Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.544Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.544Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.544Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.545Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T12:50:39.563Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-03-02T12:50:39.588Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-03-02T12:50:39.588Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-03-02T12:50:39.588Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-03-02T12:50:39.588Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-03-02T12:50:39.644Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-03-02T12:50:39.650Z - info: [Scene] [PHYSICS]: using builtin.
+2023-03-02T12:50:39.715Z - log: [Scene] Cocos Creator v3.6.0
+2023-03-02T12:50:39.716Z - info: [Scene] Forward render pipeline initialized.
+2023-03-02T12:55:14.787Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.823Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.825Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.826Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.826Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.827Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.850Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.884Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.886Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.895Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.898Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.899Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.944Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.958Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.979Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.984Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:14.989Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.001Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.012Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.017Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.031Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.035Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.048Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.100Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.103Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.103Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.103Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.131Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.133Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.172Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.173Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.189Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.190Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.218Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.221Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.283Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.288Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.293Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.294Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.306Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.324Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.352Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.373Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.378Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.385Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.393Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.398Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.401Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.403Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.404Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.404Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T12:55:15.410Z - error: [Preview]TypeError: Cannot set properties of null (setting 'active')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.746Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.757Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.765Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.772Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.788Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.788Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.797Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.812Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.830Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.842Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.843Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.888Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.953Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.955Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.957Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.957Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.963Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.975Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.976Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:14.977Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.003Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.006Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.006Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.029Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.036Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.055Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.068Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.087Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.090Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.090Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.090Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.114Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.164Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.184Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.186Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.186Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.186Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.205Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.206Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.241Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.243Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.244Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.244Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.285Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.287Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.323Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.326Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.326Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.327Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.338Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.339Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:02:15.353Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.888Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.891Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.892Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.894Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.894Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.895Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.914Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.919Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.927Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.927Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.931Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.940Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:47.957Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.025Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.038Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.043Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.046Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.046Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.052Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.058Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.072Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.074Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.088Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.101Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.108Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.123Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.125Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.125Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.145Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.148Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.166Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.185Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.204Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.205Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.222Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.223Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.240Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.256Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.273Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.274Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.294Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.297Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.308Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.322Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.338Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.339Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.355Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.356Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.375Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.376Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.389Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:07:48.391Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.176Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.184Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.186Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.186Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.207Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.208Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.250Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.274Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.275Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.329Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.352Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.356Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.442Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.454Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.463Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.483Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.492Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.497Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.497Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.509Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.539Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.558Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.625Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.641Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.650Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.658Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.659Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.665Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.674Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.697Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.711Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.732Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.742Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.745Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.811Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.817Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.821Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.832Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.843Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.848Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.855Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.856Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.861Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.866Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.894Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.924Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.926Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.929Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.930Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.940Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.941Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''
+2023-03-02T13:08:52.942Z - error: [Preview]TypeError: Cannot set properties of null (setting 'spriteFrame')errorInfo.stack ? '/n ' : ''

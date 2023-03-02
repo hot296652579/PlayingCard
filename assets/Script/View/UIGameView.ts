@@ -18,15 +18,15 @@ export class UIGameView extends Component {
     receiveAreaList: Node[] = []
     @property(Node)
     playGruopAnchor: Node = null
+    @property(Node)
+    initArea: Node = null
 
-    createAllCardByDB() {
-        let pokers = GameDB.getInstance().closePokers
+    createAllCardByDB(pokers: Poker[]) {
         let index = 0
         for (const poker of pokers) {
             let uiPoker = this.createUIPoker(poker)
-            this.closeSendArea.addChild(uiPoker.node)
-
-            uiPoker.node.setPosition(index, 0, 0)
+            this.initArea.addChild(uiPoker.node)
+            uiPoker.node.setPosition(0.5 * index, 0, 0)
             index++
         }
     }
@@ -36,6 +36,20 @@ export class UIGameView extends Component {
         const uiPoker = cardPrefab.getComponent(UIPoker)
         uiPoker.init(poker)
         return uiPoker
+    }
+
+    startGame() {
+        let stuck = []
+        for (let index = this.initArea.children.length - 1; index >= 0; --index) {
+            let children = this.initArea.children[index]
+            this.initArea.removeChild(children)
+            stuck.push(children)
+        }
+
+        for (let index = stuck.length - 1; index >= 0; --index) {
+            const card = stuck[index];
+            this.closeSendArea.addChild(card)
+        }
     }
 }
 

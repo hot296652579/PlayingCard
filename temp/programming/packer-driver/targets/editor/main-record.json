@@ -535,7 +535,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 32502772.55254197,
+      "mTimestamp": 41327541.90058398,
       "chunkId": "7445ff4758084772bd924d4fde9f2179dae8a9aa",
       "imports": [
         {
@@ -1069,10 +1069,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts": {
       "mTimestamp": {
-        "mtime": 1677740727896.1582,
+        "mtime": 1677761336825.8123,
         "uuid": "54f6a9b1-5b6f-40bf-ac51-ca5217b1c286"
       },
-      "chunkId": "1f25b92606d0964ee277625f3a365541b4bd7d78",
+      "chunkId": "7e179a450ee3e75db03359c5342a3243f6520456",
       "imports": [
         {
           "value": "cc"
@@ -1091,10 +1091,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts": {
       "mTimestamp": {
-        "mtime": 1677753826520.8708,
+        "mtime": 1677761848917.0813,
         "uuid": "5eb4d445-c452-4c66-96fb-beaa47a2f81d"
       },
-      "chunkId": "365bd973b0b470d149d6145868f9d414f06dbc26",
+      "chunkId": "3a1973d1b4b00e0406c5b029b3e0b36ba3b7ad57",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1423,10 +1423,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts": {
       "mTimestamp": {
-        "mtime": 1677745333314.1064,
+        "mtime": 1677762631818.2126,
         "uuid": "27885772-8fa9-49e1-aba8-96e9ae5e1565"
       },
-      "chunkId": "04f80db528c3e6de8b2076516a89628dc5c0814b",
+      "chunkId": "943ac29dfdcd594de101e26986e9d278ea308db5",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1452,29 +1452,43 @@
           }
         },
         {
-          "value": "../ResMgr",
+          "value": "../Enum",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 3,
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 34
+            }
+          }
+        },
+        {
+          "value": "../ResMgr",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
               "column": 19
             },
             "end": {
-              "line": 3,
+              "line": 4,
               "column": 30
             }
           }
         },
         {
           "value": "../Utils/Utils",
-          "resolved": "__unresolved_2",
+          "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 4,
+              "line": 5,
               "column": 26
             },
             "end": {
-              "line": 4,
+              "line": 5,
               "column": 42
             }
           }
@@ -1507,6 +1521,13 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts"
           },
           "messages": []
         },
@@ -1633,10 +1654,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": {
       "mTimestamp": {
-        "mtime": 1677753808210.3503,
+        "mtime": 1677762682541.0613,
         "uuid": "6fe3e365-3176-40f0-9696-c848a965ddea"
       },
-      "chunkId": "4ad4d2d443bb8026b7744ecf577b5d8f6e926cda",
+      "chunkId": "e0855b5d67a1f12850f9f9e1e5c8075d250dae99",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1662,22 +1683,8 @@
           }
         },
         {
-          "value": "../Model/GameDB",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 19
-            },
-            "end": {
-              "line": 3,
-              "column": 36
-            }
-          }
-        },
-        {
           "value": "../UI/UIPoker",
-          "resolved": "__unresolved_2",
+          "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 5,
@@ -1723,13 +1730,6 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
             "url": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts"
           },
           "messages": []
@@ -1738,10 +1738,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts": {
       "mTimestamp": {
-        "mtime": 1677753823449.4158,
+        "mtime": 1677761835912.2183,
         "uuid": "e7c8c929-dc8f-4432-af13-2be38b869d24"
       },
-      "chunkId": "16da465e218e8494c36824d3211917b0a525e5ef",
+      "chunkId": "cdafb0e7ecffe09e09a1fdd0e56e8b60284ae6bd",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1756,11 +1756,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 25
+              "column": 35
             },
             "end": {
               "line": 1,
-              "column": 34
+              "column": 44
             }
           }
         },
@@ -1813,10 +1813,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts": {
       "mTimestamp": {
-        "mtime": 1677753851273.3782,
+        "mtime": 1677761402405.1768,
         "uuid": "546b2197-1f8f-4ade-9314-92008457aed1"
       },
-      "chunkId": "7f07acec93414d2f709a1fbba7628ab89ec63b80",
+      "chunkId": "baa36aeb24bb996af6cf7030b0eb7c173f904bd4",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1831,11 +1831,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 25
+              "column": 35
             },
             "end": {
               "line": 1,
-              "column": 34
+              "column": 44
             }
           }
         }

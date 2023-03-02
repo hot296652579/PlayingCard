@@ -108,12 +108,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts": {
-    "time": 1677753826520.8708,
+    "time": 1677761848917.0813,
     "uuid": "5eb4d445-c452-4c66-96fb-beaa47a2f81d",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts": {
-    "time": 1677740727896.1582,
+    "time": 1677761336825.8123,
     "uuid": "54f6a9b1-5b6f-40bf-ac51-ca5217b1c286",
     "missing": false
   },
@@ -141,7 +141,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Prefabs/UIPoker.prefab": {
-    "time": 1677744440558.266,
+    "time": 1677762717184.7202,
     "uuid": "060c875e-2769-4766-a981-aa63efa6957f",
     "missing": false
   },
@@ -731,7 +731,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts": {
-    "time": 1677745333314.1064,
+    "time": 1677762631818.2126,
     "uuid": "27885772-8fa9-49e1-aba8-96e9ae5e1565",
     "missing": false
   },
@@ -747,7 +747,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": {
-    "time": 1677753808210.3503,
+    "time": 1677762682541.0613,
     "uuid": "6fe3e365-3176-40f0-9696-c848a965ddea",
     "missing": false
   },
@@ -755,7 +755,7 @@
     "time": 1677744411224.78
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Prefabs/UIGameView.prefab": {
-    "time": 1677753860951.4106,
+    "time": 1677761175060.8613,
     "uuid": "9f730f7f-a718-404f-a0db-3d450d4e8710",
     "missing": false
   },
@@ -771,7 +771,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts": {
-    "time": 1677753823449.4158,
+    "time": 1677761835912.2183,
     "uuid": "e7c8c929-dc8f-4432-af13-2be38b869d24",
     "missing": false
   },
@@ -779,7 +779,7 @@
     "time": 1677685246858.4473
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts": {
-    "time": 1677753851273.3782,
+    "time": 1677761402405.1768,
     "uuid": "546b2197-1f8f-4ade-9314-92008457aed1",
     "missing": false
   }

@@ -1,11 +1,15 @@
 import { _decorator, Component, Node, SpriteFrame, Sprite } from 'cc';
-import Poker from '../Poker';
+import { ECardDir } from '../Enum';
+import Poker from '../Model/Poker';
 import ResMgr from '../ResMgr';
 import { getSpPath } from '../Utils/Utils';
 const { ccclass, property } = _decorator;
 
 @ccclass('UIPoker')
 export class UIPoker extends Component {
+    @property(Node)
+    cardBgNode: Node = null
+
     cardSpFrame: Sprite = null
 
     start() {
@@ -16,6 +20,17 @@ export class UIPoker extends Component {
         const spPath = getSpPath(poker.suit, poker.count)
         const cardSpriteFrame = await ResMgr.getInstance().loadResSpriteFrame(spPath)
         this.cardSpFrame.spriteFrame = cardSpriteFrame
+
+        this.updateCardDir(poker)
+    }
+
+    updateCardDir({ dir }) {
+        return
+        if (dir == ECardDir.CLOSE) {
+            this.cardBgNode.active = true
+        } else {
+            this.cardBgNode.active = false
+        }
     }
 }
 

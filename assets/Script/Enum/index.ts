@@ -5,3 +5,8 @@ export enum EnumSuit {
     MeiHua = 'MeiHua',
     FangKuai = 'FangKuai',
 }
+
+export enum ECardDir {
+    CLOSE = 0,
+    OPEN = 1
+}

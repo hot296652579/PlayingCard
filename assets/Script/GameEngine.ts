@@ -12,9 +12,14 @@ export default class GameEngine {
     init(m_GameView) {
         GameDB.getInstance().createCardsDB()
         this.gameView = m_GameView
+
+        let pokers = GameDB.getInstance().pokers
+        this.gameView.createAllCardByDB(pokers)
     }
 
     gameStart() {
-        this.gameView.createAllCardByDB()
+        GameDB.getInstance().startGame()
+
+        this.gameView.startGame()
     }
 }

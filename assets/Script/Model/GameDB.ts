@@ -1,4 +1,4 @@
-import { EnumSuit } from "../Enum"
+import { ECardDir, EnumSuit } from "../Enum"
 import Poker from "./Poker"
 
 export class PokerGrop {
@@ -53,7 +53,7 @@ export default class GameDB {
                         break;
                 }
 
-                let poker = new Poker(i, suit)
+                let poker = new Poker(i, suit, ECardDir.CLOSE)
                 this._pokers.push(poker)
             }
         }
@@ -67,6 +67,12 @@ export default class GameDB {
             let receiveGroup = new PokerGrop()
             this._playArea.push(receiveGroup)
         }
+    }
+
+    startGame() {
+        let temp = this._pokers
+        this._closePokers = this.pokers
+        this._pokers = temp
     }
 
     public get pokers(): Poker[] { return this._pokers }
