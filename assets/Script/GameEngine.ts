@@ -1,21 +1,20 @@
 import { instantiate, Prefab, Node } from "cc";
 import { EnumSuit } from "./Enum";
 import Poker from "./Poker";
-import { UIPoker } from "./UIPoker";
+import { UIPoker } from "./UI/UIPoker";
+import { UIGameView } from "./View/UIGameView";
 
 export default class GameEngine {
     private cardTotal: number = 13
     private cardSuits: number = 4
     private pokers: Poker[] = []
+    private gameView: UIGameView
     constructor() { }
 
-    cardPrefab: Prefab = null
-    cardContainer: Node = null
-
-    init(container: Node, cardPrefab: Prefab) {
-        this.cardContainer = container
-        this.cardPrefab = cardPrefab
+    init(m_GameView) {
+        this.gameView = m_GameView
     }
+
     gameStart() {
         for (let i = 1; i <= this.cardTotal; i++) {
             for (let j = 0; j < this.cardSuits; j++) {
@@ -41,22 +40,6 @@ export default class GameEngine {
             }
         }
 
-        this.createAllCard()
-    }
-
-    createAllCard() {
-        for (const poker of this.pokers) {
-            let uiPoker = this.createUIPoker(poker)
-            this.cardContainer.addChild(uiPoker.node)
-
-            uiPoker.node.setPosition(Math.random() * 400 - 200, Math.random() * 400 - 200)
-        }
-    }
-
-    createUIPoker(poker: Poker): UIPoker {
-        const cardPrefab = instantiate(this.cardPrefab)
-        const uiPoker = cardPrefab.getComponent(UIPoker)
-        uiPoker.init(poker)
-        return uiPoker
+        this.gameView.createAllCard(this.pokers)
     }
 }

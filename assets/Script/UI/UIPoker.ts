@@ -1,7 +1,7 @@
 import { _decorator, Component, Node, SpriteFrame, Sprite } from 'cc';
-import Poker from './Poker';
-import ResMgr from './ResMgr';
-import { getSpPath } from './Utils/Utils';
+import Poker from '../Poker';
+import ResMgr from '../ResMgr';
+import { getSpPath } from '../Utils/Utils';
 const { ccclass, property } = _decorator;
 
 @ccclass('UIPoker')

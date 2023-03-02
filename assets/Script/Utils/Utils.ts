@@ -1,4 +1,4 @@
-/**或则图片途径 */
+/**获取图片途径 */
 export const getSpPath = (suit: string, count: number) => {
     let letter: string = ''
     switch (suit) {

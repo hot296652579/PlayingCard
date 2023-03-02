@@ -4,15 +4,7 @@
     "value": {
       "depends": [
         "e224a049-b1c4-4726-a1f4-f65599f55eaf",
-        "39fc10bb-d162-437e-9364-526275d9e6ac@f9941",
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
-        "060c875e-2769-4766-a981-aa63efa6957f"
+        "9f730f7f-a718-404f-a0db-3d450d4e8710"
       ]
     }
   },
@@ -45,7 +37,7 @@
     "value": {}
   },
   "27885772-8fa9-49e1-aba8-96e9ae5e1565": {
-    "url": "db://assets/Script/UIPoker.ts",
+    "url": "db://assets/Script/UI/UIPoker.ts",
     "value": {}
   },
   "51f8d230-0c62-41ac-b89b-443488b7ebcb": {
@@ -3580,6 +3572,38 @@
     "value": {
       "depends": [
         "257d45ea-ae60-4184-b07d-16bd97ecbe86@6c48a"
+      ]
+    }
+  },
+  "468c0350-d754-4ca9-b9fb-b1bab43f0012": {
+    "url": "db://assets/Script/UI",
+    "value": {}
+  },
+  "76731ade-8bf5-4f10-b4ba-1057e4cd9051": {
+    "url": "db://assets/Script/View",
+    "value": {}
+  },
+  "ebb456d4-8ecb-483a-ac08-5be5a255c728": {
+    "url": "db://assets/Script/UIGameScene.ts",
+    "value": {}
+  },
+  "6fe3e365-3176-40f0-9696-c848a965ddea": {
+    "url": "db://assets/Script/View/UIGameView.ts",
+    "value": {}
+  },
+  "9f730f7f-a718-404f-a0db-3d450d4e8710": {
+    "url": "db://assets/Prefabs/UIGameView.prefab",
+    "value": {
+      "depends": [
+        "39fc10bb-d162-437e-9364-526275d9e6ac@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "060c875e-2769-4766-a981-aa63efa6957f"
       ]
     }
   }
