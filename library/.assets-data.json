@@ -4,6 +4,14 @@
     "value": {
       "depends": [
         "e224a049-b1c4-4726-a1f4-f65599f55eaf",
+        "39fc10bb-d162-437e-9364-526275d9e6ac@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
         "060c875e-2769-4766-a981-aa63efa6957f"
       ]
     }
@@ -48,7 +56,3530 @@
     "url": "db://assets/Prefabs/UIPoker.prefab",
     "value": {
       "depends": [
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941"
+        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941"
+      ]
+    }
+  },
+  "26ee1692-a29f-42c0-9fd9-8644703357f5": {
+    "url": "db://assets/resources/Texture",
+    "value": {}
+  },
+  "9994ae4c-e822-4adf-99bd-33bd20ef92a1": {
+    "url": "db://assets/resources/Texture/card.png",
+    "value": {}
+  },
+  "9ebd84af-7c44-40ca-9823-07f800c019b0": {
+    "url": "db://assets/resources/Texture/card.plist",
+    "value": {}
+  },
+  "9ebd84af-7c44-40ca-9823-07f800c019b0@7afbb": {
+    "url": "db://assets/resources/Texture/card.plist@7afbb",
+    "value": {
+      "depends": [
+        "9ebd84af-7c44-40ca-9823-07f800c019b0",
+        "9994ae4c-e822-4adf-99bd-33bd20ef92a1@6c48a"
+      ]
+    }
+  },
+  "9994ae4c-e822-4adf-99bd-33bd20ef92a1@6c48a": {
+    "url": "db://assets/resources/Texture/card.png@6c48a",
+    "value": {
+      "depends": [
+        "9994ae4c-e822-4adf-99bd-33bd20ef92a1"
+      ]
+    }
+  },
+  "c1a701bf-9d11-4160-b6ef-02eb5666cefb": {
+    "url": "db://assets/resources/Texture/Cards",
+    "value": {}
+  },
+  "b5e937c5-301b-4c8a-a717-f154e5ac6f40": {
+    "url": "db://assets/resources/Texture/Cards/10C.png",
+    "value": {}
+  },
+  "8f6b3747-21ec-4456-80f3-5d71fa58c88b": {
+    "url": "db://assets/resources/Texture/Cards/10D.png",
+    "value": {}
+  },
+  "320ea96d-f8b2-49c9-93f8-7f76a043881b": {
+    "url": "db://assets/resources/Texture/Cards/10H.png",
+    "value": {}
+  },
+  "8bdc9321-abf8-4fd0-acb1-1a401260d157": {
+    "url": "db://assets/resources/Texture/Cards/10S.png",
+    "value": {}
+  },
+  "8152cbe6-8172-4911-97ba-35af35bb009d": {
+    "url": "db://assets/resources/Texture/Cards/11C.png",
+    "value": {}
+  },
+  "b5e937c5-301b-4c8a-a717-f154e5ac6f40@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/10C.png@6c48a",
+    "value": {
+      "depends": [
+        "b5e937c5-301b-4c8a-a717-f154e5ac6f40"
+      ]
+    }
+  },
+  "0d4ee085-a6ba-4f56-9567-e1047e7df998": {
+    "url": "db://assets/resources/Texture/Cards/11D.png",
+    "value": {}
+  },
+  "8bdc9321-abf8-4fd0-acb1-1a401260d157@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/10S.png@6c48a",
+    "value": {
+      "depends": [
+        "8bdc9321-abf8-4fd0-acb1-1a401260d157"
+      ]
+    }
+  },
+  "447e6ec1-9727-43c9-bdc1-8d883065e5ac": {
+    "url": "db://assets/resources/Texture/Cards/11H.png",
+    "value": {}
+  },
+  "320ea96d-f8b2-49c9-93f8-7f76a043881b@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/10H.png@6c48a",
+    "value": {
+      "depends": [
+        "320ea96d-f8b2-49c9-93f8-7f76a043881b"
+      ]
+    }
+  },
+  "8f6b3747-21ec-4456-80f3-5d71fa58c88b@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/10D.png@6c48a",
+    "value": {
+      "depends": [
+        "8f6b3747-21ec-4456-80f3-5d71fa58c88b"
+      ]
+    }
+  },
+  "2c0217a0-2b73-4970-afc8-328528d7d6fb": {
+    "url": "db://assets/resources/Texture/Cards/11S.png",
+    "value": {}
+  },
+  "7049c6b7-805b-481d-ade0-1b919a7ab15c": {
+    "url": "db://assets/resources/Texture/Cards/12C.png",
+    "value": {}
+  },
+  "8152cbe6-8172-4911-97ba-35af35bb009d@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/11C.png@6c48a",
+    "value": {
+      "depends": [
+        "8152cbe6-8172-4911-97ba-35af35bb009d"
+      ]
+    }
+  },
+  "c34b5376-aef6-428f-90e4-812ee4855424": {
+    "url": "db://assets/resources/Texture/Cards/12D.png",
+    "value": {}
+  },
+  "0d4ee085-a6ba-4f56-9567-e1047e7df998@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/11D.png@6c48a",
+    "value": {
+      "depends": [
+        "0d4ee085-a6ba-4f56-9567-e1047e7df998"
+      ]
+    }
+  },
+  "4e21f728-2961-43d3-9e66-93343abd1316": {
+    "url": "db://assets/resources/Texture/Cards/12H.png",
+    "value": {}
+  },
+  "7049c6b7-805b-481d-ade0-1b919a7ab15c@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/12C.png@6c48a",
+    "value": {
+      "depends": [
+        "7049c6b7-805b-481d-ade0-1b919a7ab15c"
+      ]
+    }
+  },
+  "2c0217a0-2b73-4970-afc8-328528d7d6fb@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/11S.png@6c48a",
+    "value": {
+      "depends": [
+        "2c0217a0-2b73-4970-afc8-328528d7d6fb"
+      ]
+    }
+  },
+  "0835f279-eb37-4276-a3f2-1699bab21ed4": {
+    "url": "db://assets/resources/Texture/Cards/12S.png",
+    "value": {}
+  },
+  "83a81719-4ced-4e68-9c32-90397b52d9aa": {
+    "url": "db://assets/resources/Texture/Cards/13C.png",
+    "value": {}
+  },
+  "447e6ec1-9727-43c9-bdc1-8d883065e5ac@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/11H.png@6c48a",
+    "value": {
+      "depends": [
+        "447e6ec1-9727-43c9-bdc1-8d883065e5ac"
+      ]
+    }
+  },
+  "05668820-2557-4e43-8ae4-53502f6dacff": {
+    "url": "db://assets/resources/Texture/Cards/13D.png",
+    "value": {}
+  },
+  "c34b5376-aef6-428f-90e4-812ee4855424@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/12D.png@6c48a",
+    "value": {
+      "depends": [
+        "c34b5376-aef6-428f-90e4-812ee4855424"
+      ]
+    }
+  },
+  "77017c9f-8830-4d86-964e-4ce55facdde4": {
+    "url": "db://assets/resources/Texture/Cards/13H.png",
+    "value": {}
+  },
+  "4e21f728-2961-43d3-9e66-93343abd1316@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/12H.png@6c48a",
+    "value": {
+      "depends": [
+        "4e21f728-2961-43d3-9e66-93343abd1316"
+      ]
+    }
+  },
+  "188654e8-3aa5-43ec-be40-5a65f4deb543": {
+    "url": "db://assets/resources/Texture/Cards/13S.png",
+    "value": {}
+  },
+  "0835f279-eb37-4276-a3f2-1699bab21ed4@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/12S.png@6c48a",
+    "value": {
+      "depends": [
+        "0835f279-eb37-4276-a3f2-1699bab21ed4"
+      ]
+    }
+  },
+  "19d1484b-64c8-48ff-81df-46e723d8a8f0": {
+    "url": "db://assets/resources/Texture/Cards/1C.png",
+    "value": {}
+  },
+  "83a81719-4ced-4e68-9c32-90397b52d9aa@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/13C.png@6c48a",
+    "value": {
+      "depends": [
+        "83a81719-4ced-4e68-9c32-90397b52d9aa"
+      ]
+    }
+  },
+  "858b8f38-3c44-4da3-8d1e-ee595847ef9c": {
+    "url": "db://assets/resources/Texture/Cards/1D.png",
+    "value": {}
+  },
+  "05668820-2557-4e43-8ae4-53502f6dacff@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/13D.png@6c48a",
+    "value": {
+      "depends": [
+        "05668820-2557-4e43-8ae4-53502f6dacff"
+      ]
+    }
+  },
+  "373d8d45-8629-4777-9202-940e0b536af4": {
+    "url": "db://assets/resources/Texture/Cards/1H.png",
+    "value": {}
+  },
+  "77017c9f-8830-4d86-964e-4ce55facdde4@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/13H.png@6c48a",
+    "value": {
+      "depends": [
+        "77017c9f-8830-4d86-964e-4ce55facdde4"
+      ]
+    }
+  },
+  "ecb94ea0-aa33-4509-8769-c468e559e215": {
+    "url": "db://assets/resources/Texture/Cards/1S.png",
+    "value": {}
+  },
+  "19d1484b-64c8-48ff-81df-46e723d8a8f0@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/1C.png@6c48a",
+    "value": {
+      "depends": [
+        "19d1484b-64c8-48ff-81df-46e723d8a8f0"
+      ]
+    }
+  },
+  "e437280d-af39-4aca-a93e-8eacb4cacbe3": {
+    "url": "db://assets/resources/Texture/Cards/2C.png",
+    "value": {}
+  },
+  "188654e8-3aa5-43ec-be40-5a65f4deb543@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/13S.png@6c48a",
+    "value": {
+      "depends": [
+        "188654e8-3aa5-43ec-be40-5a65f4deb543"
+      ]
+    }
+  },
+  "f45dbfc5-2ac9-4e9b-8fdb-ec7b51106288": {
+    "url": "db://assets/resources/Texture/Cards/2D.png",
+    "value": {}
+  },
+  "858b8f38-3c44-4da3-8d1e-ee595847ef9c@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/1D.png@6c48a",
+    "value": {
+      "depends": [
+        "858b8f38-3c44-4da3-8d1e-ee595847ef9c"
+      ]
+    }
+  },
+  "80f7fba1-a0a6-499f-b3f2-725bf27d96b5": {
+    "url": "db://assets/resources/Texture/Cards/2H.png",
+    "value": {}
+  },
+  "373d8d45-8629-4777-9202-940e0b536af4@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/1H.png@6c48a",
+    "value": {
+      "depends": [
+        "373d8d45-8629-4777-9202-940e0b536af4"
+      ]
+    }
+  },
+  "ecb94ea0-aa33-4509-8769-c468e559e215@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/1S.png@6c48a",
+    "value": {
+      "depends": [
+        "ecb94ea0-aa33-4509-8769-c468e559e215"
+      ]
+    }
+  },
+  "beb2f42d-9c18-42ad-9b10-3120a0ac9ff6": {
+    "url": "db://assets/resources/Texture/Cards/2S.png",
+    "value": {}
+  },
+  "a656ef65-7892-43d9-898e-801887ee24b3": {
+    "url": "db://assets/resources/Texture/Cards/3C.png",
+    "value": {}
+  },
+  "e437280d-af39-4aca-a93e-8eacb4cacbe3@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/2C.png@6c48a",
+    "value": {
+      "depends": [
+        "e437280d-af39-4aca-a93e-8eacb4cacbe3"
+      ]
+    }
+  },
+  "13d40b22-9933-4e3f-b8f7-32fcb2070e0b": {
+    "url": "db://assets/resources/Texture/Cards/3D.png",
+    "value": {}
+  },
+  "f45dbfc5-2ac9-4e9b-8fdb-ec7b51106288@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/2D.png@6c48a",
+    "value": {
+      "depends": [
+        "f45dbfc5-2ac9-4e9b-8fdb-ec7b51106288"
+      ]
+    }
+  },
+  "e2cafddf-f164-4201-8c7c-6094b55b96a8": {
+    "url": "db://assets/resources/Texture/Cards/3H.png",
+    "value": {}
+  },
+  "80f7fba1-a0a6-499f-b3f2-725bf27d96b5@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/2H.png@6c48a",
+    "value": {
+      "depends": [
+        "80f7fba1-a0a6-499f-b3f2-725bf27d96b5"
+      ]
+    }
+  },
+  "2d4c8f7d-bb4d-4ab8-818c-a3820ed6bb13": {
+    "url": "db://assets/resources/Texture/Cards/3S.png",
+    "value": {}
+  },
+  "beb2f42d-9c18-42ad-9b10-3120a0ac9ff6@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/2S.png@6c48a",
+    "value": {
+      "depends": [
+        "beb2f42d-9c18-42ad-9b10-3120a0ac9ff6"
+      ]
+    }
+  },
+  "35ae7472-9d86-478a-93b9-843303bde4bb": {
+    "url": "db://assets/resources/Texture/Cards/4C.png",
+    "value": {}
+  },
+  "a656ef65-7892-43d9-898e-801887ee24b3@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/3C.png@6c48a",
+    "value": {
+      "depends": [
+        "a656ef65-7892-43d9-898e-801887ee24b3"
+      ]
+    }
+  },
+  "e8573bfc-3559-477b-8473-485f035b2d9c": {
+    "url": "db://assets/resources/Texture/Cards/4D.png",
+    "value": {}
+  },
+  "13d40b22-9933-4e3f-b8f7-32fcb2070e0b@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/3D.png@6c48a",
+    "value": {
+      "depends": [
+        "13d40b22-9933-4e3f-b8f7-32fcb2070e0b"
+      ]
+    }
+  },
+  "fe88edd9-da10-437e-9201-36ffd983d71c": {
+    "url": "db://assets/resources/Texture/Cards/4H.png",
+    "value": {}
+  },
+  "e2cafddf-f164-4201-8c7c-6094b55b96a8@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/3H.png@6c48a",
+    "value": {
+      "depends": [
+        "e2cafddf-f164-4201-8c7c-6094b55b96a8"
+      ]
+    }
+  },
+  "3b966a05-ab59-4e2d-81ea-03bcbe79fbd7": {
+    "url": "db://assets/resources/Texture/Cards/4S.png",
+    "value": {}
+  },
+  "2d4c8f7d-bb4d-4ab8-818c-a3820ed6bb13@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/3S.png@6c48a",
+    "value": {
+      "depends": [
+        "2d4c8f7d-bb4d-4ab8-818c-a3820ed6bb13"
+      ]
+    }
+  },
+  "32d515c6-8595-4fdb-81e4-fc37215ab520": {
+    "url": "db://assets/resources/Texture/Cards/5C.png",
+    "value": {}
+  },
+  "35ae7472-9d86-478a-93b9-843303bde4bb@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/4C.png@6c48a",
+    "value": {
+      "depends": [
+        "35ae7472-9d86-478a-93b9-843303bde4bb"
+      ]
+    }
+  },
+  "352087fb-4242-40bc-a8fc-d9967596d8a7": {
+    "url": "db://assets/resources/Texture/Cards/5D.png",
+    "value": {}
+  },
+  "e8573bfc-3559-477b-8473-485f035b2d9c@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/4D.png@6c48a",
+    "value": {
+      "depends": [
+        "e8573bfc-3559-477b-8473-485f035b2d9c"
+      ]
+    }
+  },
+  "322e6243-e850-486a-a983-763d49621519": {
+    "url": "db://assets/resources/Texture/Cards/5H.png",
+    "value": {}
+  },
+  "fe88edd9-da10-437e-9201-36ffd983d71c@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/4H.png@6c48a",
+    "value": {
+      "depends": [
+        "fe88edd9-da10-437e-9201-36ffd983d71c"
+      ]
+    }
+  },
+  "cd12ac96-6c58-4e6e-b883-0225efea1cd3": {
+    "url": "db://assets/resources/Texture/Cards/5S.png",
+    "value": {}
+  },
+  "3b966a05-ab59-4e2d-81ea-03bcbe79fbd7@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/4S.png@6c48a",
+    "value": {
+      "depends": [
+        "3b966a05-ab59-4e2d-81ea-03bcbe79fbd7"
+      ]
+    }
+  },
+  "f993cfad-0283-4799-a408-bab3a229bb80": {
+    "url": "db://assets/resources/Texture/Cards/6C.png",
+    "value": {}
+  },
+  "32d515c6-8595-4fdb-81e4-fc37215ab520@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/5C.png@6c48a",
+    "value": {
+      "depends": [
+        "32d515c6-8595-4fdb-81e4-fc37215ab520"
+      ]
+    }
+  },
+  "9c4a0b89-4b6b-4217-a353-150315e0404d": {
+    "url": "db://assets/resources/Texture/Cards/6D.png",
+    "value": {}
+  },
+  "352087fb-4242-40bc-a8fc-d9967596d8a7@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/5D.png@6c48a",
+    "value": {
+      "depends": [
+        "352087fb-4242-40bc-a8fc-d9967596d8a7"
+      ]
+    }
+  },
+  "322e6243-e850-486a-a983-763d49621519@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/5H.png@6c48a",
+    "value": {
+      "depends": [
+        "322e6243-e850-486a-a983-763d49621519"
+      ]
+    }
+  },
+  "d5fa6717-e154-49c0-b228-c9be00b600d1": {
+    "url": "db://assets/resources/Texture/Cards/6H.png",
+    "value": {}
+  },
+  "902299ad-d4fc-475d-9dc2-ef43ab3a12f3": {
+    "url": "db://assets/resources/Texture/Cards/6S.png",
+    "value": {}
+  },
+  "f993cfad-0283-4799-a408-bab3a229bb80@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/6C.png@6c48a",
+    "value": {
+      "depends": [
+        "f993cfad-0283-4799-a408-bab3a229bb80"
+      ]
+    }
+  },
+  "18b2f264-788e-4d1a-ac1f-c23fbe5f797d": {
+    "url": "db://assets/resources/Texture/Cards/7C.png",
+    "value": {}
+  },
+  "cd12ac96-6c58-4e6e-b883-0225efea1cd3@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/5S.png@6c48a",
+    "value": {
+      "depends": [
+        "cd12ac96-6c58-4e6e-b883-0225efea1cd3"
+      ]
+    }
+  },
+  "f07c45a1-02fa-4e33-bbbc-dd5137a43510": {
+    "url": "db://assets/resources/Texture/Cards/7D.png",
+    "value": {}
+  },
+  "9c4a0b89-4b6b-4217-a353-150315e0404d@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/6D.png@6c48a",
+    "value": {
+      "depends": [
+        "9c4a0b89-4b6b-4217-a353-150315e0404d"
+      ]
+    }
+  },
+  "0c4448a5-195c-490b-8732-9edda5079438": {
+    "url": "db://assets/resources/Texture/Cards/7H.png",
+    "value": {}
+  },
+  "d5fa6717-e154-49c0-b228-c9be00b600d1@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/6H.png@6c48a",
+    "value": {
+      "depends": [
+        "d5fa6717-e154-49c0-b228-c9be00b600d1"
+      ]
+    }
+  },
+  "e99fac88-afd3-4f75-8662-22e43506f0ba": {
+    "url": "db://assets/resources/Texture/Cards/7S.png",
+    "value": {}
+  },
+  "902299ad-d4fc-475d-9dc2-ef43ab3a12f3@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/6S.png@6c48a",
+    "value": {
+      "depends": [
+        "902299ad-d4fc-475d-9dc2-ef43ab3a12f3"
+      ]
+    }
+  },
+  "dde7275b-ba34-41a8-bccf-df741ead0199": {
+    "url": "db://assets/resources/Texture/Cards/8C.png",
+    "value": {}
+  },
+  "f07c45a1-02fa-4e33-bbbc-dd5137a43510@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/7D.png@6c48a",
+    "value": {
+      "depends": [
+        "f07c45a1-02fa-4e33-bbbc-dd5137a43510"
+      ]
+    }
+  },
+  "e4cd8457-761b-4707-a0e7-d184a7b2a165": {
+    "url": "db://assets/resources/Texture/Cards/8D.png",
+    "value": {}
+  },
+  "18b2f264-788e-4d1a-ac1f-c23fbe5f797d@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/7C.png@6c48a",
+    "value": {
+      "depends": [
+        "18b2f264-788e-4d1a-ac1f-c23fbe5f797d"
+      ]
+    }
+  },
+  "d4abd694-12b4-4f9b-81b5-28082178fc59": {
+    "url": "db://assets/resources/Texture/Cards/8H.png",
+    "value": {}
+  },
+  "0c4448a5-195c-490b-8732-9edda5079438@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/7H.png@6c48a",
+    "value": {
+      "depends": [
+        "0c4448a5-195c-490b-8732-9edda5079438"
+      ]
+    }
+  },
+  "e99fac88-afd3-4f75-8662-22e43506f0ba@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/7S.png@6c48a",
+    "value": {
+      "depends": [
+        "e99fac88-afd3-4f75-8662-22e43506f0ba"
+      ]
+    }
+  },
+  "96cdd494-fb9c-40d7-9673-d298a3a87d66": {
+    "url": "db://assets/resources/Texture/Cards/8S.png",
+    "value": {}
+  },
+  "0eda49cc-1e9f-42a6-ae9e-48ce600d6860": {
+    "url": "db://assets/resources/Texture/Cards/9C.png",
+    "value": {}
+  },
+  "dde7275b-ba34-41a8-bccf-df741ead0199@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/8C.png@6c48a",
+    "value": {
+      "depends": [
+        "dde7275b-ba34-41a8-bccf-df741ead0199"
+      ]
+    }
+  },
+  "5bdf7ff2-7710-449c-be73-73433d906d0c": {
+    "url": "db://assets/resources/Texture/Cards/9D.png",
+    "value": {}
+  },
+  "e4cd8457-761b-4707-a0e7-d184a7b2a165@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/8D.png@6c48a",
+    "value": {
+      "depends": [
+        "e4cd8457-761b-4707-a0e7-d184a7b2a165"
+      ]
+    }
+  },
+  "3acee3f0-a5a2-4520-8657-ec890ad5940a": {
+    "url": "db://assets/resources/Texture/Cards/9H.png",
+    "value": {}
+  },
+  "d4abd694-12b4-4f9b-81b5-28082178fc59@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/8H.png@6c48a",
+    "value": {
+      "depends": [
+        "d4abd694-12b4-4f9b-81b5-28082178fc59"
+      ]
+    }
+  },
+  "3d03acc0-a863-4832-8501-46fba9d4a141": {
+    "url": "db://assets/resources/Texture/Cards/9S.png",
+    "value": {}
+  },
+  "96cdd494-fb9c-40d7-9673-d298a3a87d66@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/8S.png@6c48a",
+    "value": {
+      "depends": [
+        "96cdd494-fb9c-40d7-9673-d298a3a87d66"
+      ]
+    }
+  },
+  "fa4a207d-68e7-4c6c-9995-45d05196864a": {
+    "url": "db://assets/resources/Texture/Cards/backB.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0eda49cc-1e9f-42a6-ae9e-48ce600d6860@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/9C.png@6c48a",
+    "value": {
+      "depends": [
+        "0eda49cc-1e9f-42a6-ae9e-48ce600d6860"
+      ]
+    }
+  },
+  "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0": {
+    "url": "db://assets/resources/Texture/Cards/backR.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5bdf7ff2-7710-449c-be73-73433d906d0c@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/9D.png@6c48a",
+    "value": {
+      "depends": [
+        "5bdf7ff2-7710-449c-be73-73433d906d0c"
+      ]
+    }
+  },
+  "3acee3f0-a5a2-4520-8657-ec890ad5940a@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/9H.png@6c48a",
+    "value": {
+      "depends": [
+        "3acee3f0-a5a2-4520-8657-ec890ad5940a"
+      ]
+    }
+  },
+  "3d03acc0-a863-4832-8501-46fba9d4a141@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/9S.png@6c48a",
+    "value": {
+      "depends": [
+        "3d03acc0-a863-4832-8501-46fba9d4a141"
+      ]
+    }
+  },
+  "fa4a207d-68e7-4c6c-9995-45d05196864a@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/backB.png@6c48a",
+    "value": {
+      "depends": [
+        "fa4a207d-68e7-4c6c-9995-45d05196864a"
+      ]
+    }
+  },
+  "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/backR.png@6c48a",
+    "value": {
+      "depends": [
+        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0"
+      ]
+    }
+  },
+  "373d8d45-8629-4777-9202-940e0b536af4@f9941": {
+    "url": "db://assets/resources/Texture/Cards/1H.png@f9941",
+    "value": {
+      "depends": [
+        "373d8d45-8629-4777-9202-940e0b536af4@6c48a"
+      ]
+    }
+  },
+  "858b8f38-3c44-4da3-8d1e-ee595847ef9c@f9941": {
+    "url": "db://assets/resources/Texture/Cards/1D.png@f9941",
+    "value": {
+      "depends": [
+        "858b8f38-3c44-4da3-8d1e-ee595847ef9c@6c48a"
+      ]
+    }
+  },
+  "19d1484b-64c8-48ff-81df-46e723d8a8f0@f9941": {
+    "url": "db://assets/resources/Texture/Cards/1C.png@f9941",
+    "value": {
+      "depends": [
+        "19d1484b-64c8-48ff-81df-46e723d8a8f0@6c48a"
+      ]
+    }
+  },
+  "e437280d-af39-4aca-a93e-8eacb4cacbe3@f9941": {
+    "url": "db://assets/resources/Texture/Cards/2C.png@f9941",
+    "value": {
+      "depends": [
+        "e437280d-af39-4aca-a93e-8eacb4cacbe3@6c48a"
+      ]
+    }
+  },
+  "ecb94ea0-aa33-4509-8769-c468e559e215@f9941": {
+    "url": "db://assets/resources/Texture/Cards/1S.png@f9941",
+    "value": {
+      "depends": [
+        "ecb94ea0-aa33-4509-8769-c468e559e215@6c48a"
+      ]
+    }
+  },
+  "beb2f42d-9c18-42ad-9b10-3120a0ac9ff6@f9941": {
+    "url": "db://assets/resources/Texture/Cards/2S.png@f9941",
+    "value": {
+      "depends": [
+        "beb2f42d-9c18-42ad-9b10-3120a0ac9ff6@6c48a"
+      ]
+    }
+  },
+  "f45dbfc5-2ac9-4e9b-8fdb-ec7b51106288@f9941": {
+    "url": "db://assets/resources/Texture/Cards/2D.png@f9941",
+    "value": {
+      "depends": [
+        "f45dbfc5-2ac9-4e9b-8fdb-ec7b51106288@6c48a"
+      ]
+    }
+  },
+  "80f7fba1-a0a6-499f-b3f2-725bf27d96b5@f9941": {
+    "url": "db://assets/resources/Texture/Cards/2H.png@f9941",
+    "value": {
+      "depends": [
+        "80f7fba1-a0a6-499f-b3f2-725bf27d96b5@6c48a"
+      ]
+    }
+  },
+  "a656ef65-7892-43d9-898e-801887ee24b3@f9941": {
+    "url": "db://assets/resources/Texture/Cards/3C.png@f9941",
+    "value": {
+      "depends": [
+        "a656ef65-7892-43d9-898e-801887ee24b3@6c48a"
+      ]
+    }
+  },
+  "13d40b22-9933-4e3f-b8f7-32fcb2070e0b@f9941": {
+    "url": "db://assets/resources/Texture/Cards/3D.png@f9941",
+    "value": {
+      "depends": [
+        "13d40b22-9933-4e3f-b8f7-32fcb2070e0b@6c48a"
+      ]
+    }
+  },
+  "e2cafddf-f164-4201-8c7c-6094b55b96a8@f9941": {
+    "url": "db://assets/resources/Texture/Cards/3H.png@f9941",
+    "value": {
+      "depends": [
+        "e2cafddf-f164-4201-8c7c-6094b55b96a8@6c48a"
+      ]
+    }
+  },
+  "2d4c8f7d-bb4d-4ab8-818c-a3820ed6bb13@f9941": {
+    "url": "db://assets/resources/Texture/Cards/3S.png@f9941",
+    "value": {
+      "depends": [
+        "2d4c8f7d-bb4d-4ab8-818c-a3820ed6bb13@6c48a"
+      ]
+    }
+  },
+  "35ae7472-9d86-478a-93b9-843303bde4bb@f9941": {
+    "url": "db://assets/resources/Texture/Cards/4C.png@f9941",
+    "value": {
+      "depends": [
+        "35ae7472-9d86-478a-93b9-843303bde4bb@6c48a"
+      ]
+    }
+  },
+  "e8573bfc-3559-477b-8473-485f035b2d9c@f9941": {
+    "url": "db://assets/resources/Texture/Cards/4D.png@f9941",
+    "value": {
+      "depends": [
+        "e8573bfc-3559-477b-8473-485f035b2d9c@6c48a"
+      ]
+    }
+  },
+  "fe88edd9-da10-437e-9201-36ffd983d71c@f9941": {
+    "url": "db://assets/resources/Texture/Cards/4H.png@f9941",
+    "value": {
+      "depends": [
+        "fe88edd9-da10-437e-9201-36ffd983d71c@6c48a"
+      ]
+    }
+  },
+  "32d515c6-8595-4fdb-81e4-fc37215ab520@f9941": {
+    "url": "db://assets/resources/Texture/Cards/5C.png@f9941",
+    "value": {
+      "depends": [
+        "32d515c6-8595-4fdb-81e4-fc37215ab520@6c48a"
+      ]
+    }
+  },
+  "3b966a05-ab59-4e2d-81ea-03bcbe79fbd7@f9941": {
+    "url": "db://assets/resources/Texture/Cards/4S.png@f9941",
+    "value": {
+      "depends": [
+        "3b966a05-ab59-4e2d-81ea-03bcbe79fbd7@6c48a"
+      ]
+    }
+  },
+  "352087fb-4242-40bc-a8fc-d9967596d8a7@f9941": {
+    "url": "db://assets/resources/Texture/Cards/5D.png@f9941",
+    "value": {
+      "depends": [
+        "352087fb-4242-40bc-a8fc-d9967596d8a7@6c48a"
+      ]
+    }
+  },
+  "322e6243-e850-486a-a983-763d49621519@f9941": {
+    "url": "db://assets/resources/Texture/Cards/5H.png@f9941",
+    "value": {
+      "depends": [
+        "322e6243-e850-486a-a983-763d49621519@6c48a"
+      ]
+    }
+  },
+  "cd12ac96-6c58-4e6e-b883-0225efea1cd3@f9941": {
+    "url": "db://assets/resources/Texture/Cards/5S.png@f9941",
+    "value": {
+      "depends": [
+        "cd12ac96-6c58-4e6e-b883-0225efea1cd3@6c48a"
+      ]
+    }
+  },
+  "f993cfad-0283-4799-a408-bab3a229bb80@f9941": {
+    "url": "db://assets/resources/Texture/Cards/6C.png@f9941",
+    "value": {
+      "depends": [
+        "f993cfad-0283-4799-a408-bab3a229bb80@6c48a"
+      ]
+    }
+  },
+  "9c4a0b89-4b6b-4217-a353-150315e0404d@f9941": {
+    "url": "db://assets/resources/Texture/Cards/6D.png@f9941",
+    "value": {
+      "depends": [
+        "9c4a0b89-4b6b-4217-a353-150315e0404d@6c48a"
+      ]
+    }
+  },
+  "d5fa6717-e154-49c0-b228-c9be00b600d1@f9941": {
+    "url": "db://assets/resources/Texture/Cards/6H.png@f9941",
+    "value": {
+      "depends": [
+        "d5fa6717-e154-49c0-b228-c9be00b600d1@6c48a"
+      ]
+    }
+  },
+  "18b2f264-788e-4d1a-ac1f-c23fbe5f797d@f9941": {
+    "url": "db://assets/resources/Texture/Cards/7C.png@f9941",
+    "value": {
+      "depends": [
+        "18b2f264-788e-4d1a-ac1f-c23fbe5f797d@6c48a"
+      ]
+    }
+  },
+  "902299ad-d4fc-475d-9dc2-ef43ab3a12f3@f9941": {
+    "url": "db://assets/resources/Texture/Cards/6S.png@f9941",
+    "value": {
+      "depends": [
+        "902299ad-d4fc-475d-9dc2-ef43ab3a12f3@6c48a"
+      ]
+    }
+  },
+  "f07c45a1-02fa-4e33-bbbc-dd5137a43510@f9941": {
+    "url": "db://assets/resources/Texture/Cards/7D.png@f9941",
+    "value": {
+      "depends": [
+        "f07c45a1-02fa-4e33-bbbc-dd5137a43510@6c48a"
+      ]
+    }
+  },
+  "e99fac88-afd3-4f75-8662-22e43506f0ba@f9941": {
+    "url": "db://assets/resources/Texture/Cards/7S.png@f9941",
+    "value": {
+      "depends": [
+        "e99fac88-afd3-4f75-8662-22e43506f0ba@6c48a"
+      ]
+    }
+  },
+  "0c4448a5-195c-490b-8732-9edda5079438@f9941": {
+    "url": "db://assets/resources/Texture/Cards/7H.png@f9941",
+    "value": {
+      "depends": [
+        "0c4448a5-195c-490b-8732-9edda5079438@6c48a"
+      ]
+    }
+  },
+  "dde7275b-ba34-41a8-bccf-df741ead0199@f9941": {
+    "url": "db://assets/resources/Texture/Cards/8C.png@f9941",
+    "value": {
+      "depends": [
+        "dde7275b-ba34-41a8-bccf-df741ead0199@6c48a"
+      ]
+    }
+  },
+  "e4cd8457-761b-4707-a0e7-d184a7b2a165@f9941": {
+    "url": "db://assets/resources/Texture/Cards/8D.png@f9941",
+    "value": {
+      "depends": [
+        "e4cd8457-761b-4707-a0e7-d184a7b2a165@6c48a"
+      ]
+    }
+  },
+  "d4abd694-12b4-4f9b-81b5-28082178fc59@f9941": {
+    "url": "db://assets/resources/Texture/Cards/8H.png@f9941",
+    "value": {
+      "depends": [
+        "d4abd694-12b4-4f9b-81b5-28082178fc59@6c48a"
+      ]
+    }
+  },
+  "0eda49cc-1e9f-42a6-ae9e-48ce600d6860@f9941": {
+    "url": "db://assets/resources/Texture/Cards/9C.png@f9941",
+    "value": {
+      "depends": [
+        "0eda49cc-1e9f-42a6-ae9e-48ce600d6860@6c48a"
+      ]
+    }
+  },
+  "5bdf7ff2-7710-449c-be73-73433d906d0c@f9941": {
+    "url": "db://assets/resources/Texture/Cards/9D.png@f9941",
+    "value": {
+      "depends": [
+        "5bdf7ff2-7710-449c-be73-73433d906d0c@6c48a"
+      ]
+    }
+  },
+  "96cdd494-fb9c-40d7-9673-d298a3a87d66@f9941": {
+    "url": "db://assets/resources/Texture/Cards/8S.png@f9941",
+    "value": {
+      "depends": [
+        "96cdd494-fb9c-40d7-9673-d298a3a87d66@6c48a"
+      ]
+    }
+  },
+  "3d03acc0-a863-4832-8501-46fba9d4a141@f9941": {
+    "url": "db://assets/resources/Texture/Cards/9S.png@f9941",
+    "value": {
+      "depends": [
+        "3d03acc0-a863-4832-8501-46fba9d4a141@6c48a"
+      ]
+    }
+  },
+  "3acee3f0-a5a2-4520-8657-ec890ad5940a@f9941": {
+    "url": "db://assets/resources/Texture/Cards/9H.png@f9941",
+    "value": {
+      "depends": [
+        "3acee3f0-a5a2-4520-8657-ec890ad5940a@6c48a"
+      ]
+    }
+  },
+  "320ea96d-f8b2-49c9-93f8-7f76a043881b@f9941": {
+    "url": "db://assets/resources/Texture/Cards/10H.png@f9941",
+    "value": {
+      "depends": [
+        "320ea96d-f8b2-49c9-93f8-7f76a043881b@6c48a"
+      ]
+    }
+  },
+  "b5e937c5-301b-4c8a-a717-f154e5ac6f40@f9941": {
+    "url": "db://assets/resources/Texture/Cards/10C.png@f9941",
+    "value": {
+      "depends": [
+        "b5e937c5-301b-4c8a-a717-f154e5ac6f40@6c48a"
+      ]
+    }
+  },
+  "8f6b3747-21ec-4456-80f3-5d71fa58c88b@f9941": {
+    "url": "db://assets/resources/Texture/Cards/10D.png@f9941",
+    "value": {
+      "depends": [
+        "8f6b3747-21ec-4456-80f3-5d71fa58c88b@6c48a"
+      ]
+    }
+  },
+  "8bdc9321-abf8-4fd0-acb1-1a401260d157@f9941": {
+    "url": "db://assets/resources/Texture/Cards/10S.png@f9941",
+    "value": {
+      "depends": [
+        "8bdc9321-abf8-4fd0-acb1-1a401260d157@6c48a"
+      ]
+    }
+  },
+  "8152cbe6-8172-4911-97ba-35af35bb009d@f9941": {
+    "url": "db://assets/resources/Texture/Cards/11C.png@f9941",
+    "value": {
+      "depends": [
+        "8152cbe6-8172-4911-97ba-35af35bb009d@6c48a"
+      ]
+    }
+  },
+  "447e6ec1-9727-43c9-bdc1-8d883065e5ac@f9941": {
+    "url": "db://assets/resources/Texture/Cards/11H.png@f9941",
+    "value": {
+      "depends": [
+        "447e6ec1-9727-43c9-bdc1-8d883065e5ac@6c48a"
+      ]
+    }
+  },
+  "7049c6b7-805b-481d-ade0-1b919a7ab15c@f9941": {
+    "url": "db://assets/resources/Texture/Cards/12C.png@f9941",
+    "value": {
+      "depends": [
+        "7049c6b7-805b-481d-ade0-1b919a7ab15c@6c48a"
+      ]
+    }
+  },
+  "2c0217a0-2b73-4970-afc8-328528d7d6fb@f9941": {
+    "url": "db://assets/resources/Texture/Cards/11S.png@f9941",
+    "value": {
+      "depends": [
+        "2c0217a0-2b73-4970-afc8-328528d7d6fb@6c48a"
+      ]
+    }
+  },
+  "0d4ee085-a6ba-4f56-9567-e1047e7df998@f9941": {
+    "url": "db://assets/resources/Texture/Cards/11D.png@f9941",
+    "value": {
+      "depends": [
+        "0d4ee085-a6ba-4f56-9567-e1047e7df998@6c48a"
+      ]
+    }
+  },
+  "c34b5376-aef6-428f-90e4-812ee4855424@f9941": {
+    "url": "db://assets/resources/Texture/Cards/12D.png@f9941",
+    "value": {
+      "depends": [
+        "c34b5376-aef6-428f-90e4-812ee4855424@6c48a"
+      ]
+    }
+  },
+  "4e21f728-2961-43d3-9e66-93343abd1316@f9941": {
+    "url": "db://assets/resources/Texture/Cards/12H.png@f9941",
+    "value": {
+      "depends": [
+        "4e21f728-2961-43d3-9e66-93343abd1316@6c48a"
+      ]
+    }
+  },
+  "0835f279-eb37-4276-a3f2-1699bab21ed4@f9941": {
+    "url": "db://assets/resources/Texture/Cards/12S.png@f9941",
+    "value": {
+      "depends": [
+        "0835f279-eb37-4276-a3f2-1699bab21ed4@6c48a"
+      ]
+    }
+  },
+  "83a81719-4ced-4e68-9c32-90397b52d9aa@f9941": {
+    "url": "db://assets/resources/Texture/Cards/13C.png@f9941",
+    "value": {
+      "depends": [
+        "83a81719-4ced-4e68-9c32-90397b52d9aa@6c48a"
+      ]
+    }
+  },
+  "05668820-2557-4e43-8ae4-53502f6dacff@f9941": {
+    "url": "db://assets/resources/Texture/Cards/13D.png@f9941",
+    "value": {
+      "depends": [
+        "05668820-2557-4e43-8ae4-53502f6dacff@6c48a"
+      ]
+    }
+  },
+  "77017c9f-8830-4d86-964e-4ce55facdde4@f9941": {
+    "url": "db://assets/resources/Texture/Cards/13H.png@f9941",
+    "value": {
+      "depends": [
+        "77017c9f-8830-4d86-964e-4ce55facdde4@6c48a"
+      ]
+    }
+  },
+  "188654e8-3aa5-43ec-be40-5a65f4deb543@f9941": {
+    "url": "db://assets/resources/Texture/Cards/13S.png@f9941",
+    "value": {
+      "depends": [
+        "188654e8-3aa5-43ec-be40-5a65f4deb543@6c48a"
+      ]
+    }
+  },
+  "fa4a207d-68e7-4c6c-9995-45d05196864a@f9941": {
+    "url": "db://assets/resources/Texture/Cards/backB.png@f9941",
+    "value": {
+      "depends": [
+        "fa4a207d-68e7-4c6c-9995-45d05196864a@6c48a"
+      ]
+    }
+  },
+  "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941": {
+    "url": "db://assets/resources/Texture/Cards/backR.png@f9941",
+    "value": {
+      "depends": [
+        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@6c48a"
+      ]
+    }
+  },
+  "64fec359-0aa4-407e-9cad-ecba254521fc": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai",
+    "value": {}
+  },
+  "3302ec01-289d-47c2-b1ee-efcef7e1fe06": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao",
+    "value": {}
+  },
+  "484b7558-7312-401a-8a53-48aaa89c7bff": {
+    "url": "db://assets/resources/Texture/Cards/HongTao",
+    "value": {}
+  },
+  "448e3694-e97a-49dd-896d-d9cfeb87b3d0": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua",
+    "value": {}
+  },
+  "2fd6e0d9-27ac-4651-a128-486af90eb3f6": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/10D.png",
+    "value": {}
+  },
+  "cbd2ae80-db25-419e-91a3-051f1846453c": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/11D.png",
+    "value": {}
+  },
+  "56961408-e2ab-4877-b066-5392bb0ccb82": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/12D.png",
+    "value": {}
+  },
+  "d20bafcd-c2ff-45cd-aa08-c2ffc9690238": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/13D.png",
+    "value": {}
+  },
+  "d44e88ee-7fe3-4615-a341-1b3a57c1208f": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/1D.png",
+    "value": {}
+  },
+  "56961408-e2ab-4877-b066-5392bb0ccb82@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/12D.png@6c48a",
+    "value": {
+      "depends": [
+        "56961408-e2ab-4877-b066-5392bb0ccb82"
+      ]
+    }
+  },
+  "24da6c90-21b3-470c-a73b-eed9eead1cbb": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/2D.png",
+    "value": {}
+  },
+  "d44e88ee-7fe3-4615-a341-1b3a57c1208f@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/1D.png@6c48a",
+    "value": {
+      "depends": [
+        "d44e88ee-7fe3-4615-a341-1b3a57c1208f"
+      ]
+    }
+  },
+  "e74c22e1-bce4-4f06-853c-4e8797e18ac7": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/3D.png",
+    "value": {}
+  },
+  "d20bafcd-c2ff-45cd-aa08-c2ffc9690238@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/13D.png@6c48a",
+    "value": {
+      "depends": [
+        "d20bafcd-c2ff-45cd-aa08-c2ffc9690238"
+      ]
+    }
+  },
+  "3b209bac-d66d-4289-8c7a-f176898e9857": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/4D.png",
+    "value": {}
+  },
+  "2fd6e0d9-27ac-4651-a128-486af90eb3f6@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/10D.png@6c48a",
+    "value": {
+      "depends": [
+        "2fd6e0d9-27ac-4651-a128-486af90eb3f6"
+      ]
+    }
+  },
+  "b6131261-fd49-42fc-8499-c3264be1f11d": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/5D.png",
+    "value": {}
+  },
+  "cbd2ae80-db25-419e-91a3-051f1846453c@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/11D.png@6c48a",
+    "value": {
+      "depends": [
+        "cbd2ae80-db25-419e-91a3-051f1846453c"
+      ]
+    }
+  },
+  "9f45a613-cf5f-40a7-b2ae-a31b5bdee8ea": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/6D.png",
+    "value": {}
+  },
+  "e74c22e1-bce4-4f06-853c-4e8797e18ac7@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/3D.png@6c48a",
+    "value": {
+      "depends": [
+        "e74c22e1-bce4-4f06-853c-4e8797e18ac7"
+      ]
+    }
+  },
+  "efb2db51-e0db-4dcc-b17e-1ee662e4200d": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/7D.png",
+    "value": {}
+  },
+  "3b209bac-d66d-4289-8c7a-f176898e9857@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/4D.png@6c48a",
+    "value": {
+      "depends": [
+        "3b209bac-d66d-4289-8c7a-f176898e9857"
+      ]
+    }
+  },
+  "6a3a60ef-3f38-4334-b14d-5e8faa9f3abd": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/8D.png",
+    "value": {}
+  },
+  "24da6c90-21b3-470c-a73b-eed9eead1cbb@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/2D.png@6c48a",
+    "value": {
+      "depends": [
+        "24da6c90-21b3-470c-a73b-eed9eead1cbb"
+      ]
+    }
+  },
+  "02e5cb43-2fba-4e46-bed2-c9d9244a82ff": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/9D.png",
+    "value": {}
+  },
+  "b6131261-fd49-42fc-8499-c3264be1f11d@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/5D.png@6c48a",
+    "value": {
+      "depends": [
+        "b6131261-fd49-42fc-8499-c3264be1f11d"
+      ]
+    }
+  },
+  "24baec46-326a-4645-92e6-0348813bd081": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/10S.png",
+    "value": {}
+  },
+  "efb2db51-e0db-4dcc-b17e-1ee662e4200d@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/7D.png@6c48a",
+    "value": {
+      "depends": [
+        "efb2db51-e0db-4dcc-b17e-1ee662e4200d"
+      ]
+    }
+  },
+  "3e89181a-1fe5-4501-9e99-2bd1a025c3c4": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/11S.png",
+    "value": {}
+  },
+  "6a3a60ef-3f38-4334-b14d-5e8faa9f3abd@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/8D.png@6c48a",
+    "value": {
+      "depends": [
+        "6a3a60ef-3f38-4334-b14d-5e8faa9f3abd"
+      ]
+    }
+  },
+  "9f45a613-cf5f-40a7-b2ae-a31b5bdee8ea@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/6D.png@6c48a",
+    "value": {
+      "depends": [
+        "9f45a613-cf5f-40a7-b2ae-a31b5bdee8ea"
+      ]
+    }
+  },
+  "8dcf431a-c680-433b-bbe2-b457202705d1": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/12S.png",
+    "value": {}
+  },
+  "a7e7ea03-4c59-4279-b80d-7cdc6fd4449e": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/13S.png",
+    "value": {}
+  },
+  "02e5cb43-2fba-4e46-bed2-c9d9244a82ff@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/9D.png@6c48a",
+    "value": {
+      "depends": [
+        "02e5cb43-2fba-4e46-bed2-c9d9244a82ff"
+      ]
+    }
+  },
+  "fef2f33d-9358-4b8a-95ae-1d3a5161ad77": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/1S.png",
+    "value": {}
+  },
+  "24baec46-326a-4645-92e6-0348813bd081@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/10S.png@6c48a",
+    "value": {
+      "depends": [
+        "24baec46-326a-4645-92e6-0348813bd081"
+      ]
+    }
+  },
+  "c7719957-2a5a-4093-9bc7-76ca65723b9c": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/2S.png",
+    "value": {}
+  },
+  "a7e7ea03-4c59-4279-b80d-7cdc6fd4449e@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/13S.png@6c48a",
+    "value": {
+      "depends": [
+        "a7e7ea03-4c59-4279-b80d-7cdc6fd4449e"
+      ]
+    }
+  },
+  "8dcf431a-c680-433b-bbe2-b457202705d1@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/12S.png@6c48a",
+    "value": {
+      "depends": [
+        "8dcf431a-c680-433b-bbe2-b457202705d1"
+      ]
+    }
+  },
+  "fef2f33d-9358-4b8a-95ae-1d3a5161ad77@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/1S.png@6c48a",
+    "value": {
+      "depends": [
+        "fef2f33d-9358-4b8a-95ae-1d3a5161ad77"
+      ]
+    }
+  },
+  "aa57b9c9-0853-4a44-b43b-91c33e6cec2a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/3S.png",
+    "value": {}
+  },
+  "51cece29-c02e-4c17-91de-491393de5cfe": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/4S.png",
+    "value": {}
+  },
+  "7c4b578c-4b56-4ada-ba65-8ad23e2a56a1": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/5S.png",
+    "value": {}
+  },
+  "3e89181a-1fe5-4501-9e99-2bd1a025c3c4@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/11S.png@6c48a",
+    "value": {
+      "depends": [
+        "3e89181a-1fe5-4501-9e99-2bd1a025c3c4"
+      ]
+    }
+  },
+  "1d355e63-057e-4de8-a339-123787f42b49": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/6S.png",
+    "value": {}
+  },
+  "51cece29-c02e-4c17-91de-491393de5cfe@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/4S.png@6c48a",
+    "value": {
+      "depends": [
+        "51cece29-c02e-4c17-91de-491393de5cfe"
+      ]
+    }
+  },
+  "d53068c2-0677-48d7-b025-cbb972f1f23c": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/7S.png",
+    "value": {}
+  },
+  "7c4b578c-4b56-4ada-ba65-8ad23e2a56a1@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/5S.png@6c48a",
+    "value": {
+      "depends": [
+        "7c4b578c-4b56-4ada-ba65-8ad23e2a56a1"
+      ]
+    }
+  },
+  "63248c16-31ff-42a5-92f1-6ba507c4f63a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/8S.png",
+    "value": {}
+  },
+  "c7719957-2a5a-4093-9bc7-76ca65723b9c@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/2S.png@6c48a",
+    "value": {
+      "depends": [
+        "c7719957-2a5a-4093-9bc7-76ca65723b9c"
+      ]
+    }
+  },
+  "ec5f22de-2d66-4661-bfbe-6fe4a78f37cb": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/9S.png",
+    "value": {}
+  },
+  "aa57b9c9-0853-4a44-b43b-91c33e6cec2a@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/3S.png@6c48a",
+    "value": {
+      "depends": [
+        "aa57b9c9-0853-4a44-b43b-91c33e6cec2a"
+      ]
+    }
+  },
+  "183bd7e6-5e08-4a2a-9ff1-b8109fd23c34": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/10H.png",
+    "value": {}
+  },
+  "1d355e63-057e-4de8-a339-123787f42b49@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/6S.png@6c48a",
+    "value": {
+      "depends": [
+        "1d355e63-057e-4de8-a339-123787f42b49"
+      ]
+    }
+  },
+  "20481a1e-6550-4029-ba21-0c45114ce87d": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/11H.png",
+    "value": {}
+  },
+  "d53068c2-0677-48d7-b025-cbb972f1f23c@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/7S.png@6c48a",
+    "value": {
+      "depends": [
+        "d53068c2-0677-48d7-b025-cbb972f1f23c"
+      ]
+    }
+  },
+  "8bdffbb0-37cb-4680-a9a4-d71575cc004d": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/12H.png",
+    "value": {}
+  },
+  "63248c16-31ff-42a5-92f1-6ba507c4f63a@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/8S.png@6c48a",
+    "value": {
+      "depends": [
+        "63248c16-31ff-42a5-92f1-6ba507c4f63a"
+      ]
+    }
+  },
+  "2ed3c279-f594-4ddb-be9f-4767a7805963": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/13H.png",
+    "value": {}
+  },
+  "ec5f22de-2d66-4661-bfbe-6fe4a78f37cb@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/9S.png@6c48a",
+    "value": {
+      "depends": [
+        "ec5f22de-2d66-4661-bfbe-6fe4a78f37cb"
+      ]
+    }
+  },
+  "b5df5bfb-7915-4f22-9a8f-34fefb7840d3": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/1H.png",
+    "value": {}
+  },
+  "183bd7e6-5e08-4a2a-9ff1-b8109fd23c34@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/10H.png@6c48a",
+    "value": {
+      "depends": [
+        "183bd7e6-5e08-4a2a-9ff1-b8109fd23c34"
+      ]
+    }
+  },
+  "41ea11b2-5e9b-41fa-99eb-ff61a0cec2b3": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/2H.png",
+    "value": {}
+  },
+  "20481a1e-6550-4029-ba21-0c45114ce87d@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/11H.png@6c48a",
+    "value": {
+      "depends": [
+        "20481a1e-6550-4029-ba21-0c45114ce87d"
+      ]
+    }
+  },
+  "360b8b42-5997-4630-af13-48c8eb4e8855": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/3H.png",
+    "value": {}
+  },
+  "8bdffbb0-37cb-4680-a9a4-d71575cc004d@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/12H.png@6c48a",
+    "value": {
+      "depends": [
+        "8bdffbb0-37cb-4680-a9a4-d71575cc004d"
+      ]
+    }
+  },
+  "2e8e57cb-1773-4483-8821-3cb28edc3e86": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/4H.png",
+    "value": {}
+  },
+  "2ed3c279-f594-4ddb-be9f-4767a7805963@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/13H.png@6c48a",
+    "value": {
+      "depends": [
+        "2ed3c279-f594-4ddb-be9f-4767a7805963"
+      ]
+    }
+  },
+  "f1c1fa24-b1cc-4281-a33f-4ab109cf87a9": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/5H.png",
+    "value": {}
+  },
+  "b5df5bfb-7915-4f22-9a8f-34fefb7840d3@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/1H.png@6c48a",
+    "value": {
+      "depends": [
+        "b5df5bfb-7915-4f22-9a8f-34fefb7840d3"
+      ]
+    }
+  },
+  "ffa8b560-b578-44fa-90ef-1204597eb91f": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/6H.png",
+    "value": {}
+  },
+  "41ea11b2-5e9b-41fa-99eb-ff61a0cec2b3@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/2H.png@6c48a",
+    "value": {
+      "depends": [
+        "41ea11b2-5e9b-41fa-99eb-ff61a0cec2b3"
+      ]
+    }
+  },
+  "6be0e486-aaa2-4657-98cf-8343514bcfe7": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/7H.png",
+    "value": {}
+  },
+  "360b8b42-5997-4630-af13-48c8eb4e8855@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/3H.png@6c48a",
+    "value": {
+      "depends": [
+        "360b8b42-5997-4630-af13-48c8eb4e8855"
+      ]
+    }
+  },
+  "e29ad2c4-4ed4-4ece-b95a-93dbfac62459": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/8H.png",
+    "value": {}
+  },
+  "2e8e57cb-1773-4483-8821-3cb28edc3e86@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/4H.png@6c48a",
+    "value": {
+      "depends": [
+        "2e8e57cb-1773-4483-8821-3cb28edc3e86"
+      ]
+    }
+  },
+  "8952781f-30ff-4147-b955-97d8aef4a565": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/9H.png",
+    "value": {}
+  },
+  "f1c1fa24-b1cc-4281-a33f-4ab109cf87a9@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/5H.png@6c48a",
+    "value": {
+      "depends": [
+        "f1c1fa24-b1cc-4281-a33f-4ab109cf87a9"
+      ]
+    }
+  },
+  "fc5f5b81-10ed-4497-b0da-d27520e64265": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/10C.png",
+    "value": {}
+  },
+  "ffa8b560-b578-44fa-90ef-1204597eb91f@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/6H.png@6c48a",
+    "value": {
+      "depends": [
+        "ffa8b560-b578-44fa-90ef-1204597eb91f"
+      ]
+    }
+  },
+  "d7a25c13-a8a5-4c44-acaa-e77d45c9f939": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/11C.png",
+    "value": {}
+  },
+  "e29ad2c4-4ed4-4ece-b95a-93dbfac62459@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/8H.png@6c48a",
+    "value": {
+      "depends": [
+        "e29ad2c4-4ed4-4ece-b95a-93dbfac62459"
+      ]
+    }
+  },
+  "30c663a2-3397-41cf-961c-2f69effdc898": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/12C.png",
+    "value": {}
+  },
+  "6be0e486-aaa2-4657-98cf-8343514bcfe7@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/7H.png@6c48a",
+    "value": {
+      "depends": [
+        "6be0e486-aaa2-4657-98cf-8343514bcfe7"
+      ]
+    }
+  },
+  "0c3fc8dd-82e3-4751-af29-fe5436fad09a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/13C.png",
+    "value": {}
+  },
+  "fc5f5b81-10ed-4497-b0da-d27520e64265@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/10C.png@6c48a",
+    "value": {
+      "depends": [
+        "fc5f5b81-10ed-4497-b0da-d27520e64265"
+      ]
+    }
+  },
+  "c577097c-086d-4d13-b38b-457ec32ff877": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/1C.png",
+    "value": {}
+  },
+  "8952781f-30ff-4147-b955-97d8aef4a565@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/9H.png@6c48a",
+    "value": {
+      "depends": [
+        "8952781f-30ff-4147-b955-97d8aef4a565"
+      ]
+    }
+  },
+  "897dfc98-2e8e-4143-958e-d81c4d6501b3": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/2C.png",
+    "value": {}
+  },
+  "d7a25c13-a8a5-4c44-acaa-e77d45c9f939@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/11C.png@6c48a",
+    "value": {
+      "depends": [
+        "d7a25c13-a8a5-4c44-acaa-e77d45c9f939"
+      ]
+    }
+  },
+  "6378039c-f9b8-48d7-b322-be0b0db6e8a1": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/3C.png",
+    "value": {}
+  },
+  "30c663a2-3397-41cf-961c-2f69effdc898@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/12C.png@6c48a",
+    "value": {
+      "depends": [
+        "30c663a2-3397-41cf-961c-2f69effdc898"
+      ]
+    }
+  },
+  "ce2bf685-e863-4d28-8a2a-2816d62e2502": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/4C.png",
+    "value": {}
+  },
+  "0c3fc8dd-82e3-4751-af29-fe5436fad09a@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/13C.png@6c48a",
+    "value": {
+      "depends": [
+        "0c3fc8dd-82e3-4751-af29-fe5436fad09a"
+      ]
+    }
+  },
+  "29e93883-c9c5-49e9-b515-22639b429a08": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/5C.png",
+    "value": {}
+  },
+  "c577097c-086d-4d13-b38b-457ec32ff877@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/1C.png@6c48a",
+    "value": {
+      "depends": [
+        "c577097c-086d-4d13-b38b-457ec32ff877"
+      ]
+    }
+  },
+  "b8ae6203-4f14-4285-9e4f-b10ccde2a483": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/6C.png",
+    "value": {}
+  },
+  "897dfc98-2e8e-4143-958e-d81c4d6501b3@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/2C.png@6c48a",
+    "value": {
+      "depends": [
+        "897dfc98-2e8e-4143-958e-d81c4d6501b3"
+      ]
+    }
+  },
+  "e42ef363-a5cc-4058-92df-6bbe5902c1b9": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/7C.png",
+    "value": {}
+  },
+  "ce2bf685-e863-4d28-8a2a-2816d62e2502@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/4C.png@6c48a",
+    "value": {
+      "depends": [
+        "ce2bf685-e863-4d28-8a2a-2816d62e2502"
+      ]
+    }
+  },
+  "a583ca94-4d21-4b93-a2c7-fabbbe43df5b": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/8C.png",
+    "value": {}
+  },
+  "6378039c-f9b8-48d7-b322-be0b0db6e8a1@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/3C.png@6c48a",
+    "value": {
+      "depends": [
+        "6378039c-f9b8-48d7-b322-be0b0db6e8a1"
+      ]
+    }
+  },
+  "0acf96f7-682d-49c5-aa7b-36c27bea66f7": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/9C.png",
+    "value": {}
+  },
+  "29e93883-c9c5-49e9-b515-22639b429a08@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/5C.png@6c48a",
+    "value": {
+      "depends": [
+        "29e93883-c9c5-49e9-b515-22639b429a08"
+      ]
+    }
+  },
+  "b8ae6203-4f14-4285-9e4f-b10ccde2a483@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/6C.png@6c48a",
+    "value": {
+      "depends": [
+        "b8ae6203-4f14-4285-9e4f-b10ccde2a483"
+      ]
+    }
+  },
+  "e42ef363-a5cc-4058-92df-6bbe5902c1b9@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/7C.png@6c48a",
+    "value": {
+      "depends": [
+        "e42ef363-a5cc-4058-92df-6bbe5902c1b9"
+      ]
+    }
+  },
+  "0acf96f7-682d-49c5-aa7b-36c27bea66f7@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/9C.png@6c48a",
+    "value": {
+      "depends": [
+        "0acf96f7-682d-49c5-aa7b-36c27bea66f7"
+      ]
+    }
+  },
+  "a583ca94-4d21-4b93-a2c7-fabbbe43df5b@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/8C.png@6c48a",
+    "value": {
+      "depends": [
+        "a583ca94-4d21-4b93-a2c7-fabbbe43df5b"
+      ]
+    }
+  },
+  "4023656e-fcd0-4b73-9577-d79e0912517a": {
+    "url": "db://assets/Script/Utils",
+    "value": {}
+  },
+  "8263d902-73f9-4545-a091-2f2b10b89b37": {
+    "url": "db://assets/Script/Utils/Utils.ts",
+    "value": {}
+  },
+  "85fb1ceb-7282-4cdc-950b-6c5319df5d44": {
+    "url": "db://assets/Script/ResMgr.ts",
+    "value": {}
+  },
+  "24da6c90-21b3-470c-a73b-eed9eead1cbb@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/2D.png@f9941",
+    "value": {
+      "depends": [
+        "24da6c90-21b3-470c-a73b-eed9eead1cbb@6c48a"
+      ]
+    }
+  },
+  "d44e88ee-7fe3-4615-a341-1b3a57c1208f@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/1D.png@f9941",
+    "value": {
+      "depends": [
+        "d44e88ee-7fe3-4615-a341-1b3a57c1208f@6c48a"
+      ]
+    }
+  },
+  "3b209bac-d66d-4289-8c7a-f176898e9857@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/4D.png@f9941",
+    "value": {
+      "depends": [
+        "3b209bac-d66d-4289-8c7a-f176898e9857@6c48a"
+      ]
+    }
+  },
+  "e74c22e1-bce4-4f06-853c-4e8797e18ac7@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/3D.png@f9941",
+    "value": {
+      "depends": [
+        "e74c22e1-bce4-4f06-853c-4e8797e18ac7@6c48a"
+      ]
+    }
+  },
+  "b6131261-fd49-42fc-8499-c3264be1f11d@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/5D.png@f9941",
+    "value": {
+      "depends": [
+        "b6131261-fd49-42fc-8499-c3264be1f11d@6c48a"
+      ]
+    }
+  },
+  "efb2db51-e0db-4dcc-b17e-1ee662e4200d@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/7D.png@f9941",
+    "value": {
+      "depends": [
+        "efb2db51-e0db-4dcc-b17e-1ee662e4200d@6c48a"
+      ]
+    }
+  },
+  "9f45a613-cf5f-40a7-b2ae-a31b5bdee8ea@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/6D.png@f9941",
+    "value": {
+      "depends": [
+        "9f45a613-cf5f-40a7-b2ae-a31b5bdee8ea@6c48a"
+      ]
+    }
+  },
+  "6a3a60ef-3f38-4334-b14d-5e8faa9f3abd@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/8D.png@f9941",
+    "value": {
+      "depends": [
+        "6a3a60ef-3f38-4334-b14d-5e8faa9f3abd@6c48a"
+      ]
+    }
+  },
+  "02e5cb43-2fba-4e46-bed2-c9d9244a82ff@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/9D.png@f9941",
+    "value": {
+      "depends": [
+        "02e5cb43-2fba-4e46-bed2-c9d9244a82ff@6c48a"
+      ]
+    }
+  },
+  "2fd6e0d9-27ac-4651-a128-486af90eb3f6@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/10D.png@f9941",
+    "value": {
+      "depends": [
+        "2fd6e0d9-27ac-4651-a128-486af90eb3f6@6c48a"
+      ]
+    }
+  },
+  "56961408-e2ab-4877-b066-5392bb0ccb82@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/12D.png@f9941",
+    "value": {
+      "depends": [
+        "56961408-e2ab-4877-b066-5392bb0ccb82@6c48a"
+      ]
+    }
+  },
+  "d20bafcd-c2ff-45cd-aa08-c2ffc9690238@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/13D.png@f9941",
+    "value": {
+      "depends": [
+        "d20bafcd-c2ff-45cd-aa08-c2ffc9690238@6c48a"
+      ]
+    }
+  },
+  "cbd2ae80-db25-419e-91a3-051f1846453c@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/11D.png@f9941",
+    "value": {
+      "depends": [
+        "cbd2ae80-db25-419e-91a3-051f1846453c@6c48a"
+      ]
+    }
+  },
+  "c7719957-2a5a-4093-9bc7-76ca65723b9c@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/2S.png@f9941",
+    "value": {
+      "depends": [
+        "c7719957-2a5a-4093-9bc7-76ca65723b9c@6c48a"
+      ]
+    }
+  },
+  "7c4b578c-4b56-4ada-ba65-8ad23e2a56a1@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/5S.png@f9941",
+    "value": {
+      "depends": [
+        "7c4b578c-4b56-4ada-ba65-8ad23e2a56a1@6c48a"
+      ]
+    }
+  },
+  "51cece29-c02e-4c17-91de-491393de5cfe@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/4S.png@f9941",
+    "value": {
+      "depends": [
+        "51cece29-c02e-4c17-91de-491393de5cfe@6c48a"
+      ]
+    }
+  },
+  "aa57b9c9-0853-4a44-b43b-91c33e6cec2a@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/3S.png@f9941",
+    "value": {
+      "depends": [
+        "aa57b9c9-0853-4a44-b43b-91c33e6cec2a@6c48a"
+      ]
+    }
+  },
+  "fef2f33d-9358-4b8a-95ae-1d3a5161ad77@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/1S.png@f9941",
+    "value": {
+      "depends": [
+        "fef2f33d-9358-4b8a-95ae-1d3a5161ad77@6c48a"
+      ]
+    }
+  },
+  "1d355e63-057e-4de8-a339-123787f42b49@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/6S.png@f9941",
+    "value": {
+      "depends": [
+        "1d355e63-057e-4de8-a339-123787f42b49@6c48a"
+      ]
+    }
+  },
+  "d53068c2-0677-48d7-b025-cbb972f1f23c@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/7S.png@f9941",
+    "value": {
+      "depends": [
+        "d53068c2-0677-48d7-b025-cbb972f1f23c@6c48a"
+      ]
+    }
+  },
+  "63248c16-31ff-42a5-92f1-6ba507c4f63a@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/8S.png@f9941",
+    "value": {
+      "depends": [
+        "63248c16-31ff-42a5-92f1-6ba507c4f63a@6c48a"
+      ]
+    }
+  },
+  "24baec46-326a-4645-92e6-0348813bd081@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/10S.png@f9941",
+    "value": {
+      "depends": [
+        "24baec46-326a-4645-92e6-0348813bd081@6c48a"
+      ]
+    }
+  },
+  "ec5f22de-2d66-4661-bfbe-6fe4a78f37cb@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/9S.png@f9941",
+    "value": {
+      "depends": [
+        "ec5f22de-2d66-4661-bfbe-6fe4a78f37cb@6c48a"
+      ]
+    }
+  },
+  "3e89181a-1fe5-4501-9e99-2bd1a025c3c4@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/11S.png@f9941",
+    "value": {
+      "depends": [
+        "3e89181a-1fe5-4501-9e99-2bd1a025c3c4@6c48a"
+      ]
+    }
+  },
+  "8dcf431a-c680-433b-bbe2-b457202705d1@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/12S.png@f9941",
+    "value": {
+      "depends": [
+        "8dcf431a-c680-433b-bbe2-b457202705d1@6c48a"
+      ]
+    }
+  },
+  "a7e7ea03-4c59-4279-b80d-7cdc6fd4449e@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/13S.png@f9941",
+    "value": {
+      "depends": [
+        "a7e7ea03-4c59-4279-b80d-7cdc6fd4449e@6c48a"
+      ]
+    }
+  },
+  "b5df5bfb-7915-4f22-9a8f-34fefb7840d3@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/1H.png@f9941",
+    "value": {
+      "depends": [
+        "b5df5bfb-7915-4f22-9a8f-34fefb7840d3@6c48a"
+      ]
+    }
+  },
+  "41ea11b2-5e9b-41fa-99eb-ff61a0cec2b3@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/2H.png@f9941",
+    "value": {
+      "depends": [
+        "41ea11b2-5e9b-41fa-99eb-ff61a0cec2b3@6c48a"
+      ]
+    }
+  },
+  "360b8b42-5997-4630-af13-48c8eb4e8855@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/3H.png@f9941",
+    "value": {
+      "depends": [
+        "360b8b42-5997-4630-af13-48c8eb4e8855@6c48a"
+      ]
+    }
+  },
+  "f1c1fa24-b1cc-4281-a33f-4ab109cf87a9@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/5H.png@f9941",
+    "value": {
+      "depends": [
+        "f1c1fa24-b1cc-4281-a33f-4ab109cf87a9@6c48a"
+      ]
+    }
+  },
+  "2e8e57cb-1773-4483-8821-3cb28edc3e86@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/4H.png@f9941",
+    "value": {
+      "depends": [
+        "2e8e57cb-1773-4483-8821-3cb28edc3e86@6c48a"
+      ]
+    }
+  },
+  "6be0e486-aaa2-4657-98cf-8343514bcfe7@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/7H.png@f9941",
+    "value": {
+      "depends": [
+        "6be0e486-aaa2-4657-98cf-8343514bcfe7@6c48a"
+      ]
+    }
+  },
+  "ffa8b560-b578-44fa-90ef-1204597eb91f@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/6H.png@f9941",
+    "value": {
+      "depends": [
+        "ffa8b560-b578-44fa-90ef-1204597eb91f@6c48a"
+      ]
+    }
+  },
+  "e29ad2c4-4ed4-4ece-b95a-93dbfac62459@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/8H.png@f9941",
+    "value": {
+      "depends": [
+        "e29ad2c4-4ed4-4ece-b95a-93dbfac62459@6c48a"
+      ]
+    }
+  },
+  "8952781f-30ff-4147-b955-97d8aef4a565@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/9H.png@f9941",
+    "value": {
+      "depends": [
+        "8952781f-30ff-4147-b955-97d8aef4a565@6c48a"
+      ]
+    }
+  },
+  "183bd7e6-5e08-4a2a-9ff1-b8109fd23c34@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/10H.png@f9941",
+    "value": {
+      "depends": [
+        "183bd7e6-5e08-4a2a-9ff1-b8109fd23c34@6c48a"
+      ]
+    }
+  },
+  "20481a1e-6550-4029-ba21-0c45114ce87d@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/11H.png@f9941",
+    "value": {
+      "depends": [
+        "20481a1e-6550-4029-ba21-0c45114ce87d@6c48a"
+      ]
+    }
+  },
+  "8bdffbb0-37cb-4680-a9a4-d71575cc004d@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/12H.png@f9941",
+    "value": {
+      "depends": [
+        "8bdffbb0-37cb-4680-a9a4-d71575cc004d@6c48a"
+      ]
+    }
+  },
+  "2ed3c279-f594-4ddb-be9f-4767a7805963@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/13H.png@f9941",
+    "value": {
+      "depends": [
+        "2ed3c279-f594-4ddb-be9f-4767a7805963@6c48a"
+      ]
+    }
+  },
+  "ce2bf685-e863-4d28-8a2a-2816d62e2502@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/4C.png@f9941",
+    "value": {
+      "depends": [
+        "ce2bf685-e863-4d28-8a2a-2816d62e2502@6c48a"
+      ]
+    }
+  },
+  "c577097c-086d-4d13-b38b-457ec32ff877@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/1C.png@f9941",
+    "value": {
+      "depends": [
+        "c577097c-086d-4d13-b38b-457ec32ff877@6c48a"
+      ]
+    }
+  },
+  "6378039c-f9b8-48d7-b322-be0b0db6e8a1@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/3C.png@f9941",
+    "value": {
+      "depends": [
+        "6378039c-f9b8-48d7-b322-be0b0db6e8a1@6c48a"
+      ]
+    }
+  },
+  "29e93883-c9c5-49e9-b515-22639b429a08@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/5C.png@f9941",
+    "value": {
+      "depends": [
+        "29e93883-c9c5-49e9-b515-22639b429a08@6c48a"
+      ]
+    }
+  },
+  "897dfc98-2e8e-4143-958e-d81c4d6501b3@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/2C.png@f9941",
+    "value": {
+      "depends": [
+        "897dfc98-2e8e-4143-958e-d81c4d6501b3@6c48a"
+      ]
+    }
+  },
+  "b8ae6203-4f14-4285-9e4f-b10ccde2a483@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/6C.png@f9941",
+    "value": {
+      "depends": [
+        "b8ae6203-4f14-4285-9e4f-b10ccde2a483@6c48a"
+      ]
+    }
+  },
+  "e42ef363-a5cc-4058-92df-6bbe5902c1b9@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/7C.png@f9941",
+    "value": {
+      "depends": [
+        "e42ef363-a5cc-4058-92df-6bbe5902c1b9@6c48a"
+      ]
+    }
+  },
+  "a583ca94-4d21-4b93-a2c7-fabbbe43df5b@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/8C.png@f9941",
+    "value": {
+      "depends": [
+        "a583ca94-4d21-4b93-a2c7-fabbbe43df5b@6c48a"
+      ]
+    }
+  },
+  "0acf96f7-682d-49c5-aa7b-36c27bea66f7@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/9C.png@f9941",
+    "value": {
+      "depends": [
+        "0acf96f7-682d-49c5-aa7b-36c27bea66f7@6c48a"
+      ]
+    }
+  },
+  "fc5f5b81-10ed-4497-b0da-d27520e64265@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/10C.png@f9941",
+    "value": {
+      "depends": [
+        "fc5f5b81-10ed-4497-b0da-d27520e64265@6c48a"
+      ]
+    }
+  },
+  "d7a25c13-a8a5-4c44-acaa-e77d45c9f939@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/11C.png@f9941",
+    "value": {
+      "depends": [
+        "d7a25c13-a8a5-4c44-acaa-e77d45c9f939@6c48a"
+      ]
+    }
+  },
+  "30c663a2-3397-41cf-961c-2f69effdc898@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/12C.png@f9941",
+    "value": {
+      "depends": [
+        "30c663a2-3397-41cf-961c-2f69effdc898@6c48a"
+      ]
+    }
+  },
+  "0c3fc8dd-82e3-4751-af29-fe5436fad09a@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/13C.png@f9941",
+    "value": {
+      "depends": [
+        "0c3fc8dd-82e3-4751-af29-fe5436fad09a@6c48a"
+      ]
+    }
+  },
+  "0a469cc3-ccad-4291-86b1-f662de602b98": {
+    "url": "db://assets/resources/Texture/BG.png",
+    "value": {}
+  },
+  "0a469cc3-ccad-4291-86b1-f662de602b98@6c48a": {
+    "url": "db://assets/resources/Texture/BG.png@6c48a",
+    "value": {
+      "depends": [
+        "0a469cc3-ccad-4291-86b1-f662de602b98"
+      ]
+    }
+  },
+  "0a469cc3-ccad-4291-86b1-f662de602b98@f9941": {
+    "url": "db://assets/resources/Texture/BG.png@f9941",
+    "value": {
+      "depends": [
+        "0a469cc3-ccad-4291-86b1-f662de602b98@6c48a"
+      ]
+    }
+  },
+  "9e94e438-11dd-4c08-8e07-4f94d2662e6f": {
+    "url": "db://assets/resources/Texture/bg.png",
+    "value": {}
+  },
+  "9e94e438-11dd-4c08-8e07-4f94d2662e6f@6c48a": {
+    "url": "db://assets/resources/Texture/bg.png@6c48a",
+    "value": {
+      "depends": [
+        "9e94e438-11dd-4c08-8e07-4f94d2662e6f"
+      ]
+    }
+  },
+  "9e94e438-11dd-4c08-8e07-4f94d2662e6f@f9941": {
+    "url": "db://assets/resources/Texture/bg.png@f9941",
+    "value": {
+      "depends": [
+        "9e94e438-11dd-4c08-8e07-4f94d2662e6f@6c48a"
+      ]
+    }
+  },
+  "39fc10bb-d162-437e-9364-526275d9e6ac": {
+    "url": "db://assets/resources/Texture/bg1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "39fc10bb-d162-437e-9364-526275d9e6ac@6c48a": {
+    "url": "db://assets/resources/Texture/bg1.png@6c48a",
+    "value": {
+      "depends": [
+        "39fc10bb-d162-437e-9364-526275d9e6ac"
+      ]
+    }
+  },
+  "39fc10bb-d162-437e-9364-526275d9e6ac@f9941": {
+    "url": "db://assets/resources/Texture/bg1.png@f9941",
+    "value": {
+      "depends": [
+        "39fc10bb-d162-437e-9364-526275d9e6ac@6c48a"
+      ]
+    }
+  },
+  "f1d1c820-10e8-416c-9af6-a5b525793134": {
+    "url": "db://assets/resources/Texture/Cards/bx.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "7d1596e4-79f8-4050-9b1a-7e618b708a01": {
+    "url": "db://assets/resources/Texture/Cards/dw.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "310ac28b-2f19-40f0-8c1f-eeb173043ee6": {
+    "url": "db://assets/resources/Texture/Cards/h_.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "9df68a86-7dc1-4731-b832-44455c9e1ed5": {
+    "url": "db://assets/resources/Texture/Cards/hb.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d396924a-5f11-4ef5-8c97-249dc38abf35": {
+    "url": "db://assets/resources/Texture/Cards/r_.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "310ac28b-2f19-40f0-8c1f-eeb173043ee6@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/h_.png@6c48a",
+    "value": {
+      "depends": [
+        "310ac28b-2f19-40f0-8c1f-eeb173043ee6"
+      ]
+    }
+  },
+  "f1d1c820-10e8-416c-9af6-a5b525793134@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/bx.png@6c48a",
+    "value": {
+      "depends": [
+        "f1d1c820-10e8-416c-9af6-a5b525793134"
+      ]
+    }
+  },
+  "60c599ca-9029-4b76-91a1-8e4212454496": {
+    "url": "db://assets/resources/Texture/Cards/r_b.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f934cd53-ec19-4eb2-a235-829bd00690c0": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "7d1596e4-79f8-4050-9b1a-7e618b708a01@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/dw.png@6c48a",
+    "value": {
+      "depends": [
+        "7d1596e4-79f8-4050-9b1a-7e618b708a01"
+      ]
+    }
+  },
+  "9796e87d-6ef9-4678-acc7-51d6d450eb65": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r10.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "9df68a86-7dc1-4731-b832-44455c9e1ed5@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/hb.png@6c48a",
+    "value": {
+      "depends": [
+        "9df68a86-7dc1-4731-b832-44455c9e1ed5"
+      ]
+    }
+  },
+  "704dc0bc-4b0d-46fd-9480-9ac9833a62b0": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r11.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d396924a-5f11-4ef5-8c97-249dc38abf35@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/r_.png@6c48a",
+    "value": {
+      "depends": [
+        "d396924a-5f11-4ef5-8c97-249dc38abf35"
+      ]
+    }
+  },
+  "1782c2f1-7e49-4371-bce4-9d40053b0451": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r12.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "704dc0bc-4b0d-46fd-9480-9ac9833a62b0@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r11.png@6c48a",
+    "value": {
+      "depends": [
+        "704dc0bc-4b0d-46fd-9480-9ac9833a62b0"
+      ]
+    }
+  },
+  "a92638c9-723c-4a68-a639-f9adf1d410a5": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r13.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "9796e87d-6ef9-4678-acc7-51d6d450eb65@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r10.png@6c48a",
+    "value": {
+      "depends": [
+        "9796e87d-6ef9-4678-acc7-51d6d450eb65"
+      ]
+    }
+  },
+  "f934cd53-ec19-4eb2-a235-829bd00690c0@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r1.png@6c48a",
+    "value": {
+      "depends": [
+        "f934cd53-ec19-4eb2-a235-829bd00690c0"
+      ]
+    }
+  },
+  "60c599ca-9029-4b76-91a1-8e4212454496@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/r_b.png@6c48a",
+    "value": {
+      "depends": [
+        "60c599ca-9029-4b76-91a1-8e4212454496"
+      ]
+    }
+  },
+  "781e4094-4e65-457a-a314-cf29f60d41ee": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "7022ab84-365e-45a6-97e8-b9ffe4fc745a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f2976963-58f3-41e9-92b4-3fe08f3f6e85": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r4.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1782c2f1-7e49-4371-bce4-9d40053b0451@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r12.png@6c48a",
+    "value": {
+      "depends": [
+        "1782c2f1-7e49-4371-bce4-9d40053b0451"
+      ]
+    }
+  },
+  "479e9490-2ca2-4051-97d4-d34715075c8e": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "7022ab84-365e-45a6-97e8-b9ffe4fc745a@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r3.png@6c48a",
+    "value": {
+      "depends": [
+        "7022ab84-365e-45a6-97e8-b9ffe4fc745a"
+      ]
+    }
+  },
+  "efee652b-e943-48f2-b20b-5880272908de": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r6.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "781e4094-4e65-457a-a314-cf29f60d41ee@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r2.png@6c48a",
+    "value": {
+      "depends": [
+        "781e4094-4e65-457a-a314-cf29f60d41ee"
+      ]
+    }
+  },
+  "f5fd56dc-fd19-49fb-b1b8-220f790749da": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r7.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a92638c9-723c-4a68-a639-f9adf1d410a5@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r13.png@6c48a",
+    "value": {
+      "depends": [
+        "a92638c9-723c-4a68-a639-f9adf1d410a5"
+      ]
+    }
+  },
+  "fbf2418c-d21c-4489-bded-6160d11355c0": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r8.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f2976963-58f3-41e9-92b4-3fe08f3f6e85@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r4.png@6c48a",
+    "value": {
+      "depends": [
+        "f2976963-58f3-41e9-92b4-3fe08f3f6e85"
+      ]
+    }
+  },
+  "cda314d2-d78d-4ca3-b831-7ede37892af1": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r9.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "479e9490-2ca2-4051-97d4-d34715075c8e@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r5.png@6c48a",
+    "value": {
+      "depends": [
+        "479e9490-2ca2-4051-97d4-d34715075c8e"
+      ]
+    }
+  },
+  "e457f3e8-3184-4c75-976c-1c04de8a361f": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f5fd56dc-fd19-49fb-b1b8-220f790749da@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r7.png@6c48a",
+    "value": {
+      "depends": [
+        "f5fd56dc-fd19-49fb-b1b8-220f790749da"
+      ]
+    }
+  },
+  "47e85611-14c9-41d8-9a45-7f16da14b13e": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h10.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "efee652b-e943-48f2-b20b-5880272908de@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r6.png@6c48a",
+    "value": {
+      "depends": [
+        "efee652b-e943-48f2-b20b-5880272908de"
+      ]
+    }
+  },
+  "c04d749b-da25-4d8b-acaa-6b25b233bf1d": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h11.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "cda314d2-d78d-4ca3-b831-7ede37892af1@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r9.png@6c48a",
+    "value": {
+      "depends": [
+        "cda314d2-d78d-4ca3-b831-7ede37892af1"
+      ]
+    }
+  },
+  "0f01597d-a8dd-49dc-815a-552c11b7687c": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h12.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "fbf2418c-d21c-4489-bded-6160d11355c0@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r8.png@6c48a",
+    "value": {
+      "depends": [
+        "fbf2418c-d21c-4489-bded-6160d11355c0"
+      ]
+    }
+  },
+  "bc51890b-9dbf-4cea-9ede-4ea0eebe3b81": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h13.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e457f3e8-3184-4c75-976c-1c04de8a361f@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h1.png@6c48a",
+    "value": {
+      "depends": [
+        "e457f3e8-3184-4c75-976c-1c04de8a361f"
+      ]
+    }
+  },
+  "0d7ff7c0-7f97-4118-ac71-1bdac4177352": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "c04d749b-da25-4d8b-acaa-6b25b233bf1d@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h11.png@6c48a",
+    "value": {
+      "depends": [
+        "c04d749b-da25-4d8b-acaa-6b25b233bf1d"
+      ]
+    }
+  },
+  "73b79340-2bd9-43ea-a785-e0d648f53fb4": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "47e85611-14c9-41d8-9a45-7f16da14b13e@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h10.png@6c48a",
+    "value": {
+      "depends": [
+        "47e85611-14c9-41d8-9a45-7f16da14b13e"
+      ]
+    }
+  },
+  "eaa65bd6-b71d-4313-960f-06a22f42c82b": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h4.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0f01597d-a8dd-49dc-815a-552c11b7687c@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h12.png@6c48a",
+    "value": {
+      "depends": [
+        "0f01597d-a8dd-49dc-815a-552c11b7687c"
+      ]
+    }
+  },
+  "13fc6426-de40-4c4f-9b1b-a90061c9b668": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "bc51890b-9dbf-4cea-9ede-4ea0eebe3b81@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h13.png@6c48a",
+    "value": {
+      "depends": [
+        "bc51890b-9dbf-4cea-9ede-4ea0eebe3b81"
+      ]
+    }
+  },
+  "5f8d0ad9-f8fe-43c6-9b21-f09cdd2cd6d2": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h6.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0d7ff7c0-7f97-4118-ac71-1bdac4177352@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h2.png@6c48a",
+    "value": {
+      "depends": [
+        "0d7ff7c0-7f97-4118-ac71-1bdac4177352"
+      ]
+    }
+  },
+  "fd0cc66b-94b7-4b6e-a4bf-6e6f7c6ce76f": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h7.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "73b79340-2bd9-43ea-a785-e0d648f53fb4@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h3.png@6c48a",
+    "value": {
+      "depends": [
+        "73b79340-2bd9-43ea-a785-e0d648f53fb4"
+      ]
+    }
+  },
+  "4199669d-3ee1-4314-8338-8c92823c11e0": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h8.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "eaa65bd6-b71d-4313-960f-06a22f42c82b@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h4.png@6c48a",
+    "value": {
+      "depends": [
+        "eaa65bd6-b71d-4313-960f-06a22f42c82b"
+      ]
+    }
+  },
+  "6f012814-8e9a-42b6-a531-3b0a3f53b7d3": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h9.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "13fc6426-de40-4c4f-9b1b-a90061c9b668@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h5.png@6c48a",
+    "value": {
+      "depends": [
+        "13fc6426-de40-4c4f-9b1b-a90061c9b668"
+      ]
+    }
+  },
+  "26574635-c06f-4509-b579-174cd0b209e3": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5f8d0ad9-f8fe-43c6-9b21-f09cdd2cd6d2@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h6.png@6c48a",
+    "value": {
+      "depends": [
+        "5f8d0ad9-f8fe-43c6-9b21-f09cdd2cd6d2"
+      ]
+    }
+  },
+  "925277dc-4e49-44f4-89f3-b5d1c5f1b4ff": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d10.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "fd0cc66b-94b7-4b6e-a4bf-6e6f7c6ce76f@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h7.png@6c48a",
+    "value": {
+      "depends": [
+        "fd0cc66b-94b7-4b6e-a4bf-6e6f7c6ce76f"
+      ]
+    }
+  },
+  "63813ab8-034d-48d3-b8b2-d03888aed0ec": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d11.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "26574635-c06f-4509-b579-174cd0b209e3@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d1.png@6c48a",
+    "value": {
+      "depends": [
+        "26574635-c06f-4509-b579-174cd0b209e3"
+      ]
+    }
+  },
+  "cbbb88bf-bc99-42e7-87b5-52979e1efa7b": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d12.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "6f012814-8e9a-42b6-a531-3b0a3f53b7d3@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h9.png@6c48a",
+    "value": {
+      "depends": [
+        "6f012814-8e9a-42b6-a531-3b0a3f53b7d3"
+      ]
+    }
+  },
+  "9773260e-210d-4780-b3a0-206835f51bc4": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d13.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "4199669d-3ee1-4314-8338-8c92823c11e0@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h8.png@6c48a",
+    "value": {
+      "depends": [
+        "4199669d-3ee1-4314-8338-8c92823c11e0"
+      ]
+    }
+  },
+  "4cc293f9-d4ad-4fe9-8ab0-17418a896ae7": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "925277dc-4e49-44f4-89f3-b5d1c5f1b4ff@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d10.png@6c48a",
+    "value": {
+      "depends": [
+        "925277dc-4e49-44f4-89f3-b5d1c5f1b4ff"
+      ]
+    }
+  },
+  "cd17e68c-d678-41c0-83d9-95f6dbdead81": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "63813ab8-034d-48d3-b8b2-d03888aed0ec@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d11.png@6c48a",
+    "value": {
+      "depends": [
+        "63813ab8-034d-48d3-b8b2-d03888aed0ec"
+      ]
+    }
+  },
+  "c972d39b-bb78-4195-bdb3-4698d0d7c0c9": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d4.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "cbbb88bf-bc99-42e7-87b5-52979e1efa7b@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d12.png@6c48a",
+    "value": {
+      "depends": [
+        "cbbb88bf-bc99-42e7-87b5-52979e1efa7b"
+      ]
+    }
+  },
+  "9773260e-210d-4780-b3a0-206835f51bc4@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d13.png@6c48a",
+    "value": {
+      "depends": [
+        "9773260e-210d-4780-b3a0-206835f51bc4"
+      ]
+    }
+  },
+  "14b7d583-4181-4742-a2a9-b80a47c6f217": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1f5f082d-aebe-445c-accf-b6c4e8d4db56": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d6.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "cd17e68c-d678-41c0-83d9-95f6dbdead81@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d3.png@6c48a",
+    "value": {
+      "depends": [
+        "cd17e68c-d678-41c0-83d9-95f6dbdead81"
+      ]
+    }
+  },
+  "1ee54915-1fae-4a93-a38e-b47c654e820a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d7.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "4cc293f9-d4ad-4fe9-8ab0-17418a896ae7@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d2.png@6c48a",
+    "value": {
+      "depends": [
+        "4cc293f9-d4ad-4fe9-8ab0-17418a896ae7"
+      ]
+    }
+  },
+  "233a72f0-4bed-467e-bf66-026c4e49612a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d8.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "c972d39b-bb78-4195-bdb3-4698d0d7c0c9@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d4.png@6c48a",
+    "value": {
+      "depends": [
+        "c972d39b-bb78-4195-bdb3-4698d0d7c0c9"
+      ]
+    }
+  },
+  "84100815-926e-40f0-9939-e6cf42a753ca": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d9.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1f5f082d-aebe-445c-accf-b6c4e8d4db56@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d6.png@6c48a",
+    "value": {
+      "depends": [
+        "1f5f082d-aebe-445c-accf-b6c4e8d4db56"
+      ]
+    }
+  },
+  "effccafa-b42e-4121-8868-711e07b1a45e": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "14b7d583-4181-4742-a2a9-b80a47c6f217@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d5.png@6c48a",
+    "value": {
+      "depends": [
+        "14b7d583-4181-4742-a2a9-b80a47c6f217"
+      ]
+    }
+  },
+  "6fd8a69e-5d61-4278-9937-b4662a21fbb4": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b10.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "233a72f0-4bed-467e-bf66-026c4e49612a@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d8.png@6c48a",
+    "value": {
+      "depends": [
+        "233a72f0-4bed-467e-bf66-026c4e49612a"
+      ]
+    }
+  },
+  "dc14289b-4312-4a92-8155-4ace5b9dd6c9": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b11.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1ee54915-1fae-4a93-a38e-b47c654e820a@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d7.png@6c48a",
+    "value": {
+      "depends": [
+        "1ee54915-1fae-4a93-a38e-b47c654e820a"
+      ]
+    }
+  },
+  "257d45ea-ae60-4184-b07d-16bd97ecbe86": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b12.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "84100815-926e-40f0-9939-e6cf42a753ca@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d9.png@6c48a",
+    "value": {
+      "depends": [
+        "84100815-926e-40f0-9939-e6cf42a753ca"
+      ]
+    }
+  },
+  "b6f54cc9-d11e-4d0e-aebd-19a6e64308b6": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b13.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "effccafa-b42e-4121-8868-711e07b1a45e@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b1.png@6c48a",
+    "value": {
+      "depends": [
+        "effccafa-b42e-4121-8868-711e07b1a45e"
+      ]
+    }
+  },
+  "b8694ae4-5d1b-4b2d-9dca-6fec4f03f627": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "6fd8a69e-5d61-4278-9937-b4662a21fbb4@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b10.png@6c48a",
+    "value": {
+      "depends": [
+        "6fd8a69e-5d61-4278-9937-b4662a21fbb4"
+      ]
+    }
+  },
+  "21a0007d-1e0e-4631-bb82-d34aa3e5f33e": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "dc14289b-4312-4a92-8155-4ace5b9dd6c9@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b11.png@6c48a",
+    "value": {
+      "depends": [
+        "dc14289b-4312-4a92-8155-4ace5b9dd6c9"
+      ]
+    }
+  },
+  "257d45ea-ae60-4184-b07d-16bd97ecbe86@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b12.png@6c48a",
+    "value": {
+      "depends": [
+        "257d45ea-ae60-4184-b07d-16bd97ecbe86"
+      ]
+    }
+  },
+  "e2e3f3eb-bf51-4fb5-b69f-e1594d3740fa": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b4.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "8915cd15-b20e-44ee-9da2-e3700ba038a0": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b6f54cc9-d11e-4d0e-aebd-19a6e64308b6@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b13.png@6c48a",
+    "value": {
+      "depends": [
+        "b6f54cc9-d11e-4d0e-aebd-19a6e64308b6"
+      ]
+    }
+  },
+  "c419dc63-9149-4a19-af7d-25cb4cadf421": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b6.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b8694ae4-5d1b-4b2d-9dca-6fec4f03f627@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b2.png@6c48a",
+    "value": {
+      "depends": [
+        "b8694ae4-5d1b-4b2d-9dca-6fec4f03f627"
+      ]
+    }
+  },
+  "d4c9388c-7452-4191-b04b-3be44d96c598": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b7.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "21a0007d-1e0e-4631-bb82-d34aa3e5f33e@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b3.png@6c48a",
+    "value": {
+      "depends": [
+        "21a0007d-1e0e-4631-bb82-d34aa3e5f33e"
+      ]
+    }
+  },
+  "4763653d-929e-4aae-aa5d-cc073b5b9550": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b8.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "8915cd15-b20e-44ee-9da2-e3700ba038a0@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b5.png@6c48a",
+    "value": {
+      "depends": [
+        "8915cd15-b20e-44ee-9da2-e3700ba038a0"
+      ]
+    }
+  },
+  "d903db54-4c2f-4f10-8539-46d4f7737e4f": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b9.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e2e3f3eb-bf51-4fb5-b69f-e1594d3740fa@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b4.png@6c48a",
+    "value": {
+      "depends": [
+        "e2e3f3eb-bf51-4fb5-b69f-e1594d3740fa"
+      ]
+    }
+  },
+  "c419dc63-9149-4a19-af7d-25cb4cadf421@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b6.png@6c48a",
+    "value": {
+      "depends": [
+        "c419dc63-9149-4a19-af7d-25cb4cadf421"
+      ]
+    }
+  },
+  "4763653d-929e-4aae-aa5d-cc073b5b9550@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b8.png@6c48a",
+    "value": {
+      "depends": [
+        "4763653d-929e-4aae-aa5d-cc073b5b9550"
+      ]
+    }
+  },
+  "d4c9388c-7452-4191-b04b-3be44d96c598@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b7.png@6c48a",
+    "value": {
+      "depends": [
+        "d4c9388c-7452-4191-b04b-3be44d96c598"
+      ]
+    }
+  },
+  "d903db54-4c2f-4f10-8539-46d4f7737e4f@6c48a": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b9.png@6c48a",
+    "value": {
+      "depends": [
+        "d903db54-4c2f-4f10-8539-46d4f7737e4f"
+      ]
+    }
+  },
+  "310ac28b-2f19-40f0-8c1f-eeb173043ee6@f9941": {
+    "url": "db://assets/resources/Texture/Cards/h_.png@f9941",
+    "value": {
+      "depends": [
+        "310ac28b-2f19-40f0-8c1f-eeb173043ee6@6c48a"
+      ]
+    }
+  },
+  "7d1596e4-79f8-4050-9b1a-7e618b708a01@f9941": {
+    "url": "db://assets/resources/Texture/Cards/dw.png@f9941",
+    "value": {
+      "depends": [
+        "7d1596e4-79f8-4050-9b1a-7e618b708a01@6c48a"
+      ]
+    }
+  },
+  "f1d1c820-10e8-416c-9af6-a5b525793134@f9941": {
+    "url": "db://assets/resources/Texture/Cards/bx.png@f9941",
+    "value": {
+      "depends": [
+        "f1d1c820-10e8-416c-9af6-a5b525793134@6c48a"
+      ]
+    }
+  },
+  "9df68a86-7dc1-4731-b832-44455c9e1ed5@f9941": {
+    "url": "db://assets/resources/Texture/Cards/hb.png@f9941",
+    "value": {
+      "depends": [
+        "9df68a86-7dc1-4731-b832-44455c9e1ed5@6c48a"
+      ]
+    }
+  },
+  "d396924a-5f11-4ef5-8c97-249dc38abf35@f9941": {
+    "url": "db://assets/resources/Texture/Cards/r_.png@f9941",
+    "value": {
+      "depends": [
+        "d396924a-5f11-4ef5-8c97-249dc38abf35@6c48a"
+      ]
+    }
+  },
+  "60c599ca-9029-4b76-91a1-8e4212454496@f9941": {
+    "url": "db://assets/resources/Texture/Cards/r_b.png@f9941",
+    "value": {
+      "depends": [
+        "60c599ca-9029-4b76-91a1-8e4212454496@6c48a"
+      ]
+    }
+  },
+  "781e4094-4e65-457a-a314-cf29f60d41ee@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r2.png@f9941",
+    "value": {
+      "depends": [
+        "781e4094-4e65-457a-a314-cf29f60d41ee@6c48a"
+      ]
+    }
+  },
+  "7022ab84-365e-45a6-97e8-b9ffe4fc745a@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r3.png@f9941",
+    "value": {
+      "depends": [
+        "7022ab84-365e-45a6-97e8-b9ffe4fc745a@6c48a"
+      ]
+    }
+  },
+  "f934cd53-ec19-4eb2-a235-829bd00690c0@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r1.png@f9941",
+    "value": {
+      "depends": [
+        "f934cd53-ec19-4eb2-a235-829bd00690c0@6c48a"
+      ]
+    }
+  },
+  "f2976963-58f3-41e9-92b4-3fe08f3f6e85@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r4.png@f9941",
+    "value": {
+      "depends": [
+        "f2976963-58f3-41e9-92b4-3fe08f3f6e85@6c48a"
+      ]
+    }
+  },
+  "479e9490-2ca2-4051-97d4-d34715075c8e@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r5.png@f9941",
+    "value": {
+      "depends": [
+        "479e9490-2ca2-4051-97d4-d34715075c8e@6c48a"
+      ]
+    }
+  },
+  "f5fd56dc-fd19-49fb-b1b8-220f790749da@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r7.png@f9941",
+    "value": {
+      "depends": [
+        "f5fd56dc-fd19-49fb-b1b8-220f790749da@6c48a"
+      ]
+    }
+  },
+  "efee652b-e943-48f2-b20b-5880272908de@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r6.png@f9941",
+    "value": {
+      "depends": [
+        "efee652b-e943-48f2-b20b-5880272908de@6c48a"
+      ]
+    }
+  },
+  "cda314d2-d78d-4ca3-b831-7ede37892af1@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r9.png@f9941",
+    "value": {
+      "depends": [
+        "cda314d2-d78d-4ca3-b831-7ede37892af1@6c48a"
+      ]
+    }
+  },
+  "fbf2418c-d21c-4489-bded-6160d11355c0@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r8.png@f9941",
+    "value": {
+      "depends": [
+        "fbf2418c-d21c-4489-bded-6160d11355c0@6c48a"
+      ]
+    }
+  },
+  "9796e87d-6ef9-4678-acc7-51d6d450eb65@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r10.png@f9941",
+    "value": {
+      "depends": [
+        "9796e87d-6ef9-4678-acc7-51d6d450eb65@6c48a"
+      ]
+    }
+  },
+  "704dc0bc-4b0d-46fd-9480-9ac9833a62b0@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r11.png@f9941",
+    "value": {
+      "depends": [
+        "704dc0bc-4b0d-46fd-9480-9ac9833a62b0@6c48a"
+      ]
+    }
+  },
+  "a92638c9-723c-4a68-a639-f9adf1d410a5@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r13.png@f9941",
+    "value": {
+      "depends": [
+        "a92638c9-723c-4a68-a639-f9adf1d410a5@6c48a"
+      ]
+    }
+  },
+  "1782c2f1-7e49-4371-bce4-9d40053b0451@f9941": {
+    "url": "db://assets/resources/Texture/Cards/FangKuai/r12.png@f9941",
+    "value": {
+      "depends": [
+        "1782c2f1-7e49-4371-bce4-9d40053b0451@6c48a"
+      ]
+    }
+  },
+  "0d7ff7c0-7f97-4118-ac71-1bdac4177352@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h2.png@f9941",
+    "value": {
+      "depends": [
+        "0d7ff7c0-7f97-4118-ac71-1bdac4177352@6c48a"
+      ]
+    }
+  },
+  "73b79340-2bd9-43ea-a785-e0d648f53fb4@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h3.png@f9941",
+    "value": {
+      "depends": [
+        "73b79340-2bd9-43ea-a785-e0d648f53fb4@6c48a"
+      ]
+    }
+  },
+  "e457f3e8-3184-4c75-976c-1c04de8a361f@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h1.png@f9941",
+    "value": {
+      "depends": [
+        "e457f3e8-3184-4c75-976c-1c04de8a361f@6c48a"
+      ]
+    }
+  },
+  "eaa65bd6-b71d-4313-960f-06a22f42c82b@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h4.png@f9941",
+    "value": {
+      "depends": [
+        "eaa65bd6-b71d-4313-960f-06a22f42c82b@6c48a"
+      ]
+    }
+  },
+  "13fc6426-de40-4c4f-9b1b-a90061c9b668@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h5.png@f9941",
+    "value": {
+      "depends": [
+        "13fc6426-de40-4c4f-9b1b-a90061c9b668@6c48a"
+      ]
+    }
+  },
+  "5f8d0ad9-f8fe-43c6-9b21-f09cdd2cd6d2@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h6.png@f9941",
+    "value": {
+      "depends": [
+        "5f8d0ad9-f8fe-43c6-9b21-f09cdd2cd6d2@6c48a"
+      ]
+    }
+  },
+  "fd0cc66b-94b7-4b6e-a4bf-6e6f7c6ce76f@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h7.png@f9941",
+    "value": {
+      "depends": [
+        "fd0cc66b-94b7-4b6e-a4bf-6e6f7c6ce76f@6c48a"
+      ]
+    }
+  },
+  "4199669d-3ee1-4314-8338-8c92823c11e0@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h8.png@f9941",
+    "value": {
+      "depends": [
+        "4199669d-3ee1-4314-8338-8c92823c11e0@6c48a"
+      ]
+    }
+  },
+  "6f012814-8e9a-42b6-a531-3b0a3f53b7d3@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h9.png@f9941",
+    "value": {
+      "depends": [
+        "6f012814-8e9a-42b6-a531-3b0a3f53b7d3@6c48a"
+      ]
+    }
+  },
+  "47e85611-14c9-41d8-9a45-7f16da14b13e@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h10.png@f9941",
+    "value": {
+      "depends": [
+        "47e85611-14c9-41d8-9a45-7f16da14b13e@6c48a"
+      ]
+    }
+  },
+  "0f01597d-a8dd-49dc-815a-552c11b7687c@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h12.png@f9941",
+    "value": {
+      "depends": [
+        "0f01597d-a8dd-49dc-815a-552c11b7687c@6c48a"
+      ]
+    }
+  },
+  "c04d749b-da25-4d8b-acaa-6b25b233bf1d@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h11.png@f9941",
+    "value": {
+      "depends": [
+        "c04d749b-da25-4d8b-acaa-6b25b233bf1d@6c48a"
+      ]
+    }
+  },
+  "bc51890b-9dbf-4cea-9ede-4ea0eebe3b81@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HeiTao/h13.png@f9941",
+    "value": {
+      "depends": [
+        "bc51890b-9dbf-4cea-9ede-4ea0eebe3b81@6c48a"
+      ]
+    }
+  },
+  "cd17e68c-d678-41c0-83d9-95f6dbdead81@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d3.png@f9941",
+    "value": {
+      "depends": [
+        "cd17e68c-d678-41c0-83d9-95f6dbdead81@6c48a"
+      ]
+    }
+  },
+  "14b7d583-4181-4742-a2a9-b80a47c6f217@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d5.png@f9941",
+    "value": {
+      "depends": [
+        "14b7d583-4181-4742-a2a9-b80a47c6f217@6c48a"
+      ]
+    }
+  },
+  "4cc293f9-d4ad-4fe9-8ab0-17418a896ae7@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d2.png@f9941",
+    "value": {
+      "depends": [
+        "4cc293f9-d4ad-4fe9-8ab0-17418a896ae7@6c48a"
+      ]
+    }
+  },
+  "26574635-c06f-4509-b579-174cd0b209e3@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d1.png@f9941",
+    "value": {
+      "depends": [
+        "26574635-c06f-4509-b579-174cd0b209e3@6c48a"
+      ]
+    }
+  },
+  "c972d39b-bb78-4195-bdb3-4698d0d7c0c9@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d4.png@f9941",
+    "value": {
+      "depends": [
+        "c972d39b-bb78-4195-bdb3-4698d0d7c0c9@6c48a"
+      ]
+    }
+  },
+  "1f5f082d-aebe-445c-accf-b6c4e8d4db56@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d6.png@f9941",
+    "value": {
+      "depends": [
+        "1f5f082d-aebe-445c-accf-b6c4e8d4db56@6c48a"
+      ]
+    }
+  },
+  "233a72f0-4bed-467e-bf66-026c4e49612a@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d8.png@f9941",
+    "value": {
+      "depends": [
+        "233a72f0-4bed-467e-bf66-026c4e49612a@6c48a"
+      ]
+    }
+  },
+  "1ee54915-1fae-4a93-a38e-b47c654e820a@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d7.png@f9941",
+    "value": {
+      "depends": [
+        "1ee54915-1fae-4a93-a38e-b47c654e820a@6c48a"
+      ]
+    }
+  },
+  "84100815-926e-40f0-9939-e6cf42a753ca@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d9.png@f9941",
+    "value": {
+      "depends": [
+        "84100815-926e-40f0-9939-e6cf42a753ca@6c48a"
+      ]
+    }
+  },
+  "925277dc-4e49-44f4-89f3-b5d1c5f1b4ff@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d10.png@f9941",
+    "value": {
+      "depends": [
+        "925277dc-4e49-44f4-89f3-b5d1c5f1b4ff@6c48a"
+      ]
+    }
+  },
+  "63813ab8-034d-48d3-b8b2-d03888aed0ec@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d11.png@f9941",
+    "value": {
+      "depends": [
+        "63813ab8-034d-48d3-b8b2-d03888aed0ec@6c48a"
+      ]
+    }
+  },
+  "9773260e-210d-4780-b3a0-206835f51bc4@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d13.png@f9941",
+    "value": {
+      "depends": [
+        "9773260e-210d-4780-b3a0-206835f51bc4@6c48a"
+      ]
+    }
+  },
+  "cbbb88bf-bc99-42e7-87b5-52979e1efa7b@f9941": {
+    "url": "db://assets/resources/Texture/Cards/HongTao/d12.png@f9941",
+    "value": {
+      "depends": [
+        "cbbb88bf-bc99-42e7-87b5-52979e1efa7b@6c48a"
+      ]
+    }
+  },
+  "21a0007d-1e0e-4631-bb82-d34aa3e5f33e@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b3.png@f9941",
+    "value": {
+      "depends": [
+        "21a0007d-1e0e-4631-bb82-d34aa3e5f33e@6c48a"
+      ]
+    }
+  },
+  "e2e3f3eb-bf51-4fb5-b69f-e1594d3740fa@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b4.png@f9941",
+    "value": {
+      "depends": [
+        "e2e3f3eb-bf51-4fb5-b69f-e1594d3740fa@6c48a"
+      ]
+    }
+  },
+  "8915cd15-b20e-44ee-9da2-e3700ba038a0@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b5.png@f9941",
+    "value": {
+      "depends": [
+        "8915cd15-b20e-44ee-9da2-e3700ba038a0@6c48a"
+      ]
+    }
+  },
+  "b8694ae4-5d1b-4b2d-9dca-6fec4f03f627@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b2.png@f9941",
+    "value": {
+      "depends": [
+        "b8694ae4-5d1b-4b2d-9dca-6fec4f03f627@6c48a"
+      ]
+    }
+  },
+  "effccafa-b42e-4121-8868-711e07b1a45e@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b1.png@f9941",
+    "value": {
+      "depends": [
+        "effccafa-b42e-4121-8868-711e07b1a45e@6c48a"
+      ]
+    }
+  },
+  "d4c9388c-7452-4191-b04b-3be44d96c598@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b7.png@f9941",
+    "value": {
+      "depends": [
+        "d4c9388c-7452-4191-b04b-3be44d96c598@6c48a"
+      ]
+    }
+  },
+  "4763653d-929e-4aae-aa5d-cc073b5b9550@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b8.png@f9941",
+    "value": {
+      "depends": [
+        "4763653d-929e-4aae-aa5d-cc073b5b9550@6c48a"
+      ]
+    }
+  },
+  "c419dc63-9149-4a19-af7d-25cb4cadf421@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b6.png@f9941",
+    "value": {
+      "depends": [
+        "c419dc63-9149-4a19-af7d-25cb4cadf421@6c48a"
+      ]
+    }
+  },
+  "d903db54-4c2f-4f10-8539-46d4f7737e4f@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b9.png@f9941",
+    "value": {
+      "depends": [
+        "d903db54-4c2f-4f10-8539-46d4f7737e4f@6c48a"
+      ]
+    }
+  },
+  "6fd8a69e-5d61-4278-9937-b4662a21fbb4@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b10.png@f9941",
+    "value": {
+      "depends": [
+        "6fd8a69e-5d61-4278-9937-b4662a21fbb4@6c48a"
+      ]
+    }
+  },
+  "dc14289b-4312-4a92-8155-4ace5b9dd6c9@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b11.png@f9941",
+    "value": {
+      "depends": [
+        "dc14289b-4312-4a92-8155-4ace5b9dd6c9@6c48a"
+      ]
+    }
+  },
+  "b6f54cc9-d11e-4d0e-aebd-19a6e64308b6@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b13.png@f9941",
+    "value": {
+      "depends": [
+        "b6f54cc9-d11e-4d0e-aebd-19a6e64308b6@6c48a"
+      ]
+    }
+  },
+  "257d45ea-ae60-4184-b07d-16bd97ecbe86@f9941": {
+    "url": "db://assets/resources/Texture/Cards/MeiHua/b12.png@f9941",
+    "value": {
+      "depends": [
+        "257d45ea-ae60-4184-b07d-16bd97ecbe86@6c48a"
       ]
     }
   }

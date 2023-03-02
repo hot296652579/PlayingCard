@@ -93,12 +93,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script": {
-    "time": 1677685284695.7725,
+    "time": 1677729779902.6138,
     "uuid": "e6b88ca3-21e6-4927-b649-623fa6c67761",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/resources": {
-    "time": 1677681441213.9949,
+    "time": 1677722459576.3835,
     "uuid": "f769f42f-a3dc-4752-b19a-fd296bb6a5b5",
     "missing": false
   },
@@ -108,12 +108,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts": {
-    "time": 1677686280260.5728,
+    "time": 1677740257556.946,
     "uuid": "5eb4d445-c452-4c66-96fb-beaa47a2f81d",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Poker.ts": {
-    "time": 1677682071378.9417,
+    "time": 1677730362587.773,
     "uuid": "546b2197-1f8f-4ade-9314-92008457aed1",
     "missing": false
   },
@@ -123,12 +123,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UIPoker.ts": {
-    "time": 1677686297546.6836,
+    "time": 1677730666996.9084,
     "uuid": "27885772-8fa9-49e1-aba8-96e9ae5e1565",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts": {
-    "time": 1677681962752.9246,
+    "time": 1677728972149.5327,
     "uuid": "54f6a9b1-5b6f-40bf-ac51-ca5217b1c286",
     "missing": false
   },
@@ -160,12 +160,12 @@
     "time": 1677681512618.863
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Game.scene": {
-    "time": 1677686088887.0037,
+    "time": 1677740115767.7173,
     "uuid": "e224a049-b1c4-4726-a1f4-f65599f55eaf",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Prefabs/UIPoker.prefab": {
-    "time": 1677686068072.3813,
+    "time": 1677730575819.7893,
     "uuid": "060c875e-2769-4766-a981-aa63efa6957f",
     "missing": false
   },
@@ -174,5 +174,565 @@
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Prefabs/UIPoker.prefab.meta": {
     "time": 1677685371515.56
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture.meta": {
+    "time": 1677722435178.408
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture": {
+    "time": 1677737242607.8271,
+    "uuid": "26ee1692-a29f-42c0-9fd9-8644703357f5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards.meta": {
+    "time": 1677726317795.5857
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards": {
+    "time": 1677739730927.1038,
+    "uuid": "c1a701bf-9d11-4160-b6ef-02eb5666cefb",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/backB.png.meta": {
+    "time": 1677739740066.3362
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/backR.png.meta": {
+    "time": 1677739740067.3645
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/backB.png": {
+    "time": 1677736082000,
+    "uuid": "fa4a207d-68e7-4c6c-9995-45d05196864a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/backR.png": {
+    "time": 1677736084000,
+    "uuid": "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai.meta": {
+    "time": 1677728094753.533
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao.meta": {
+    "time": 1677728094753.9697
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao.meta": {
+    "time": 1677728094754.3384
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua.meta": {
+    "time": 1677728094754.5337
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai": {
+    "time": 1677739730929.2424,
+    "uuid": "64fec359-0aa4-407e-9cad-ecba254521fc",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao": {
+    "time": 1677739730931.453,
+    "uuid": "3302ec01-289d-47c2-b1ee-efcef7e1fe06",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao": {
+    "time": 1677739730933.6008,
+    "uuid": "484b7558-7312-401a-8a53-48aaa89c7bff",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua": {
+    "time": 1677739730936.2776,
+    "uuid": "448e3694-e97a-49dd-896d-d9cfeb87b3d0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils.meta": {
+    "time": 1677729124568.5784
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.meta": {
+    "time": 1677729124569.2646
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils": {
+    "time": 1677729124567.7456,
+    "uuid": "4023656e-fcd0-4b73-9577-d79e0912517a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts": {
+    "time": 1677740226183.11,
+    "uuid": "8263d902-73f9-4545-a091-2f2b10b89b37",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.meta": {
+    "time": 1677729779903.7185
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts": {
+    "time": 1677730680584.262,
+    "uuid": "85fb1ceb-7282-4cdc-950b-6c5319df5d44",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/bg1.png.meta": {
+    "time": 1677737231435.259
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/bg1.png": {
+    "time": 1677737227971.1233,
+    "uuid": "39fc10bb-d162-437e-9364-526275d9e6ac",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/bx.png.meta": {
+    "time": 1677739740098.5251
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/dw.png.meta": {
+    "time": 1677739740097.319
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/h_.png.meta": {
+    "time": 1677739740096.618
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/hb.png.meta": {
+    "time": 1677739740114.3665
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/r_.png.meta": {
+    "time": 1677739740116.2258
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/r_b.png.meta": {
+    "time": 1677739740117.639
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r1.png.meta": {
+    "time": 1677739752489.193
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r10.png.meta": {
+    "time": 1677739752519.3494
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r11.png.meta": {
+    "time": 1677739752546.547
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r12.png.meta": {
+    "time": 1677739752549.0342
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r13.png.meta": {
+    "time": 1677739752548.071
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r2.png.meta": {
+    "time": 1677739752487.6335
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r3.png.meta": {
+    "time": 1677739752488.7876
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r4.png.meta": {
+    "time": 1677739752489.437
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r5.png.meta": {
+    "time": 1677739752490.9963
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r6.png.meta": {
+    "time": 1677739752508.1223
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r7.png.meta": {
+    "time": 1677739752506.2463
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r8.png.meta": {
+    "time": 1677739752509.108
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r9.png.meta": {
+    "time": 1677739752508.713
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h1.png.meta": {
+    "time": 1677739761632.1355
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h10.png.meta": {
+    "time": 1677739761652.5806
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h11.png.meta": {
+    "time": 1677739761664.0486
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h12.png.meta": {
+    "time": 1677739761663.8057
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h13.png.meta": {
+    "time": 1677739761664.41
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h2.png.meta": {
+    "time": 1677739761629.6865
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h3.png.meta": {
+    "time": 1677739761630.7786
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h4.png.meta": {
+    "time": 1677739761633.011
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h5.png.meta": {
+    "time": 1677739761633.313
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h6.png.meta": {
+    "time": 1677739761649.2188
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h7.png.meta": {
+    "time": 1677739761650.115
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h8.png.meta": {
+    "time": 1677739761650.941
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h9.png.meta": {
+    "time": 1677739761651.9536
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d1.png.meta": {
+    "time": 1677739768592.196
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d10.png.meta": {
+    "time": 1677739768614.0625
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d11.png.meta": {
+    "time": 1677739768624.7588
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d12.png.meta": {
+    "time": 1677739768625.8171
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d13.png.meta": {
+    "time": 1677739768625.1912
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d2.png.meta": {
+    "time": 1677739768590.99
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d3.png.meta": {
+    "time": 1677739768588.9365
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d4.png.meta": {
+    "time": 1677739768592.7417
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d5.png.meta": {
+    "time": 1677739768590.3164
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d6.png.meta": {
+    "time": 1677739768610.9937
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d7.png.meta": {
+    "time": 1677739768612.9666
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d8.png.meta": {
+    "time": 1677739768611.9707
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d9.png.meta": {
+    "time": 1677739768613.3857
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b1.png.meta": {
+    "time": 1677739776315.3918
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b10.png.meta": {
+    "time": 1677739776333.8916
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b11.png.meta": {
+    "time": 1677739776340.834
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b12.png.meta": {
+    "time": 1677739776342.558
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b13.png.meta": {
+    "time": 1677739776342.17
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b2.png.meta": {
+    "time": 1677739776313.9336
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b3.png.meta": {
+    "time": 1677739776312.5542
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b4.png.meta": {
+    "time": 1677739776312.7788
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b5.png.meta": {
+    "time": 1677739776313.4458
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b6.png.meta": {
+    "time": 1677739776331.6172
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b7.png.meta": {
+    "time": 1677739776330.089
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b8.png.meta": {
+    "time": 1677739776330.5737
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b9.png.meta": {
+    "time": 1677739776331.99
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/h_.png": {
+    "time": 1677736082000,
+    "uuid": "310ac28b-2f19-40f0-8c1f-eeb173043ee6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/bx.png": {
+    "time": 1677736082000,
+    "uuid": "f1d1c820-10e8-416c-9af6-a5b525793134",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/dw.png": {
+    "time": 1677736084000,
+    "uuid": "7d1596e4-79f8-4050-9b1a-7e618b708a01",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/hb.png": {
+    "time": 1677736082000,
+    "uuid": "9df68a86-7dc1-4731-b832-44455c9e1ed5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/r_.png": {
+    "time": 1677736082000,
+    "uuid": "d396924a-5f11-4ef5-8c97-249dc38abf35",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r11.png": {
+    "time": 1677736082000,
+    "uuid": "704dc0bc-4b0d-46fd-9480-9ac9833a62b0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r10.png": {
+    "time": 1677736082000,
+    "uuid": "9796e87d-6ef9-4678-acc7-51d6d450eb65",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r1.png": {
+    "time": 1677736082000,
+    "uuid": "f934cd53-ec19-4eb2-a235-829bd00690c0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/r_b.png": {
+    "time": 1677736082000,
+    "uuid": "60c599ca-9029-4b76-91a1-8e4212454496",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r12.png": {
+    "time": 1677736082000,
+    "uuid": "1782c2f1-7e49-4371-bce4-9d40053b0451",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r3.png": {
+    "time": 1677736082000,
+    "uuid": "7022ab84-365e-45a6-97e8-b9ffe4fc745a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r2.png": {
+    "time": 1677736082000,
+    "uuid": "781e4094-4e65-457a-a314-cf29f60d41ee",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r13.png": {
+    "time": 1677736082000,
+    "uuid": "a92638c9-723c-4a68-a639-f9adf1d410a5",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r4.png": {
+    "time": 1677736082000,
+    "uuid": "f2976963-58f3-41e9-92b4-3fe08f3f6e85",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r5.png": {
+    "time": 1677736082000,
+    "uuid": "479e9490-2ca2-4051-97d4-d34715075c8e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r7.png": {
+    "time": 1677736082000,
+    "uuid": "f5fd56dc-fd19-49fb-b1b8-220f790749da",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r6.png": {
+    "time": 1677736082000,
+    "uuid": "efee652b-e943-48f2-b20b-5880272908de",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r9.png": {
+    "time": 1677736082000,
+    "uuid": "cda314d2-d78d-4ca3-b831-7ede37892af1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/FangKuai/r8.png": {
+    "time": 1677736082000,
+    "uuid": "fbf2418c-d21c-4489-bded-6160d11355c0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h1.png": {
+    "time": 1677736082000,
+    "uuid": "e457f3e8-3184-4c75-976c-1c04de8a361f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h11.png": {
+    "time": 1677736082000,
+    "uuid": "c04d749b-da25-4d8b-acaa-6b25b233bf1d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h10.png": {
+    "time": 1677736082000,
+    "uuid": "47e85611-14c9-41d8-9a45-7f16da14b13e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h12.png": {
+    "time": 1677736082000,
+    "uuid": "0f01597d-a8dd-49dc-815a-552c11b7687c",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h13.png": {
+    "time": 1677736082000,
+    "uuid": "bc51890b-9dbf-4cea-9ede-4ea0eebe3b81",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h2.png": {
+    "time": 1677736082000,
+    "uuid": "0d7ff7c0-7f97-4118-ac71-1bdac4177352",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h3.png": {
+    "time": 1677736082000,
+    "uuid": "73b79340-2bd9-43ea-a785-e0d648f53fb4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h4.png": {
+    "time": 1677736082000,
+    "uuid": "eaa65bd6-b71d-4313-960f-06a22f42c82b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h5.png": {
+    "time": 1677736082000,
+    "uuid": "13fc6426-de40-4c4f-9b1b-a90061c9b668",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h6.png": {
+    "time": 1677736082000,
+    "uuid": "5f8d0ad9-f8fe-43c6-9b21-f09cdd2cd6d2",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h7.png": {
+    "time": 1677736082000,
+    "uuid": "fd0cc66b-94b7-4b6e-a4bf-6e6f7c6ce76f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d1.png": {
+    "time": 1677736082000,
+    "uuid": "26574635-c06f-4509-b579-174cd0b209e3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h9.png": {
+    "time": 1677736082000,
+    "uuid": "6f012814-8e9a-42b6-a531-3b0a3f53b7d3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HeiTao/h8.png": {
+    "time": 1677736082000,
+    "uuid": "4199669d-3ee1-4314-8338-8c92823c11e0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d10.png": {
+    "time": 1677736082000,
+    "uuid": "925277dc-4e49-44f4-89f3-b5d1c5f1b4ff",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d11.png": {
+    "time": 1677736082000,
+    "uuid": "63813ab8-034d-48d3-b8b2-d03888aed0ec",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d12.png": {
+    "time": 1677736082000,
+    "uuid": "cbbb88bf-bc99-42e7-87b5-52979e1efa7b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d13.png": {
+    "time": 1677736084000,
+    "uuid": "9773260e-210d-4780-b3a0-206835f51bc4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d3.png": {
+    "time": 1677736082000,
+    "uuid": "cd17e68c-d678-41c0-83d9-95f6dbdead81",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d2.png": {
+    "time": 1677736082000,
+    "uuid": "4cc293f9-d4ad-4fe9-8ab0-17418a896ae7",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d4.png": {
+    "time": 1677736082000,
+    "uuid": "c972d39b-bb78-4195-bdb3-4698d0d7c0c9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d6.png": {
+    "time": 1677736082000,
+    "uuid": "1f5f082d-aebe-445c-accf-b6c4e8d4db56",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d5.png": {
+    "time": 1677736082000,
+    "uuid": "14b7d583-4181-4742-a2a9-b80a47c6f217",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d8.png": {
+    "time": 1677736082000,
+    "uuid": "233a72f0-4bed-467e-bf66-026c4e49612a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d7.png": {
+    "time": 1677736082000,
+    "uuid": "1ee54915-1fae-4a93-a38e-b47c654e820a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/HongTao/d9.png": {
+    "time": 1677736082000,
+    "uuid": "84100815-926e-40f0-9939-e6cf42a753ca",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b1.png": {
+    "time": 1677736082000,
+    "uuid": "effccafa-b42e-4121-8868-711e07b1a45e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b10.png": {
+    "time": 1677736082000,
+    "uuid": "6fd8a69e-5d61-4278-9937-b4662a21fbb4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b11.png": {
+    "time": 1677736082000,
+    "uuid": "dc14289b-4312-4a92-8155-4ace5b9dd6c9",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b12.png": {
+    "time": 1677736082000,
+    "uuid": "257d45ea-ae60-4184-b07d-16bd97ecbe86",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b13.png": {
+    "time": 1677736082000,
+    "uuid": "b6f54cc9-d11e-4d0e-aebd-19a6e64308b6",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b2.png": {
+    "time": 1677736082000,
+    "uuid": "b8694ae4-5d1b-4b2d-9dca-6fec4f03f627",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b3.png": {
+    "time": 1677736082000,
+    "uuid": "21a0007d-1e0e-4631-bb82-d34aa3e5f33e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b5.png": {
+    "time": 1677736082000,
+    "uuid": "8915cd15-b20e-44ee-9da2-e3700ba038a0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b4.png": {
+    "time": 1677736082000,
+    "uuid": "e2e3f3eb-bf51-4fb5-b69f-e1594d3740fa",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b6.png": {
+    "time": 1677736082000,
+    "uuid": "c419dc63-9149-4a19-af7d-25cb4cadf421",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b8.png": {
+    "time": 1677736082000,
+    "uuid": "4763653d-929e-4aae-aa5d-cc073b5b9550",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b7.png": {
+    "time": 1677736082000,
+    "uuid": "d4c9388c-7452-4191-b04b-3be44d96c598",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/resources/Texture/Cards/MeiHua/b9.png": {
+    "time": 1677736082000,
+    "uuid": "d903db54-4c2f-4f10-8539-46d4f7737e4f",
+    "missing": false
   }
 }

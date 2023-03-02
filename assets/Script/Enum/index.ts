@@ -1,6 +1,6 @@
 export enum EnumSuit {
-    HeiTao = 0,
-    HongXin = 0,
-    MeiHua = 0,
-    FangKuai = 0,
+    HeiTao = 'HeiTao',
+    HongTao = 'HongTao',
+    MeiHua = 'MeiHua',
+    FangKuai = 'FangKuai',
 }

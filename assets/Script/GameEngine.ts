@@ -1,4 +1,5 @@
 import { instantiate, Prefab, Node } from "cc";
+import { EnumSuit } from "./Enum";
 import Poker from "./Poker";
 import { UIPoker } from "./UIPoker";
 
@@ -16,9 +17,26 @@ export default class GameEngine {
         this.cardPrefab = cardPrefab
     }
     gameStart() {
-        for (let i = 0; i < this.cardTotal; i++) {
+        for (let i = 1; i <= this.cardTotal; i++) {
             for (let j = 0; j < this.cardSuits; j++) {
-                let poker = new Poker(i, j)
+                let suit: EnumSuit = EnumSuit.HeiTao
+                switch (j) {
+                    case 1:
+                        suit = EnumSuit.HongTao
+                        break;
+                    case 2:
+                        suit = EnumSuit.MeiHua
+                        break;
+                    case 3:
+                        suit = EnumSuit.FangKuai
+                        break;
+
+                    default:
+                        suit = EnumSuit.HeiTao
+                        break;
+                }
+
+                let poker = new Poker(i, suit)
                 this.pokers.push(poker)
             }
         }
@@ -31,7 +49,7 @@ export default class GameEngine {
             let uiPoker = this.createUIPoker(poker)
             this.cardContainer.addChild(uiPoker.node)
 
-            uiPoker.node.setPosition(Math.random() * 400, Math.random() * 400)
+            uiPoker.node.setPosition(Math.random() * 400 - 200, Math.random() * 400 - 200)
         }
     }
 
