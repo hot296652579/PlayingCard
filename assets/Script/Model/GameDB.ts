@@ -1,5 +1,5 @@
 import { EnumSuit } from "../Enum"
-import Poker from "../Poker"
+import Poker from "./Poker"
 
 export class PokerGrop {
     private _pokers: Poker[] = []

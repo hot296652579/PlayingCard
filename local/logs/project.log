@@ -5563,3 +5563,1044 @@ Class ID: "6fe3eNlMXZA8JaWyEipZd3q"
     at NodeManager.emit (events.js:315:20)
     at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
     at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.485Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.486Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.487Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.487Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.487Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.488Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.488Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.488Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.488Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.488Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.489Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.489Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.489Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:42:15.489Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.715Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 在加载模块文件 /Users/super_javan/cocoscreator/PlayCard/assets/Script/Poker.ts 时发生错误：Error: ENOENT: no such file or directory, open '/Users/super_javan/cocoscreator/PlayCard/assets/Script/Poker.ts'
+    at Object.execute (file:///Users/super_javan/cocoscreator/PlayCard/temp/programming/packer-driver/targets/editor/chunks/35/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fsuper_javan%2Fcocoscreator%2FPlayCard%2Fassets%2FScript%2FPoker.ts%20at%20runtime.%0Athrow%20new%20Error(%60Error%3A%20%E5%9C%A8%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9D%97%E6%96%87%E4%BB%B6%20%2FUsers%2Fsuper_javan%2Fcocoscreator%2FPlayCard%2Fassets%2FScript%2FPoker.ts%20%E6%97%B6%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%EF%BC%9AError%3A%20ENOENT%3A%20no%20such%20file%20or%20directory%2C%20open%20'%2FUsers%2Fsuper_javan%2Fcocoscreator%2FPlayCard%2Fassets%2FScript%2FPoker.ts'%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 在加载模块文件 /Users/super_javan/cocoscreator/PlayCard/assets/Script/Poker.ts 时发生错误：Error: ENOENT: no such file or directory, open '/Users/super_javan/cocoscreator/PlayCard/assets/Script/Poker.ts'
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+2023-03-02T10:43:07.717Z - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at logger (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+2023-03-02T10:43:07.722Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts 为起点找不到模块 "./Enum"
+    at rejector (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/PlayCard/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/PlayCard/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts 为起点找不到模块 "./Enum"
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/PlayCard/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/PlayCard/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at file:///Users/super_javan/cocoscreator/PlayCard/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
+2023-03-02T10:43:07.733Z - warn: [Scene] Missing class: 6fe3eNlMXZA8JaWyEipZd3qError: [Scene] Missing class: 6fe3eNlMXZA8JaWyEipZd3q
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:95421:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110765:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110706:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110914:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110740:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110712:29)
+2023-03-02T10:43:07.736Z - error: [Scene] Script "6fe3eNlMXZA8JaWyEipZd3q" attached to "UIGameView" is missing or invalid. Detailed information:
+Node path: "should_hide_in_hierarchy/UIGameView"
+Script UUID: "6fe3e365-3176-40f0-9696-c848a965ddea"
+Class ID: "6fe3eNlMXZA8JaWyEipZd3q"
+Error: [Scene] Script "6fe3eNlMXZA8JaWyEipZd3q" attached to "UIGameView" is missing or invalid. Detailed information:
+Node path: "should_hide_in_hierarchy/UIGameView"
+Script UUID: "6fe3e365-3176-40f0-9696-c848a965ddea"
+Class ID: "6fe3eNlMXZA8JaWyEipZd3q"
+
+    at report (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2158)
+2023-03-02T10:43:07.741Z - warn: [Scene] Missing class: 6fe3eNlMXZA8JaWyEipZd3qError: [Scene] Missing class: 6fe3eNlMXZA8JaWyEipZd3q
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:95421:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110765:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110706:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110914:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110740:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110712:29)
+2023-03-02T10:43:07.742Z - error: [Scene] Script "6fe3eNlMXZA8JaWyEipZd3q" attached to "UIGameView" is missing or invalid. Detailed information:
+Node path: "UIGameView"
+Script UUID: "6fe3e365-3176-40f0-9696-c848a965ddea"
+Class ID: "6fe3eNlMXZA8JaWyEipZd3q"
+Error: [Scene] Script "6fe3eNlMXZA8JaWyEipZd3q" attached to "UIGameView" is missing or invalid. Detailed information:
+Node path: "UIGameView"
+Script UUID: "6fe3e365-3176-40f0-9696-c848a965ddea"
+Class ID: "6fe3eNlMXZA8JaWyEipZd3q"
+
+    at report (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2158)
+2023-03-02T10:43:07.746Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.746Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.747Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.747Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.748Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.748Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.748Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.749Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.749Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.749Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.749Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.749Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.749Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.750Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:07.796Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2023-03-02T10:43:07.796Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+2023-03-02T10:43:50.026Z - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at logger (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+2023-03-02T10:43:50.027Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts 为起点找不到模块 "./Enum"
+    at rejector (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts 为起点找不到模块 "./Enum"
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at async Promise.all (index 3)
+2023-03-02T10:43:50.042Z - warn: [Scene] Missing class: 6fe3eNlMXZA8JaWyEipZd3qError: [Scene] Missing class: 6fe3eNlMXZA8JaWyEipZd3q
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:95421:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110765:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110706:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110914:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110740:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110712:29)
+2023-03-02T10:43:50.043Z - error: [Scene] Script "6fe3eNlMXZA8JaWyEipZd3q" attached to "UIGameView" is missing or invalid. Detailed information:
+Node path: "should_hide_in_hierarchy/UIGameView"
+Script UUID: "6fe3e365-3176-40f0-9696-c848a965ddea"
+Class ID: "6fe3eNlMXZA8JaWyEipZd3q"
+Error: [Scene] Script "6fe3eNlMXZA8JaWyEipZd3q" attached to "UIGameView" is missing or invalid. Detailed information:
+Node path: "should_hide_in_hierarchy/UIGameView"
+Script UUID: "6fe3e365-3176-40f0-9696-c848a965ddea"
+Class ID: "6fe3eNlMXZA8JaWyEipZd3q"
+
+    at report (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2158)
+2023-03-02T10:43:50.053Z - warn: [Scene] Missing class: 6fe3eNlMXZA8JaWyEipZd3qError: [Scene] Missing class: 6fe3eNlMXZA8JaWyEipZd3q
+    at Object.classFinder (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:95421:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110765:30)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110706:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110914:38)
+    at _Deserializer._deserializeArray (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110740:40)
+    at _Deserializer._deserializeObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:110712:29)
+2023-03-02T10:43:50.055Z - error: [Scene] Script "6fe3eNlMXZA8JaWyEipZd3q" attached to "UIGameView" is missing or invalid. Detailed information:
+Node path: "UIGameView"
+Script UUID: "6fe3e365-3176-40f0-9696-c848a965ddea"
+Class ID: "6fe3eNlMXZA8JaWyEipZd3q"
+Error: [Scene] Script "6fe3eNlMXZA8JaWyEipZd3q" attached to "UIGameView" is missing or invalid. Detailed information:
+Node path: "UIGameView"
+Script UUID: "6fe3e365-3176-40f0-9696-c848a965ddea"
+Class ID: "6fe3eNlMXZA8JaWyEipZd3q"
+
+    at report (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1156)
+    at reportByWalker (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1252)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2365)
+    at ObjectWalkerBehavior.forEach (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:306)
+    at doWalkProperties (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/object-walker.ccc:1:2158)
+2023-03-02T10:43:50.059Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.059Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.059Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.060Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.061Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.062Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.063Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.063Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.063Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.064Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.067Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.067Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.067Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:50.068Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:43:54.304Z - error: [Preview]Error: Error: 以 file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts 为起点找不到模块 "./Enum"errorInfo.stack ? '/n ' : ''
+2023-03-02T10:44:19.804Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.804Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.804Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.804Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.805Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.805Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.805Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.805Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.805Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.805Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.805Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.806Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.806Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:19.806Z - error: [Scene] Cannot read property '_prefab' of nullTypeError: Cannot read property '_prefab' of null
+    at NodeOperation.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/node.ccc:1:4379)
+    at PrefabManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/index.ccc:1:739)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6642
+    at Array.forEach (<anonymous>)
+    at PrefabSceneFacade.dispatchEvents (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:6616)
+    at PrefabSceneFacade.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/general-scene-facade.ccc:1:9482)
+    at SceneFacadeManager.onNodeAdded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/facade/scene-facade-manager.ccc:1:12955)
+    at NodeManager.emit (events.js:315:20)
+    at NodeManager.emit (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/public/EventEmitter.ccc:1:183)
+    at NodeManager.add (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/node/index.ccc:1:4886)
+2023-03-02T10:44:23.806Z - warn: 
+2023-03-02T10:44:25.399Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.416Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.416Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.416Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.418Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-03-02T10:44:25.418Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-03-02T10:44:25.426Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.426Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.426Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.427Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.427Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.427Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.427Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.427Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.427Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.427Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.427Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.428Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.428Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.428Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.428Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.428Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.428Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.428Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.428Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.428Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-02T10:44:25.449Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-03-02T10:44:25.480Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-03-02T10:44:25.480Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-03-02T10:44:25.480Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-03-02T10:44:25.481Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-03-02T10:44:25.577Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-03-02T10:44:25.584Z - info: [Scene] [PHYSICS]: using builtin.
+2023-03-02T10:44:25.675Z - log: [Scene] Cocos Creator v3.6.0
+2023-03-02T10:44:25.675Z - info: [Scene] Forward render pipeline initialized.
+2023-03-02T10:44:27.056Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2023-03-02T10:44:27.057Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277

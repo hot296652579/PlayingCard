@@ -1,7 +1,6 @@
 import { instantiate, Prefab, Node, Game } from "cc";
 import { EnumSuit } from "./Enum";
 import GameDB from "./Model/GameDB";
-import Poker from "./Poker";
 import { UIPoker } from "./UI/UIPoker";
 import { UIGameView } from "./View/UIGameView";
 
@@ -16,7 +15,6 @@ export default class GameEngine {
     }
 
     gameStart() {
-        let pokers = GameDB.getInstance().pokers
-        this.gameView.createAllCard(pokers)
+        this.gameView.createAllCardByDB()
     }
 }

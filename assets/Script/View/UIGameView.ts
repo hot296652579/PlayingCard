@@ -1,6 +1,7 @@
 import { _decorator, Component, Node, Prefab, Game, instantiate } from 'cc';
 import GameEngine from '../GameEngine';
-import Poker from '../Poker';
+import GameDB from '../Model/GameDB';
+import Poker from '../Model/Poker';
 import { UIPoker } from '../UI/UIPoker';
 const { ccclass, property } = _decorator;
 
@@ -18,7 +19,8 @@ export class UIGameView extends Component {
     @property(Node)
     playGruopAnchor: Node = null
 
-    createAllCard(pokers: Poker[]) {
+    createAllCardByDB() {
+        let pokers = GameDB.getInstance().closePokers
         let index = 0
         for (const poker of pokers) {
             let uiPoker = this.createUIPoker(poker)

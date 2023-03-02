@@ -1,4 +1,4 @@
-import { EnumSuit } from "./Enum"
+import { EnumSuit } from "../Enum"
 
 export default class Poker {
     public count: number = -1

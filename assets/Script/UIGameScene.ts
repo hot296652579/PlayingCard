@@ -1,6 +1,5 @@
 import { _decorator, Component, Node, Prefab, Game, instantiate } from 'cc';
 import GameEngine from './GameEngine';
-import Poker from './Poker';
 import { UIGameView } from './View/UIGameView';
 const { ccclass, property } = _decorator;
 
