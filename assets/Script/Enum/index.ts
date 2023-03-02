@@ -1,3 +1,4 @@
+/**类型枚举 */
 export enum EnumSuit {
     HeiTao = 'HeiTao',
     HongTao = 'HongTao',
