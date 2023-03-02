@@ -1,0 +1,55 @@
+{
+  "e224a049-b1c4-4726-a1f4-f65599f55eaf": {
+    "url": "db://assets/Game.scene",
+    "value": {
+      "depends": [
+        "e224a049-b1c4-4726-a1f4-f65599f55eaf",
+        "060c875e-2769-4766-a981-aa63efa6957f"
+      ]
+    }
+  },
+  "f769f42f-a3dc-4752-b19a-fd296bb6a5b5": {
+    "url": "db://assets/resources",
+    "value": {}
+  },
+  "e6b88ca3-21e6-4927-b649-623fa6c67761": {
+    "url": "db://assets/Script",
+    "value": {}
+  },
+  "cc9996a3-314f-45d6-bf2b-e9f2a1cd2879": {
+    "url": "db://assets/Script/Enum",
+    "value": {}
+  },
+  "04c91d4c-40fd-4b06-aa98-d65854933cc7": {
+    "url": "db://assets/Script/UIGame.ts",
+    "value": {}
+  },
+  "54f6a9b1-5b6f-40bf-ac51-ca5217b1c286": {
+    "url": "db://assets/Script/Enum/index.ts",
+    "value": {}
+  },
+  "5eb4d445-c452-4c66-96fb-beaa47a2f81d": {
+    "url": "db://assets/Script/GameEngine.ts",
+    "value": {}
+  },
+  "546b2197-1f8f-4ade-9314-92008457aed1": {
+    "url": "db://assets/Script/Poker.ts",
+    "value": {}
+  },
+  "27885772-8fa9-49e1-aba8-96e9ae5e1565": {
+    "url": "db://assets/Script/UIPoker.ts",
+    "value": {}
+  },
+  "51f8d230-0c62-41ac-b89b-443488b7ebcb": {
+    "url": "db://assets/Prefabs",
+    "value": {}
+  },
+  "060c875e-2769-4766-a981-aa63efa6957f": {
+    "url": "db://assets/Prefabs/UIPoker.prefab",
+    "value": {
+      "depends": [
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941"
+      ]
+    }
+  }
+}
