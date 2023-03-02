@@ -3606,5 +3606,13 @@
         "060c875e-2769-4766-a981-aa63efa6957f"
       ]
     }
+  },
+  "0b6e9099-aec4-48e8-ad55-37e12a4d2b64": {
+    "url": "db://assets/Script/Model",
+    "value": {}
+  },
+  "e7c8c929-dc8f-4432-af13-2be38b869d24": {
+    "url": "db://assets/Script/Model/GameDB.ts",
+    "value": {}
   }
 }
