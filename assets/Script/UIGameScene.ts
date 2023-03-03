@@ -2,6 +2,7 @@ import { _decorator, Component, Node, Prefab, Game, instantiate } from 'cc';
 import EventMgr from './Base/Event/EventMgr';
 import { EventGame_Enum } from './Enum';
 import GameEngine from './GameEngine';
+import GameDB from './Model/GameDB';
 import { UIGameView } from './View/UIGameView';
 const { ccclass, property } = _decorator;
 
@@ -21,7 +22,7 @@ export class UIGameScene extends Component {
     }
 
     onDestroy() {
-
+        this.gameEngine.exitHandler()
     }
 
 }

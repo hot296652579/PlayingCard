@@ -17,6 +17,7 @@ export class UIPoker extends Component {
     }
     async init(poker: Poker) {
         if (!poker) return
+        poker.bindView(this)
         const spPath = getSpPath(poker.suit, poker.count)
         const cardSpriteFrame = await ResMgr.getInstance().loadResSpriteFrame(spPath)
         this.cardSpFrame.spriteFrame = cardSpriteFrame

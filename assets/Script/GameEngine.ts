@@ -19,6 +19,7 @@ export default class GameEngine {
     initEvent() {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_GAME_INIT, this.gameView.createAllCardByDB, this.gameView)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_GAME_START, this.gameView.gamePlay, this.gameView)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_GAME_INIT_GROUP, this.gameView.initPlayGroup, this.gameView)
     }
 
     gamePlay() {
@@ -28,5 +29,6 @@ export default class GameEngine {
     exitHandler() {
         EventMgr.getInstance().off(EventGame_Enum.EVENT_GAME_INIT, this.gameView.createAllCardByDB)
         EventMgr.getInstance().off(EventGame_Enum.EVENT_GAME_START, this.gameView.gamePlay)
+        EventMgr.getInstance().off(EventGame_Enum.EVENT_GAME_INIT_GROUP, this.gameView.initPlayGroup)
     }
 }

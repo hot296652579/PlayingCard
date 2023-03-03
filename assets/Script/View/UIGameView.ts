@@ -1,6 +1,7 @@
-import { _decorator, Component, Node, Prefab, Game, instantiate } from 'cc';
+import { _decorator, Component, Node, Prefab, Game, instantiate, Vec3, UITransform, Tween, tween } from 'cc';
+import { ECardDir } from '../Enum';
 import GameEngine from '../GameEngine';
-import GameDB from '../Model/GameDB';
+import GameDB, { PLAY_AREA_COUNT } from '../Model/GameDB';
 import Poker from '../Model/Poker';
 import { UIPoker } from '../UI/UIPoker';
 const { ccclass, property } = _decorator;
@@ -20,6 +21,18 @@ export class UIGameView extends Component {
     playGruopAnchor: Node = null
     @property(Node)
     initArea: Node = null
+
+    playGroupList: Node[] = []
+
+    onLoad() {
+        for (let index = 0; index < PLAY_AREA_COUNT; index++) {
+            let playGroup = new Node()
+            playGroup.addComponent(UITransform)
+            this.playGruopAnchor.addChild(playGroup)
+            playGroup.setPosition(new Vec3(index * 100, 0, 0))
+            this.playGroupList.push(playGroup)
+        }
+    }
 
     createAllCardByDB(pokers: Poker[]) {
         //先创建所有牌到init待发牌区
@@ -51,6 +64,33 @@ export class UIGameView extends Component {
         for (let index = stuck.length - 1; index >= 0; --index) {
             const card = stuck[index];
             this.closeSendArea.addChild(card)
+        }
+    }
+
+    initPlayGroup(groupIndex: number, cardIndex: number, poker: Poker) {
+        let node = poker.UIPoker.node
+        let group = this.playGroupList[groupIndex]
+        let wolrdPos = node.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0))
+        let nodePos = group.getComponent(UITransform).convertToNodeSpaceAR(wolrdPos)
+        node.removeFromParent()
+        node.position = nodePos
+        group.addChild(node)
+
+        if (poker.dir == ECardDir.OPEN) {
+            tween(node)
+                .delay(0.0)
+                .to(0.8, { position: new Vec3(0, cardIndex * -30, 0) })
+                .to(0.5, { scale: new Vec3(0, 0, 0) })
+                .call(() => {
+
+                })
+                .to(0.5, { scale: new Vec3(1, 0, 0) })
+                .start()
+        } else {
+            tween(node)
+                .delay(0.0)
+                .to(0.8, { position: new Vec3(0, cardIndex * -30, 0) })
+                .start()
         }
     }
 }

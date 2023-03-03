@@ -7,8 +7,14 @@ export class PokerGrop {
     public get pokers(): Poker[] {
         return this._pokers
     }
+
+    public addPoker(poker: Poker) {
+        this._pokers.push(poker)
+    }
 }
 
+export const RECEIVE_AREA_COUNT: number = 4
+export const PLAY_AREA_COUNT: number = 7
 export default class GameDB {
     private static instance: any = null
     static getInstance() {
@@ -21,8 +27,6 @@ export default class GameDB {
     private readonly cardTotal: number = 13
     private readonly cardSuits: number = 4
 
-    private readonly RECEIVE_AREA_COUNT: number = 4
-    private readonly PLAY_AREA_COUNT: number = 7
     private _pokers: Poker[] = []
 
     /** 发牌区数据*/
@@ -60,12 +64,12 @@ export default class GameDB {
             }
         }
 
-        for (let index = 0; index < this.RECEIVE_AREA_COUNT; index++) {
+        for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
             let receiveGroup = new PokerGrop()
             this._receiveArea.push(receiveGroup)
         }
 
-        for (let index = 0; index < this.PLAY_AREA_COUNT; index++) {
+        for (let index = 0; index < PLAY_AREA_COUNT; index++) {
             let receiveGroup = new PokerGrop()
             this._playArea.push(receiveGroup)
         }
@@ -79,6 +83,22 @@ export default class GameDB {
         this._pokers = temp
 
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_START)
+
+        this.createPlayInitDB()
+    }
+    createPlayInitDB() {
+        for (let count = PLAY_AREA_COUNT; count >= 1; count--) {
+            for (let index = 0; index < count; index++) {
+                let dis = PLAY_AREA_COUNT - count
+                let groupIndex = dis + index
+                let pokerGrop = this._playArea[groupIndex]
+                let poker = this._closePokers[this._closePokers.length - 1]
+                this._closePokers.length = this._closePokers.length - 1
+                poker.dir = index == 0 ? poker.dir = ECardDir.OPEN : poker.dir = ECardDir.CLOSE
+                pokerGrop.addPoker(poker)
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_INIT_GROUP, groupIndex, dis, poker)
+            }
+        }
     }
 
     public get pokers(): Poker[] { return this._pokers }
