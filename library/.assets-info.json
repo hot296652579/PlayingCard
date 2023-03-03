@@ -93,7 +93,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script": {
-    "time": 1677753787627.3884,
+    "time": 1677812914997.6035,
     "uuid": "e6b88ca3-21e6-4927-b649-623fa6c67761",
     "missing": false
   },
@@ -108,12 +108,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts": {
-    "time": 1677761848917.0813,
+    "time": 1677811528399.273,
     "uuid": "5eb4d445-c452-4c66-96fb-beaa47a2f81d",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts": {
-    "time": 1677761336825.8123,
+    "time": 1677812763580.2979,
     "uuid": "54f6a9b1-5b6f-40bf-ac51-ca5217b1c286",
     "missing": false
   },
@@ -235,7 +235,7 @@
     "time": 1677729779903.7185
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts": {
-    "time": 1677730680584.262,
+    "time": 1677812943849.66,
     "uuid": "85fb1ceb-7282-4cdc-950b-6c5319df5d44",
     "missing": false
   },
@@ -742,12 +742,12 @@
     "time": 1677743280275.9268
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts": {
-    "time": 1677753816419.5576,
+    "time": 1677813144987.4236,
     "uuid": "ebb456d4-8ecb-483a-ac08-5be5a255c728",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": {
-    "time": 1677762736271.5647,
+    "time": 1677811304559.8657,
     "uuid": "6fe3e365-3176-40f0-9696-c848a965ddea",
     "missing": false
   },
@@ -781,6 +781,30 @@
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts": {
     "time": 1677761402405.1768,
     "uuid": "546b2197-1f8f-4ade-9314-92008457aed1",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base.meta": {
+    "time": 1677812915002.9104
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event.meta": {
+    "time": 1677812915003.017
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.meta": {
+    "time": 1677812915007.934
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base": {
+    "time": 1677812914998.7976,
+    "uuid": "662aea82-0fbb-4438-9a7e-9608fef7b297",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event": {
+    "time": 1677812914999.1335,
+    "uuid": "da3e46ca-ce5e-4141-9b5a-3b1a7e166533",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts": {
+    "time": 1677813410395.4956,
+    "uuid": "27bfa3d6-32d4-419b-bfdb-b5abb8af837b",
     "missing": false
   }
 }

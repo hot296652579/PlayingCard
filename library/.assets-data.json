@@ -3615,5 +3615,17 @@
   "e7c8c929-dc8f-4432-af13-2be38b869d24": {
     "url": "db://assets/Script/Model/GameDB.ts",
     "value": {}
+  },
+  "662aea82-0fbb-4438-9a7e-9608fef7b297": {
+    "url": "db://assets/Script/Base",
+    "value": {}
+  },
+  "da3e46ca-ce5e-4141-9b5a-3b1a7e166533": {
+    "url": "db://assets/Script/Base/Event",
+    "value": {}
+  },
+  "27bfa3d6-32d4-419b-bfdb-b5abb8af837b": {
+    "url": "db://assets/Script/Base/Event/EventMgr.ts",
+    "value": {}
   }
 }

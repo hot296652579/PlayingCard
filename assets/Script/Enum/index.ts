@@ -10,3 +10,8 @@ export enum ECardDir {
     CLOSE = 0,
     OPEN = 1
 }
+
+/**游戏事件枚举*/
+export enum EventGame_Enum {
+    EVENT_GAME_INIT = 'EVENT_GAME_INIT'
+}

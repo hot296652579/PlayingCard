@@ -19,7 +19,6 @@ export default class GameEngine {
 
     gameStart() {
         GameDB.getInstance().startGame()
-
         this.gameView.startGame()
     }
 }

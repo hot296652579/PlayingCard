@@ -12,7 +12,7 @@ export default class ResMgr {
     async loadResSpriteFrame(path) {
         return new Promise((resolve, reject) => {
             let filPath = path + `/spriteFrame`
-            console.log('filPath:', filPath)
+            // console.log('filPath:', filPath)
             resources.load(filPath, (err, asset) => {
                 if (!err) {
                     resolve(asset)

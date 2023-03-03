@@ -22,6 +22,7 @@ export class UIGameView extends Component {
     initArea: Node = null
 
     createAllCardByDB(pokers: Poker[]) {
+        //先创建所有牌到init待发牌区
         let index = 0
         for (const poker of pokers) {
             let uiPoker = this.createUIPoker(poker)
