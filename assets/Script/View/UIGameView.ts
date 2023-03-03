@@ -39,7 +39,8 @@ export class UIGameView extends Component {
         return uiPoker
     }
 
-    startGame() {
+    //将牌移到close 收牌区
+    gamePlay() {
         let stuck = []
         for (let index = this.initArea.children.length - 1; index >= 0; --index) {
             let children = this.initArea.children[index]

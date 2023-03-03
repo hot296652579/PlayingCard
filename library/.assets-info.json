@@ -108,12 +108,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts": {
-    "time": 1677811528399.273,
+    "time": 1677830892441.8398,
     "uuid": "5eb4d445-c452-4c66-96fb-beaa47a2f81d",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts": {
-    "time": 1677812763580.2979,
+    "time": 1677830100213.6663,
     "uuid": "54f6a9b1-5b6f-40bf-ac51-ca5217b1c286",
     "missing": false
   },
@@ -141,7 +141,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Prefabs/UIPoker.prefab": {
-    "time": 1677762717184.7202,
+    "time": 1677830913885.3447,
     "uuid": "060c875e-2769-4766-a981-aa63efa6957f",
     "missing": false
   },
@@ -731,7 +731,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts": {
-    "time": 1677762631818.2126,
+    "time": 1677830927396.464,
     "uuid": "27885772-8fa9-49e1-aba8-96e9ae5e1565",
     "missing": false
   },
@@ -742,12 +742,12 @@
     "time": 1677743280275.9268
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts": {
-    "time": 1677813144987.4236,
+    "time": 1677830862202.5354,
     "uuid": "ebb456d4-8ecb-483a-ac08-5be5a255c728",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": {
-    "time": 1677811304559.8657,
+    "time": 1677830889139.5046,
     "uuid": "6fe3e365-3176-40f0-9696-c848a965ddea",
     "missing": false
   },
@@ -771,7 +771,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts": {
-    "time": 1677761835912.2183,
+    "time": 1677830882660.4048,
     "uuid": "e7c8c929-dc8f-4432-af13-2be38b869d24",
     "missing": false
   },
@@ -803,7 +803,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts": {
-    "time": 1677813410395.4956,
+    "time": 1677814654416.1094,
     "uuid": "27bfa3d6-32d4-419b-bfdb-b5abb8af837b",
     "missing": false
   }

@@ -25,7 +25,6 @@ export class UIPoker extends Component {
     }
 
     updateCardDir({ dir }) {
-        return
         if (dir == ECardDir.CLOSE) {
             this.cardBgNode.active = true
         } else {

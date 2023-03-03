@@ -17,19 +17,7 @@ export class UIGameScene extends Component {
 
         this.gameEngine = new GameEngine()
         this.gameEngine.init(m_UIGameView)
-        this.gameEngine.gameStart()
-
-
-        //test
-        EventMgr.getInstance().on(EventGame_Enum.EVENT_GAME_INIT, this.testHandler, this)
-
-        this.scheduleOnce(() => {
-            EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_INIT, '阿西吧')
-        }, 1)
-    }
-
-    testHandler(param) {
-        console.log('param', param)
+        this.gameEngine.gamePlay()
     }
 
 }

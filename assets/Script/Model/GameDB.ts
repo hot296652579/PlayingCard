@@ -1,4 +1,5 @@
-import { ECardDir, EnumSuit } from "../Enum"
+import EventMgr from "../Base/Event/EventMgr"
+import { ECardDir, EnumSuit, EventGame_Enum } from "../Enum"
 import Poker from "./Poker"
 
 export class PokerGrop {
@@ -33,6 +34,7 @@ export default class GameDB {
     /** 玩牌区数据*/
     private _playArea: PokerGrop[] = []
 
+    //创建初始数据
     createCardsDB() {
         for (let i = 1; i <= this.cardTotal; i++) {
             for (let j = 0; j < this.cardSuits; j++) {
@@ -67,12 +69,16 @@ export default class GameDB {
             let receiveGroup = new PokerGrop()
             this._playArea.push(receiveGroup)
         }
+
+        EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_INIT, this._pokers)
     }
 
-    startGame() {
+    gamePlay() {
         let temp = this._pokers
         this._closePokers = this.pokers
         this._pokers = temp
+
+        EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_START)
     }
 
     public get pokers(): Poker[] { return this._pokers }

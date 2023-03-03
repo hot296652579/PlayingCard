@@ -1,5 +1,6 @@
 import { instantiate, Prefab, Node, Game } from "cc";
-import { EnumSuit } from "./Enum";
+import EventMgr from "./Base/Event/EventMgr";
+import { EnumSuit, EventGame_Enum } from "./Enum";
 import GameDB from "./Model/GameDB";
 import { UIPoker } from "./UI/UIPoker";
 import { UIGameView } from "./View/UIGameView";
@@ -10,15 +11,17 @@ export default class GameEngine {
     constructor() { }
 
     init(m_GameView) {
-        GameDB.getInstance().createCardsDB()
         this.gameView = m_GameView
-
-        let pokers = GameDB.getInstance().pokers
-        this.gameView.createAllCardByDB(pokers)
+        this.initEvent()
+        GameDB.getInstance().createCardsDB()
     }
 
-    gameStart() {
-        GameDB.getInstance().startGame()
-        this.gameView.startGame()
+    initEvent() {
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_GAME_INIT, this.gameView.createAllCardByDB, this.gameView)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_GAME_START, this.gameView.gamePlay, this.gameView)
+    }
+
+    gamePlay() {
+        GameDB.getInstance().gamePlay()
     }
 }
