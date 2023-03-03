@@ -15,11 +15,15 @@ export default class EventMgr {
 
     private eventMap: Map<string, IItem> = new Map()
 
-    on(event, cb, ctx) {
+    on(event, cb, ctx?) {
         if (!this.eventMap.has(event)) {
             this.eventMap.set(event, {
                 event, cb, ctx
             })
+        }
+
+        return () => {
+
         }
     }
 
@@ -32,6 +36,15 @@ export default class EventMgr {
         }
     }
 
+    once(event, cb, ctx?) {
+        let unsub = undefined
+        unsub = this.on(event, (...param) => {
+            cb.apply(ctx, param)
+            unsub()
+        }, ctx)
+        return unsub
+    }
+
     emit(evt: string, ...param) {
         if (this.eventMap.has(evt)) {
             const item = this.eventMap.get(evt)
@@ -39,6 +52,8 @@ export default class EventMgr {
             if (evt && cb) {
                 cb.apply(ctx, param)
             }
+        } else {
+            console.error('没有注册该事件:', evt)
         }
     }
 
