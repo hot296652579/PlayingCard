@@ -20,5 +20,9 @@ export class UIGameScene extends Component {
         this.gameEngine.gamePlay()
     }
 
+    onDestroy() {
+
+    }
+
 }
 

@@ -27,7 +27,7 @@ export class UIGameView extends Component {
         for (const poker of pokers) {
             let uiPoker = this.createUIPoker(poker)
             this.initArea.addChild(uiPoker.node)
-            uiPoker.node.setPosition(0.5 * index, 0, 0)
+            uiPoker.node.setPosition(0.5 * index, 0.2 * index, 0)
             index++
         }
     }

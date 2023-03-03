@@ -24,4 +24,9 @@ export default class GameEngine {
     gamePlay() {
         GameDB.getInstance().gamePlay()
     }
+
+    exitHandler() {
+        EventMgr.getInstance().off(EventGame_Enum.EVENT_GAME_INIT, this.gameView.createAllCardByDB)
+        EventMgr.getInstance().off(EventGame_Enum.EVENT_GAME_START, this.gameView.gamePlay)
+    }
 }
