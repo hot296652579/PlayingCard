@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 6016.9992080926895,
+      "mTimestamp": 6057.505832999945,
       "chunkId": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 25369523.71195805,
+      "mTimestamp": 3406588.83,
       "chunkId": "46cdbec9636fb7ec603b8064da54c9454d637e58",
       "imports": [
         {
@@ -839,7 +839,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1677833946330,
+      "mTimestamp": 1678024959760,
       "chunkId": "3a1fd7b13056478820ebedd306d3446d1aa408cc",
       "imports": [],
       "type": "esm",
@@ -1286,17 +1286,47 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts": {
       "mTimestamp": {
-        "mtime": 1677740757210.8347,
+        "mtime": 1678026885765.8416,
         "uuid": "8263d902-73f9-4545-a091-2f2b10b89b37"
       },
-      "chunkId": "bc00557b5c66b9f50e47afb1df01e7416d3fda72",
+      "chunkId": "944b08890a1f2a5538739a8f61232a3a6693eaa8",
       "imports": [
         {
           "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 56
+            },
+            "end": {
+              "line": 1,
+              "column": 60
+            }
+          }
         }
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",
@@ -1360,10 +1390,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts": {
       "mTimestamp": {
-        "mtime": 1677856240458.3484,
+        "mtime": 1678027039654.6804,
         "uuid": "27885772-8fa9-49e1-aba8-96e9ae5e1565"
       },
-      "chunkId": "97d7261736f46c481efdf1c800407b97d7ac2727",
+      "chunkId": "7b5d1f08c202574ecbafd37922121b623f3c7ebe",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1591,10 +1621,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": {
       "mTimestamp": {
-        "mtime": 1677859314023.8435,
+        "mtime": 1678028362496.652,
         "uuid": "6fe3e365-3176-40f0-9696-c848a965ddea"
       },
-      "chunkId": "5e2c63db580367cee93dd63c353d46367231fa68",
+      "chunkId": "1ddf9d8f3da5b70cc74f07d2765d4f064f16fe50",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1660,6 +1690,20 @@
               "column": 39
             }
           }
+        },
+        {
+          "value": "../Utils/Utils",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 43
+            },
+            "end": {
+              "line": 7,
+              "column": 59
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1710,6 +1754,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts"
           },
           "messages": []
         }

@@ -4,6 +4,7 @@ import GameEngine from '../GameEngine';
 import GameDB, { PLAY_AREA_COUNT } from '../Model/GameDB';
 import Poker from '../Model/Poker';
 import { UIPoker } from '../UI/UIPoker';
+import TweenUtil, { moveWorld2Space } from '../Utils/Utils';
 const { ccclass, property } = _decorator;
 
 @ccclass('UIGameView')
@@ -18,20 +19,12 @@ export class UIGameView extends Component {
     @property([Node])
     receiveAreaList: Node[] = []
     @property(Node)
-    playGruopAnchor: Node = null
+    playGruopRoot: Node = null
     @property(Node)
     initArea: Node = null
 
-    playGroupList: Node[] = []
-
     onLoad() {
-        for (let index = 0; index < PLAY_AREA_COUNT; index++) {
-            let playGroup = new Node()
-            playGroup.addComponent(UITransform)
-            this.playGruopAnchor.addChild(playGroup)
-            playGroup.setPosition(new Vec3(index * 100, 0, 0))
-            this.playGroupList.push(playGroup)
-        }
+
     }
 
     createAllCardByDB(pokers: Poker[]) {
@@ -67,29 +60,29 @@ export class UIGameView extends Component {
         }
     }
 
-    initPlayGroup(groupIndex: number, cardIndex: number, poker: Poker) {
+    async initPlayGroup(groupIndex: number, cardIndex: number, poker: Poker) {
+        let index = PLAY_AREA_COUNT * cardIndex - cardIndex * (cardIndex - 1) / 2 - cardIndex + groupIndex
+        console.log('groupIndex:' + groupIndex + ',cardIndex:' + cardIndex + ',index:' + index)
         let node = poker.UIPoker.node
-        let group = this.playGroupList[groupIndex]
-        let wolrdPos = node.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0))
-        let nodePos = group.getComponent(UITransform).convertToNodeSpaceAR(wolrdPos)
-        node.removeFromParent()
-        node.position = nodePos
-        group.addChild(node)
+        moveWorld2Space(node, this.playGruopRoot)
+        node.setSiblingIndex(index)
 
+        let delay = index * 0.2
+        let nodeEndPos = groupIndex * 92
         if (poker.dir == ECardDir.OPEN) {
             tween(node)
-                .delay(0.0)
-                .to(0.8, { position: new Vec3(0, cardIndex * -30, 0) })
-                .to(0.5, { scale: new Vec3(0, 0, 0) })
+                .delay(delay)
+                .to(0.5, { position: new Vec3(nodeEndPos, cardIndex * -30, 0) })
+                .to(0.3, { scale: new Vec3(0, 0, 0) })
                 .call(() => {
-
+                    poker.UIPoker.refreshView()
                 })
-                .to(0.5, { scale: new Vec3(1, 0, 0) })
+                .to(0.3, { scale: new Vec3(1, 1, 1) })
                 .start()
         } else {
             tween(node)
-                .delay(0.0)
-                .to(0.8, { position: new Vec3(0, cardIndex * -30, 0) })
+                .delay(delay)
+                .to(0.5, { position: new Vec3(nodeEndPos, cardIndex * -30, 0) })
                 .start()
         }
     }

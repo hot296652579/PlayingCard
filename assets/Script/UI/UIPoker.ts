@@ -11,12 +11,14 @@ export class UIPoker extends Component {
     cardBgNode: Node = null
 
     cardSpFrame: Sprite = null
+    private _poker: Poker
 
     start() {
         this.cardSpFrame = this.node.getComponent(Sprite)
     }
     async init(poker: Poker) {
         if (!poker) return
+        this._poker = poker
         poker.bindView(this)
         const spPath = getSpPath(poker.suit, poker.count)
         const cardSpriteFrame = await ResMgr.getInstance().loadResSpriteFrame(spPath)
@@ -31,6 +33,10 @@ export class UIPoker extends Component {
         } else {
             this.cardBgNode.active = false
         }
+    }
+
+    refreshView() {
+        this.updateCardDir(this._poker)
     }
 }
 
