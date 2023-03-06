@@ -63,18 +63,18 @@ export class UIGameView extends Component {
 
     async initPlayGroup(groupIndex: number, cardIndex: number, poker: Poker, i: number) {
         let index = PLAY_AREA_COUNT * cardIndex - cardIndex * (cardIndex - 1) / 2 - cardIndex + groupIndex
-        console.log('groupIndex:' + groupIndex + ',cardIndex:' + cardIndex + ',index:' + index)
+        // console.log('groupIndex:' + groupIndex + ',cardIndex:' + cardIndex + ',index:' + index)
         let node = poker.UIPoker.node
         moveWorld2Space(node, this.playGruopRoot)
         node.setSiblingIndex(index)
 
-        let delay = index * 0.2
+        let delay = index * 0.1
         let nodeEndPos = groupIndex * 92
 
         if (i == 0) {
             tween(node)
                 .delay(delay)
-                .to(0.5, { position: new Vec3(nodeEndPos, cardIndex * -30, 0) })
+                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -30, 0) })
                 .to(0.3, { scale: new Vec3(0, 1, 0) })
                 .call(() => {
                     poker.dir = ECardDir.OPEN
@@ -85,7 +85,7 @@ export class UIGameView extends Component {
         } else {
             tween(node)
                 .delay(delay)
-                .to(0.5, { position: new Vec3(nodeEndPos, cardIndex * -30, 0) })
+                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -30, 0) })
                 .start()
         }
     }
@@ -93,8 +93,16 @@ export class UIGameView extends Component {
     clickCardHandler(poker: Poker) {
         //条件 1.在玩牌区 2.打开的 3.最上方的 4.点数是1
         let uiPoker = poker.UIPoker
-        if (uiPoker.isLocalPlayArea() && uiPoker.isOnTop() && uiPoker.isOpen() && uiPoker.countIsOne(1)) {
-            EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, uiPoker.poker)
+
+        if (GameDB.getInstance().onCheckInPlayArea(poker)) {
+            console.log('在玩牌区1111')
+            if (GameDB.getInstance().onCheckIndexTop(poker)) {
+                console.log('在最上方2222')
+                if (uiPoker.isOpen() && uiPoker.countIsOne()) {
+                    console.log('去改变数据层3333')
+                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, uiPoker.poker)
+                }
+            }
         }
     }
 }

@@ -64,20 +64,12 @@ export class UIPoker extends Component {
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this._poker)
     }
 
-    public isLocalPlayArea(): boolean {
-        return true
-    }
-
     public isOpen(): boolean {
-        return true
+        return this._poker.dir == ECardDir.OPEN
     }
 
-    public isOnTop(): boolean {
-        return true
-    }
-
-    public countIsOne(count: number): boolean {
-        return true
+    public countIsOne(): boolean {
+        return this._poker.count == 1
     }
 }
 

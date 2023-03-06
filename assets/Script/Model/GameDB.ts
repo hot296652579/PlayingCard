@@ -38,6 +38,10 @@ export default class GameDB {
     /** 玩牌区数据*/
     private _playArea: PokerGrop[] = []
 
+    constructor() {
+        this.initEvent()
+    }
+
     //绑定事件
     initEvent() {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, this.onPlayToReceive, this)
@@ -122,6 +126,25 @@ export default class GameDB {
 
     onPlayToReceive(poker: Poker) {
         console.log(' 更改 db数据层....', poker)
+    }
+
+    //检测这张牌是否在play area
+    onCheckInPlayArea(poker: Poker): boolean {
+        return this.playArea.filter(
+            pg => pg.pokers.filter(p => p.count == poker.count && p.suit == poker.suit).length > 0
+        ).length > 0
+    }
+
+    //检测是否在顶部
+    onCheckIndexTop(poker: Poker) {
+        for (const gp of this._playArea) {
+            let pokers = gp.pokers
+            let topPoker = pokers[pokers.length - 1]
+            if (topPoker.count == poker.count && topPoker.suit == poker.suit)
+                return true
+        }
+
+        return false
     }
 
     public get pokers(): Poker[] { return this._pokers }
