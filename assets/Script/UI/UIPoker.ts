@@ -1,5 +1,6 @@
-import { _decorator, Component, Node, SpriteFrame, Sprite } from 'cc';
-import { ECardDir } from '../Enum';
+import { _decorator, Component, Node, SpriteFrame, Sprite, NodeEventType } from 'cc';
+import EventMgr from '../Base/Event/EventMgr';
+import { ECardDir, EventGame_Enum } from '../Enum';
 import Poker from '../Model/Poker';
 import ResMgr from '../ResMgr';
 import { getSpPath } from '../Utils/Utils';
@@ -12,10 +13,22 @@ export class UIPoker extends Component {
 
     cardSpFrame: Sprite = null
     private _poker: Poker
+    public get poker() {
+        return this._poker
+    }
 
     start() {
         this.cardSpFrame = this.node.getComponent(Sprite)
+
+        this.initEvent()
     }
+
+    initEvent() {
+        this.node.on(NodeEventType.TOUCH_START, this.touchStart, this);  // if "this" is component and the "memberFunction" declared in CCClass.
+        this.node.on(NodeEventType.TOUCH_MOVE, this.touchMove, this);
+        this.node.on(NodeEventType.TOUCH_END, this.touchEnd, this);
+    }
+
     async init(poker: Poker) {
         if (!poker) return
         this._poker = poker
@@ -37,6 +50,34 @@ export class UIPoker extends Component {
 
     refreshView() {
         this.updateCardDir(this._poker)
+    }
+
+    touchStart(event) {
+        // console.log('event.target,', event.target)
+    }
+
+    touchMove() {
+
+    }
+
+    touchEnd() {
+        EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this._poker)
+    }
+
+    public isLocalPlayArea(): boolean {
+        return true
+    }
+
+    public isOpen(): boolean {
+        return true
+    }
+
+    public isOnTop(): boolean {
+        return true
+    }
+
+    public countIsOne(count: number): boolean {
+        return true
     }
 }
 

@@ -13,6 +13,7 @@ export default class GameEngine {
     init(m_GameView) {
         this.gameView = m_GameView
         this.initEvent()
+        GameDB.getInstance().initEvent()
         GameDB.getInstance().createCardsDB()
     }
 

@@ -65,10 +65,10 @@ export const getSpPath = (suit: string, count: number) => {
     return `Texture/Cards/${suit}/${letter}${count}`
 }
 
-export const moveWorld2Space = (node, targetNode) => {
+export const moveWorld2Space = (node, targetNode, cleanUp: boolean = false) => {
     let wolrdPos = node.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0))
     let nodePos = targetNode.getComponent(UITransform).convertToNodeSpaceAR(wolrdPos)
-    node.removeFromParent()
+    node.removeFromParent(cleanUp)
     node.position = nodePos
     targetNode.addChild(node)
 }

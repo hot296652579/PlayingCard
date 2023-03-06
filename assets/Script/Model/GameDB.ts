@@ -38,6 +38,11 @@ export default class GameDB {
     /** 玩牌区数据*/
     private _playArea: PokerGrop[] = []
 
+    //绑定事件
+    initEvent() {
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, this.onPlayToReceive, this)
+    }
+
     //创建初始数据
     createCardsDB() {
         for (let i = 1; i <= this.cardTotal; i++) {
@@ -78,6 +83,7 @@ export default class GameDB {
     }
 
     gamePlay() {
+        this.shuffle(this._pokers, 200)
         let temp = this._pokers
         this._closePokers = this.pokers
         this._pokers = temp
@@ -86,19 +92,36 @@ export default class GameDB {
 
         this.createPlayInitDB()
     }
+    /**洗牌 */
+    shuffle(pokers: Poker[], shuffleTime: number = 100) {
+        for (let index = 0; index < shuffleTime; index++) {
+            // let snd = Math.floor(Math.random() * pokers.length - 1)
+            // let rnd = Math.floor(Math.random() * pokers.length - 1)
+            let snd = parseInt('' + Math.random() * pokers.length, 10)
+            let rnd = parseInt('' + Math.random() * pokers.length, 10)
+
+            let temp = pokers[snd]
+            pokers[snd] = pokers[rnd]
+            pokers[rnd] = temp
+        }
+    }
     createPlayInitDB() {
         for (let count = PLAY_AREA_COUNT; count >= 1; count--) {
-            for (let index = 0; index < count; index++) {
+            for (let i = 0; i < count; i++) {
                 let dis = PLAY_AREA_COUNT - count
-                let groupIndex = dis + index
+                let groupIndex = dis + i
                 let pokerGrop = this._playArea[groupIndex]
                 let poker = this._closePokers[this._closePokers.length - 1]
                 this._closePokers.length = this._closePokers.length - 1
-                poker.dir = index == 0 ? poker.dir = ECardDir.OPEN : poker.dir = ECardDir.CLOSE
+                // poker.dir = i == 0 ? poker.dir = ECardDir.OPEN : poker.dir = ECardDir.CLOSE
                 pokerGrop.addPoker(poker)
-                EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_INIT_GROUP, groupIndex, dis, poker)
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_INIT_GROUP, groupIndex, dis, poker, i)
             }
         }
+    }
+
+    onPlayToReceive(poker: Poker) {
+        console.log(' 更改 db数据层....', poker)
     }
 
     public get pokers(): Poker[] { return this._pokers }
