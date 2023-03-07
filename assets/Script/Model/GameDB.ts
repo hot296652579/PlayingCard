@@ -1,15 +1,52 @@
 import EventMgr from "../Base/Event/EventMgr"
-import { ECardDir, EnumSuit, EventGame_Enum } from "../Enum"
+import { ECardDir, ENumSiut, EnumSuit, ESuitNum, EventGame_Enum } from "../Enum"
 import Poker from "./Poker"
 
 export class PokerGrop {
+    public index: number = null
     private _pokers: Poker[] = []
     public get pokers(): Poker[] {
         return this._pokers
     }
 
     public addPoker(poker: Poker) {
+        poker.parent = this
         this._pokers.push(poker)
+    }
+
+    public removePoker(poker) {
+        let topPoker = this.groupTop
+        if (poker == topPoker) {
+            console.log('移除当前poker', poker)
+            this._pokers.length = this._pokers.length - 1
+            poker.parent = null
+
+            return poker
+        }
+    }
+
+    public groupIsEmpty() {
+        return this._pokers.length == 0
+    }
+
+    public get groupTop() {
+        return this.groupIsEmpty() ? null : this._pokers[this._pokers.length - 1]
+    }
+}
+
+class ReceiveGroup extends PokerGrop {
+    public suit: number = null
+
+    public isNextPoker(poker: Poker) {
+        if (ENumSiut[this.suit] === poker.suit) {
+            if (this.groupTop) {
+                return this.groupTop.count + 1 == poker.count
+            } else {
+                return poker.count == 1
+            }
+        }
+
+        return false
     }
 }
 
@@ -34,7 +71,7 @@ export default class GameDB {
     /** 开牌区数据*/
     private _openPokers: Poker[] = []
     /** 收牌区数据*/
-    private _receiveArea: PokerGrop[] = []
+    private _receiveArea: ReceiveGroup[] = []
     /** 玩牌区数据*/
     private _playArea: PokerGrop[] = []
 
@@ -74,12 +111,15 @@ export default class GameDB {
         }
 
         for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
-            let receiveGroup = new PokerGrop()
+            let receiveGroup = new ReceiveGroup()
+            receiveGroup.index = this._receiveArea.length
+            receiveGroup.suit = index
             this._receiveArea.push(receiveGroup)
         }
 
         for (let index = 0; index < PLAY_AREA_COUNT; index++) {
             let receiveGroup = new PokerGrop()
+            receiveGroup.index = this._playArea.length
             this._playArea.push(receiveGroup)
         }
 
@@ -125,7 +165,18 @@ export default class GameDB {
     }
 
     onPlayToReceive(poker: Poker) {
-        console.log(' 更改 db数据层....', poker)
+        for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
+            let group: ReceiveGroup = this._receiveArea[index]
+            if (group.isNextPoker(poker)) {
+                let parent: PokerGrop = poker.parent
+                parent.removePoker(poker)
+                group.addPoker(poker)
+                console.log('去刷新收牌组显示数据view...')
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, poker)
+            } else {
+
+            }
+        }
     }
 
     //检测这张牌是否在play area
@@ -151,5 +202,5 @@ export default class GameDB {
     public get closePokers(): Poker[] { return this._closePokers }
     public get openPokers(): Poker[] { return this._openPokers }
     public get playArea(): PokerGrop[] { return this._playArea }
-    public get receiveArea(): PokerGrop[] { return this._receiveArea }
+    public get receiveArea(): ReceiveGroup[] { return this._receiveArea }
 }

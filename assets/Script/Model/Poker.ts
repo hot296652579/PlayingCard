@@ -1,4 +1,4 @@
-import { ECardDir, EnumSuit } from "../Enum"
+import { ECardDir, EnumSuit, ESuitNum } from "../Enum"
 import { UIPoker } from "../UI/UIPoker"
 
 export default class Poker {
@@ -6,6 +6,7 @@ export default class Poker {
     public suit: EnumSuit = EnumSuit.HeiTao
     public _dir: ECardDir = ECardDir.CLOSE
     private _UIPoker: UIPoker = null
+    public parent: any = null
     public get UIPoker() {
         return this._UIPoker
     }
@@ -29,5 +30,13 @@ export default class Poker {
 
     unBindView() {
         this._UIPoker = null
+    }
+    //红黑交替连接判断
+    public isConcatable(p: Poker) {
+        return this.count == p.count + 1 && !this.isSimilarSuit(p.suit)
+    }
+
+    public isSimilarSuit(suit: EnumSuit) {
+        return Number(ESuitNum[suit] + ESuitNum[this.suit]) % 2 == 0
     }
 }
