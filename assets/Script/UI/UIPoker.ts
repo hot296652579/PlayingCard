@@ -36,11 +36,14 @@ export class UIPoker extends Component {
 
         const spPath = getSpPath(poker.suit, poker.count)
         // console.log('spPath', spPath)
-        const cardSpriteFrame = await ResMgr.getInstance().loadResSpriteFrame(spPath)
-        if (!cardSpriteFrame) return
-        this.cardSpFrame.spriteFrame = cardSpriteFrame
+        try {
+            const cardSpriteFrame = await ResMgr.getInstance().loadResSpriteFrame(spPath)
+            this.cardSpFrame.spriteFrame = cardSpriteFrame
 
-        this.updateCardDir(poker)
+            this.updateCardDir(poker)
+        } catch (error) {
+            console.log('加载图片出错 path:', spPath)
+        }
     }
 
     updateCardDir({ dir }) {

@@ -50,6 +50,20 @@ class ReceiveGroup extends PokerGrop {
     }
 }
 
+class PlayGroup extends PokerGrop {
+    public removePoker(poker: Poker) {
+        console.log('删除group里的poker111')
+        super.removePoker(poker)
+        if (!this.groupIsEmpty()) {
+            console.log('group组不是空 取顶部的poker22222')
+            let topPoker = this.groupTop
+            topPoker.dir = ECardDir.OPEN
+
+            EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TOPPOKER_UPDATE_VIEW, topPoker)
+        }
+    }
+}
+
 export const RECEIVE_AREA_COUNT: number = 4
 export const PLAY_AREA_COUNT: number = 7
 export default class GameDB {
@@ -125,7 +139,7 @@ export default class GameDB {
         }
 
         for (let index = 0; index < PLAY_AREA_COUNT; index++) {
-            let receiveGroup = new PokerGrop()
+            let receiveGroup = new PlayGroup()
             receiveGroup.index = this._playArea.length
             this._playArea.push(receiveGroup)
         }
@@ -208,6 +222,6 @@ export default class GameDB {
     public get pokers(): Poker[] { return this._pokers }
     public get closePokers(): Poker[] { return this._closePokers }
     public get openPokers(): Poker[] { return this._openPokers }
-    public get playArea(): PokerGrop[] { return this._playArea }
+    public get playArea(): PlayGroup[] { return this._playArea }
     public get receiveArea(): ReceiveGroup[] { return this._receiveArea }
 }

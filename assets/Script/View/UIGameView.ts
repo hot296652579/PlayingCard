@@ -27,6 +27,7 @@ export class UIGameView extends Component {
     onLoad() {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this.clickCardHandler, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, this.playPokerToReceive, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TOPPOKER_UPDATE_VIEW, this.openTopPoker, this)
     }
 
     createAllCardByDB(pokers: Poker[]) {
@@ -119,6 +120,18 @@ export class UIGameView extends Component {
         let delay = 0.5
         tween(node)
             .to(delay, { position: new Vec3(0, 0, 0) })
+            .start()
+    }
+
+    openTopPoker(poker: Poker) {
+        let node = poker.UIPoker.node
+        tween(node)
+            .to(0.3, { scale: new Vec3(0, 0, 0) })
+            .call(() => {
+                poker.dir = ECardDir.OPEN
+                poker.UIPoker.refreshView()
+            })
+            .to(0.3, { scale: new Vec3(1, 1, 1) })
             .start()
     }
 
