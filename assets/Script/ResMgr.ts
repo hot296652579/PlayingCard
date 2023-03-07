@@ -11,13 +11,11 @@ export default class ResMgr {
 
     async loadResSpriteFrame(path) {
         return new Promise((resolve, reject) => {
-            let filPath = path + `/spriteFrame`
-            // console.log('filPath:', filPath)
-            resources.load(filPath, (err, asset) => {
+            resources.load(path, (err, asset) => {
                 if (!err) {
                     resolve(asset)
                 } else {
-                    console.error('加载图片资源失败:' + err)
+                    console.error('加载图片资源失败:' + path)
                     reject()
                 }
             })

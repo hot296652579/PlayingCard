@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, SpriteFrame, Sprite, NodeEventType } from 'cc';
+import { _decorator, Component, Node, SpriteFrame, Sprite, NodeEventType, path } from 'cc';
 import EventMgr from '../Base/Event/EventMgr';
 import { ECardDir, EventGame_Enum } from '../Enum';
 import Poker from '../Model/Poker';
@@ -29,20 +29,23 @@ export class UIPoker extends Component {
         this.node.on(NodeEventType.TOUCH_END, this.touchEnd, this);
     }
 
-    async init(poker: Poker) {
+    init(poker: Poker) {
         if (!poker) return
         this._poker = poker
         poker.bindView(this)
 
-        const spPath = getSpPath(poker.suit, poker.count)
+        const spPath = getSpPath(poker.suit, poker.count) + '/spriteFrame'
         // console.log('spPath', spPath)
         try {
-            const cardSpriteFrame = await ResMgr.getInstance().loadResSpriteFrame(spPath)
-            this.cardSpFrame.spriteFrame = cardSpriteFrame
+            this.schedule(async () => {
+                const cardSpriteFrame = await ResMgr.getInstance().loadResSpriteFrame(spPath)
+                this.cardSpFrame.spriteFrame = cardSpriteFrame
 
-            this.updateCardDir(poker)
+                this.updateCardDir(poker)
+            }, 0.1)
+
         } catch (error) {
-            console.log('加载图片出错 path:', spPath)
+            console.log('加载图片出错 spPath:', spPath)
         }
     }
 
