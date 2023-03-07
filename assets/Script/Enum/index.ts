@@ -27,6 +27,7 @@ export enum ECardDir {
 
 /**游戏事件枚举*/
 export enum EventGame_Enum {
+    EVENT_RESTART_GAME = 'EVENT_RESTART_GAME',
     EVENT_GAME_INIT = 'EVENT_GAME_INIT',
     EVENT_GAME_START = 'EVENT_GAME_START',
     EVENT_GAME_INIT_GROUP = 'EVENT_GAME_INIT_GROUP',

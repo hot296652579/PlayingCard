@@ -119,5 +119,20 @@ export class UIGameView extends Component {
             .to(delay, { position: new Vec3(0, 1, 0) })
             .start()
     }
+
+    restartGame() {
+        this.closeSendArea.removeAllChildren()
+        this.openSendArea.removeAllChildren()
+
+        for (let index = 0; index < this.receiveAreaList.length; index++) {
+            const area = this.receiveAreaList[index];
+            area.removeAllChildren()
+        }
+
+        this.playGruopRoot.removeAllChildren()
+        this.initArea.removeAllChildren()
+
+        EventMgr.getInstance().emit(EventGame_Enum.EVENT_RESTART_GAME)
+    }
 }
 

@@ -108,12 +108,12 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts": {
-    "time": 1678100335573.0784,
+    "time": 1678172640901.2397,
     "uuid": "5eb4d445-c452-4c66-96fb-beaa47a2f81d",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts": {
-    "time": 1678170317691.9268,
+    "time": 1678171963887.3293,
     "uuid": "54f6a9b1-5b6f-40bf-ac51-ca5217b1c286",
     "missing": false
   },
@@ -227,7 +227,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts": {
-    "time": 1678080078108.8938,
+    "time": 1678171213959.0518,
     "uuid": "8263d902-73f9-4545-a091-2f2b10b89b37",
     "missing": false
   },
@@ -742,12 +742,12 @@
     "time": 1677743280275.9268
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts": {
-    "time": 1677856125263.0476,
+    "time": 1678172614418.7566,
     "uuid": "ebb456d4-8ecb-483a-ac08-5be5a255c728",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": {
-    "time": 1678169856969.9832,
+    "time": 1678172247149.7556,
     "uuid": "6fe3e365-3176-40f0-9696-c848a965ddea",
     "missing": false
   },
@@ -755,7 +755,7 @@
     "time": 1677744411224.78
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Prefabs/UIGameView.prefab": {
-    "time": 1677943893946.8994,
+    "time": 1678171009531.197,
     "uuid": "9f730f7f-a718-404f-a0db-3d450d4e8710",
     "missing": false
   },
@@ -771,7 +771,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts": {
-    "time": 1678170330724.2283,
+    "time": 1678172379427.7686,
     "uuid": "e7c8c929-dc8f-4432-af13-2be38b869d24",
     "missing": false
   },

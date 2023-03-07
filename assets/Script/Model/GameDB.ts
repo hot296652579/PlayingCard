@@ -84,6 +84,13 @@ export default class GameDB {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, this.onPlayToReceive, this)
     }
 
+    resetGame() {
+        this._pokers = []
+        this._openPokers = []
+        this._receiveArea = []
+        this._playArea = []
+    }
+
     //创建初始数据
     createCardsDB() {
         for (let i = 1; i <= this.cardTotal; i++) {

@@ -18,9 +18,16 @@ export default class GameEngine {
     }
 
     initEvent() {
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_RESTART_GAME, this.restartHandler)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_GAME_INIT, this.gameView.createAllCardByDB, this.gameView)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_GAME_START, this.gameView.gamePlay, this.gameView)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_GAME_INIT_GROUP, this.gameView.initPlayGroup, this.gameView)
+    }
+
+    restartHandler() {
+        GameDB.getInstance().resetGame()
+        GameDB.getInstance().createCardsDB()
+        GameDB.getInstance().gamePlay()
     }
 
     gamePlay() {

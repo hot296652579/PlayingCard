@@ -12,8 +12,11 @@ export class UIGameScene extends Component {
     gameViewPrefab: Prefab = null
     private gameEngine: GameEngine
 
+    private uiGameView: UIGameView
+
     onLoad() {
         const m_UIGameView = instantiate(this.gameViewPrefab).getComponent(UIGameView)
+        this.uiGameView = m_UIGameView
         this.node.addChild(m_UIGameView.node)
 
         this.gameEngine = new GameEngine()
