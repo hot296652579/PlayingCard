@@ -66,6 +66,8 @@ export class UIGameView extends Component {
         let index = PLAY_AREA_COUNT * cardIndex - cardIndex * (cardIndex - 1) / 2 - cardIndex + groupIndex
         // console.log('groupIndex:' + groupIndex + ',cardIndex:' + cardIndex + ',index:' + index)
         let node = poker.UIPoker.node
+        // console.log('poker 点数:', poker.count, ',花色:', poker.suit)
+        // console.log('poker worldPos', node.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0)))
         moveWorld2Space(node, this.playGruopRoot)
         node.setSiblingIndex(index)
 
@@ -110,13 +112,13 @@ export class UIGameView extends Component {
     playPokerToReceive(poker: Poker) {
         let receiveIndex: number = poker.parent.index
         let node = poker.UIPoker.node
-        node.removeFromParent()
+        console.log('poker worldPos', node.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0)))
         let targetNode = this.receiveAreaList[receiveIndex]
         moveWorld2Space(node, targetNode)
 
         let delay = 0.5
         tween(node)
-            .to(delay, { position: new Vec3(0, 1, 0) })
+            .to(delay, { position: new Vec3(0, 0, 0) })
             .start()
     }
 

@@ -67,9 +67,8 @@ export const getSpPath = (suit: string, count: number) => {
 
 export const moveWorld2Space = (node, targetNode, cleanUp: boolean = false) => {
     let wolrdPos = node.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0))
+    // console.log('wolrdPos', wolrdPos)
     let nodePos = targetNode.getComponent(UITransform).convertToNodeSpaceAR(wolrdPos)
-    console.log('wolrdPos', wolrdPos)
-    console.log('nodePos', nodePos)
     node.removeFromParent(cleanUp)
     node.position = nodePos
     targetNode.addChild(node)

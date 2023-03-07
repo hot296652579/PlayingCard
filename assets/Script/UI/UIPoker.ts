@@ -33,8 +33,11 @@ export class UIPoker extends Component {
         if (!poker) return
         this._poker = poker
         poker.bindView(this)
+
         const spPath = getSpPath(poker.suit, poker.count)
+        // console.log('spPath', spPath)
         const cardSpriteFrame = await ResMgr.getInstance().loadResSpriteFrame(spPath)
+        if (!cardSpriteFrame) return
         this.cardSpFrame.spriteFrame = cardSpriteFrame
 
         this.updateCardDir(poker)
