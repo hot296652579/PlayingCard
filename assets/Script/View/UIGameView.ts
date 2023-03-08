@@ -29,6 +29,7 @@ export class UIGameView extends Component {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, this.playPokerToReceive, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TOPPOKER_UPDATE_VIEW, this.openTopPoker, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_VIEW, this.closeToOpen, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, this.openToReceive, this)
     }
 
     createAllCardByDB(pokers: Poker[]) {
@@ -54,6 +55,7 @@ export class UIGameView extends Component {
         let stuck = []
         for (let index = this.initArea.children.length - 1; index >= 0; --index) {
             let children = this.initArea.children[index]
+
             this.initArea.removeChild(children)
             stuck.push(children)
         }
@@ -93,29 +95,52 @@ export class UIGameView extends Component {
                 .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -30, 0) })
                 .start()
         }
+
+        // if (this.closeSendArea.children.length <= 24) {
+        //     for (let index = 0; index < this.closeSendArea.children.length; index++) {
+        //         let children = this.closeSendArea.children[index]
+        //         console.log(children.getComponent(UIPoker).poker.count + ',' + children.getComponent(UIPoker).poker.suit)
+        //     }
+        // }
     }
 
     clickCardHandler(poker: Poker) {
-        //条件 1.在玩牌区 2.打开的 3.最上方的 4.点数是1
+        console.log('点击poker', poker)
         let uiPoker = poker.UIPoker
 
         if (GameDB.getInstance().onCheckInPlayArea(poker)) {
+            // console.log('点击的区域是PlayArea')
             if (GameDB.getInstance().onCheckIndexTop(poker)) {
                 if (uiPoker.isOpen()) {
                     EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, uiPoker.poker)
                 }
             }
         } else if (GameDB.getInstance().onCheckInCloseArea(poker)) {
+            // console.log('点击的区域是CloseArea')
             if (GameDB.getInstance().onCheckIndexByCloseTop(poker)) {
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_DB, uiPoker.poker)
+            }
+        } else if (GameDB.getInstance().onCheckInOpenArea(poker)) {
+            // console.log('点击的区域是openArea')
+            if (GameDB.getInstance().onCheckIndexByOpenTop(poker)) {
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_DB, uiPoker.poker)
             }
         }
     }
 
     playPokerToReceive(poker: Poker) {
+        this.moveUIPokerToReceiveArea(poker)
+    }
+
+    openToReceive(poker: Poker) {
+        this.moveUIPokerToReceiveArea(poker)
+    }
+
+    moveUIPokerToReceiveArea(poker: Poker) {
         let receiveIndex: number = poker.parent.index
+        console.log('receiveIndex:', receiveIndex)
         let node = poker.UIPoker.node
-        console.log('poker worldPos', node.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0)))
+        // console.log('poker worldPos', node.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0)))
         let targetNode = this.receiveAreaList[receiveIndex]
         moveWorld2Space(node, targetNode)
 

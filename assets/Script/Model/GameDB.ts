@@ -14,14 +14,24 @@ export class PokerGrop {
         this._pokers.push(poker)
     }
 
-    public removePoker(poker) {
-        let topPoker = this.groupTop
-        if (poker == topPoker) {
-            this._pokers.length = this._pokers.length - 1
-            poker.parent = null
+    public removePoker(p) {
+        // let topPoker = this.groupTop
+        // if (poker == topPoker) {
+        //     this._pokers.length = this._pokers.length - 1
+        //     poker.parent = null
 
-            return poker
+        //     return poker
+        // }
+
+        for (let index = 0; index < this._pokers.length; index++) {
+            let poker = this._pokers[index];
+            if (poker.count == p.count && poker.suit == p.suit) {
+                this._pokers.splice(index, 1)
+                console.log('删除后的pokers', this._pokers)
+                return p
+            }
         }
+
     }
 
     public getPoker(index: number) {
@@ -116,12 +126,14 @@ export default class GameDB {
     initEvent() {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, this.onPlayToReceive, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_DB, this.onCloseToOpen, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_DB, this.onOpenToReceive, this)
     }
 
     resetGame() {
         this._pokers = []
         this._openPokers = []
         this._receiveArea = []
+        this._closeGroup._pokers = []
         this._playArea = []
     }
 
@@ -164,16 +176,14 @@ export default class GameDB {
             this._playArea.push(receiveGroup)
         }
 
+        this.shuffle(this._pokers, 500)
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_INIT, this._pokers)
     }
 
     gamePlay() {
-        this.shuffle(this._pokers, 200)
         let temp = this._pokers
-        // this._closeGroup._pokers = this.pokers
-        this.pokers.forEach(p => this._closeGroup.addPoker(p))
+        this._pokers.forEach(p => this._closeGroup.addPoker(p))
         this._pokers = temp
-
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_START)
 
         this.createPlayInitDB()
@@ -203,6 +213,8 @@ export default class GameDB {
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_GAME_INIT_GROUP, groupIndex, dis, poker, i)
             }
         }
+
+        // console.log('close剩下的牌数据', this._closeGroup.pokers)
     }
     /**改变玩牌区到收牌区数据*/
     onPlayToReceive(poker: Poker) {
@@ -218,10 +230,26 @@ export default class GameDB {
     }
     /**移除close顶部牌数据添加到open区数据*/
     onCloseToOpen(poker: Poker) {
-        let parent: CloseGroup = poker.parent
+        let parent: CloseGroup = poker.parent as CloseGroup
         parent.removePoker(poker)
-        this._openGroup.addPoker(poker)
+        // console.log('当前closeGroup的pokers', this.closeGroup.pokers)
+        this.openGroup.addPoker(poker)
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_VIEW, poker)
+    }
+
+    /**移除open顶部牌数据添加到receive区数据*/
+    onOpenToReceive(poker: Poker) {
+        let parent: OpenGroup = poker.parent
+
+        for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
+            let group: ReceiveGroup = this._receiveArea[index]
+            if (group.isNextPoker(poker)) {
+                // console.log('可以承接此牌', poker)
+                parent.removePoker(poker)
+                group.addPoker(poker)
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, poker)
+            }
+        }
     }
 
     //检测这张牌是否在play area
@@ -236,6 +264,9 @@ export default class GameDB {
         for (const gp of this._playArea) {
             let pokers = gp.pokers
             let topPoker = pokers[pokers.length - 1]
+            if (!topPoker)
+                return null
+
             if (topPoker.count == poker.count && topPoker.suit == poker.suit)
                 return true
         }
@@ -251,12 +282,34 @@ export default class GameDB {
     }
 
     //检测是否在closeArea顶部
-    onCheckIndexByCloseTop(poker: Poker) {
+    onCheckIndexByCloseTop(p: Poker) {
+        // console.log('当前点击的poker', p)
         if (this._closeGroup.pokers.length <= 0)
             return null
-
+        // console.log('this._closeGroup.pokers', this._closeGroup.pokers)
         for (const poker of this._closeGroup.pokers) {
-            let topPoker = this._closeGroup.pokers[this._closeGroup.pokers.length - 1]
+            let topPoker = this._closeGroup.groupTop
+            if (poker.count == p.count && poker.suit == p.suit)
+                return true
+        }
+
+        return false
+    }
+
+    //检测这张牌是否在open area
+    onCheckInOpenArea(poker: Poker): boolean {
+        return this.openGroup.pokers.filter(
+            p => p.count == poker.count && p.suit == poker.suit
+        ).length > 0
+    }
+
+    //检测是否在openArea顶部
+    onCheckIndexByOpenTop(poker: Poker) {
+        if (this.openGroup.pokers.length <= 0)
+            return null
+
+        for (const poker of this.openGroup.pokers) {
+            let topPoker = this.openGroup.pokers[this.openGroup.pokers.length - 1]
             if (topPoker.count == poker.count && topPoker.suit == poker.suit)
                 return true
         }
