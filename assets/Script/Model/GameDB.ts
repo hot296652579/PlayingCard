@@ -24,6 +24,17 @@ export class PokerGrop {
         }
     }
 
+    public getPoker(index: number) {
+        if (!this.groupIsEmpty()) {
+            let i = index >= 0 ? index : this.pokers.length + index
+            if (i < this.pokers.length) {
+                return this.pokers[i]
+            }
+        }
+        return null
+
+    }
+
     public groupIsEmpty() {
         return this._pokers.length == 0
     }

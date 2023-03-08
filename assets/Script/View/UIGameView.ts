@@ -151,6 +151,16 @@ export class UIGameView extends Component {
             })
             .to(0.3, { scale: new Vec3(1, 1, 1) })
             .start()
+
+        let padding = -30
+        for (let index = 0; index <= 1; index++) {
+            let p: Poker = GameDB.getInstance().openGroup.getPoker(-2 - index)
+            if (p) {
+                tween(p.UIPoker.node)
+                    .to(0.2, { position: new Vec3(padding * (index + 1), 0, 0) })
+                    .start()
+            }
+        }
     }
 
     restartGame() {
