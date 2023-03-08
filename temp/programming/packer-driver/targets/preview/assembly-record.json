@@ -385,7 +385,7 @@
         "__unresolved_3": {
           "resolved": {
             "type": "chunk",
-            "id": "7fc36bbb0d8698558c6cb3ab00ce24d0c5f44f77"
+            "id": "4766ba539dd247c91a177136f86c61b2bb3dad9b"
           },
           "messages": []
         },
@@ -418,7 +418,7 @@
         "__unresolved_2": {
           "resolved": {
             "type": "chunk",
-            "id": "01c8a59d325cd616052ffbbf463c32b9306ebddd"
+            "id": "8eb3271f9160dad83cd66365b6c63db08b4b951d"
           },
           "messages": []
         },
@@ -541,7 +541,7 @@
         "__unresolved_3": {
           "resolved": {
             "type": "chunk",
-            "id": "7fc36bbb0d8698558c6cb3ab00ce24d0c5f44f77"
+            "id": "4766ba539dd247c91a177136f86c61b2bb3dad9b"
           },
           "messages": []
         },
@@ -583,14 +583,14 @@
         "__unresolved_9": {
           "resolved": {
             "type": "chunk",
-            "id": "01c8a59d325cd616052ffbbf463c32b9306ebddd"
+            "id": "8eb3271f9160dad83cd66365b6c63db08b4b951d"
           },
           "messages": []
         }
       },
-      "timestamp": 1678258322437
+      "timestamp": 1678261048070
     },
-    "7fc36bbb0d8698558c6cb3ab00ce24d0c5f44f77": {
+    "4766ba539dd247c91a177136f86c61b2bb3dad9b": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -628,9 +628,9 @@
           "messages": []
         }
       },
-      "timestamp": 1678258322473
+      "timestamp": 1678261048101
     },
-    "01c8a59d325cd616052ffbbf463c32b9306ebddd": {
+    "8eb3271f9160dad83cd66365b6c63db08b4b951d": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -656,7 +656,7 @@
         "__unresolved_3": {
           "resolved": {
             "type": "chunk",
-            "id": "7fc36bbb0d8698558c6cb3ab00ce24d0c5f44f77"
+            "id": "4766ba539dd247c91a177136f86c61b2bb3dad9b"
           },
           "messages": []
         },
@@ -682,7 +682,7 @@
           "messages": []
         }
       },
-      "timestamp": 1678258322519
+      "timestamp": 1678261048148
     }
   },
   "entries": {
@@ -696,7 +696,7 @@
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts": "a0ce174ae5b1ff0f26a5c080adc01247d67611aa",
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts": "3a7eb92c6c1d8db3b23a7eb925760ead0a712d75",
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts": "0057bb42f23df6bc6cb8a71feeb2155c1d1ff46d",
-    "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts": "7fc36bbb0d8698558c6cb3ab00ce24d0c5f44f77",
-    "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": "01c8a59d325cd616052ffbbf463c32b9306ebddd"
+    "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts": "4766ba539dd247c91a177136f86c61b2bb3dad9b",
+    "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": "8eb3271f9160dad83cd66365b6c63db08b4b951d"
   }
 }

@@ -144,6 +144,12 @@ export class UIGameView extends Component {
         let delay = 0.5
         tween(node)
             .to(delay, { position: new Vec3(0, 0, 0) })
+            .to(0.3, { scale: new Vec3(0, 1, 1) })
+            .call(() => {
+                poker.dir = ECardDir.OPEN
+                poker.UIPoker.refreshView()
+            })
+            .to(0.3, { scale: new Vec3(1, 1, 1) })
             .start()
     }
 

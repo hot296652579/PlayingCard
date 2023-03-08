@@ -17,7 +17,6 @@ export class PokerGrop {
     public removePoker(poker) {
         let topPoker = this.groupTop
         if (poker == topPoker) {
-            console.log('移除当前poker', poker)
             this._pokers.length = this._pokers.length - 1
             poker.parent = null
 
@@ -63,7 +62,13 @@ class PlayGroup extends PokerGrop {
 }
 
 class CloseGroup extends PokerGrop { }
-class OpenGroup extends PokerGrop { }
+class OpenGroup extends PokerGrop {
+    public addPoker(poker: Poker): Poker {
+        super.addPoker(poker)
+        // poker.dir = ECardDir.OPEN
+        return poker
+    }
+}
 
 export const RECEIVE_AREA_COUNT: number = 4
 export const PLAY_AREA_COUNT: number = 7
@@ -84,7 +89,7 @@ export default class GameDB {
     /** 发牌区盖着的数据*/
     private _closeGroup: CloseGroup = new CloseGroup()
     /** 发牌区打开着的数据*/
-    private _openGroup: CloseGroup = new OpenGroup()
+    private _openGroup: OpenGroup = new OpenGroup()
     /** 开牌区数据*/
     private _openPokers: Poker[] = []
     /** 收牌区数据*/
@@ -203,9 +208,8 @@ export default class GameDB {
     /**移除close顶部牌数据添加到open区数据*/
     onCloseToOpen(poker: Poker) {
         let parent: CloseGroup = poker.parent
-        let topPoker = parent.groupTop
-        parent.removePoker(topPoker)
-        this._openGroup.addPoker(topPoker)
+        parent.removePoker(poker)
+        this._openGroup.addPoker(poker)
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_VIEW, poker)
     }
 
