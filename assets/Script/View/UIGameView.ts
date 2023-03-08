@@ -28,6 +28,7 @@ export class UIGameView extends Component {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this.clickCardHandler, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, this.playPokerToReceive, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TOPPOKER_UPDATE_VIEW, this.openTopPoker, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_VIEW, this.closeToOpen, this)
     }
 
     createAllCardByDB(pokers: Poker[]) {
@@ -99,13 +100,14 @@ export class UIGameView extends Component {
         let uiPoker = poker.UIPoker
 
         if (GameDB.getInstance().onCheckInPlayArea(poker)) {
-            console.log('在玩牌区1111')
             if (GameDB.getInstance().onCheckIndexTop(poker)) {
-                console.log('在最上方2222')
                 if (uiPoker.isOpen()) {
-                    console.log('去改变数据层3333')
                     EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, uiPoker.poker)
                 }
+            }
+        } else if (GameDB.getInstance().onCheckInCloseArea(poker)) {
+            if (GameDB.getInstance().onCheckIndexByCloseTop(poker)) {
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_DB, uiPoker.poker)
             }
         }
     }
@@ -132,6 +134,16 @@ export class UIGameView extends Component {
                 poker.UIPoker.refreshView()
             })
             .to(0.3, { scale: new Vec3(1, 1, 1) })
+            .start()
+    }
+
+    closeToOpen(poker: Poker) {
+        let node = poker.UIPoker.node
+        moveWorld2Space(node, this.openSendArea)
+
+        let delay = 0.5
+        tween(node)
+            .to(delay, { position: new Vec3(0, 0, 0) })
             .start()
     }
 
