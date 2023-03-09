@@ -30,6 +30,7 @@ export class UIGameView extends Component {
     onLoad() {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this.clickCardHandler, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, this.playPokerToReceive, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_PLAY_UPDATE_VIEW, this.playPokerToPlay, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TOPPOKER_UPDATE_VIEW, this.openTopPoker, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_VIEW, this.closeToOpen, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, this.openToReceive, this)
@@ -86,7 +87,7 @@ export class UIGameView extends Component {
         if (i == 0) {
             tween(node)
                 .delay(delay)
-                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -40, 0) })
+                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -75, 0) })
                 .to(0.3, { scale: new Vec3(0, 1, 0) })
                 .call(() => {
                     poker.dir = ECardDir.OPEN
@@ -97,7 +98,7 @@ export class UIGameView extends Component {
         } else {
             tween(node)
                 .delay(delay)
-                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -40, 0) })
+                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -75, 0) })
                 .start()
         }
 
@@ -117,7 +118,7 @@ export class UIGameView extends Component {
             // console.log('点击的区域是PlayArea')
             if (GameDB.getInstance().onCheckIndexTop(poker)) {
                 if (uiPoker.isOpen()) {
-                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, uiPoker.poker)
+                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_PLAY_UPDATE_DB, uiPoker.poker)
                 }
             }
         } else if (GameDB.getInstance().onCheckInCloseArea(poker)) {
@@ -164,11 +165,15 @@ export class UIGameView extends Component {
 
         let nodeEndPos = groupIndex * PADDING_PLAY
         tween(node)
-            .to(0.5, { position: new Vec3(nodeEndPos, -40 * pokerIndex, 0) })
+            .to(0.5, { position: new Vec3(nodeEndPos, -75 * pokerIndex, 0) })
             .start()
     }
 
     openToPlay(poker: Poker) {
+        this.moveUIPokerToPlayArea(poker)
+    }
+
+    playPokerToPlay(poker: Poker) {
         this.moveUIPokerToPlayArea(poker)
     }
 
@@ -199,7 +204,7 @@ export class UIGameView extends Component {
             .to(0.3, { scale: new Vec3(1, 1, 1) })
             .start()
 
-        let padding = -40
+        let padding = -75
         for (let index = 0; index <= 1; index++) {
             let p: Poker = GameDB.getInstance().openGroup.getPoker(-2 - index)
             if (p) {

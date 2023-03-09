@@ -1599,3 +1599,673 @@ debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCa
 debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
 debug: Target(preview) ends with cost 85.50070798397064ms.
+debug: Dispatch build request for time accumulated 3 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 17:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:22:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts. Last mtime: Thu Mar 09 2023 17:36:11 GMT+0800 (中国标准时间)@54f6a9b1-5b6f-40bf-ac51-ca5217b1c286, Current mtime: Thu Mar 09 2023 19:33:00 GMT+0800 (中国标准时间)@54f6a9b1-5b6f-40bf-ac51-ca5217b1c286
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 18:10:19 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:34:10 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 18:12:23 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 19:34:05 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 168.69870799779892ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 17:00:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:22:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts. Last mtime: Thu Mar 09 2023 17:36:11 GMT+0800 (中国标准时间)@54f6a9b1-5b6f-40bf-ac51-ca5217b1c286, Current mtime: Thu Mar 09 2023 19:33:00 GMT+0800 (中国标准时间)@54f6a9b1-5b6f-40bf-ac51-ca5217b1c286
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts as cce:/internal/x/cc.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 18:10:19 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:34:10 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 18:12:23 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 19:34:05 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 121.6341250538826ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:22:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:27:16 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:34:10 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:39:22 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 64.50833404064178ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:22:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:27:16 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:34:10 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:39:22 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 59.72874999046326ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:27:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:36:13 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:39:22 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:48:26 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 60.248457968235016ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:27:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:36:13 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:39:22 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:48:26 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 57.40887498855591ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:36:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:39:51 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:48:26 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:52:03 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 60.76366698741913ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:36:13 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:39:51 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:48:26 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:52:03 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 92.54945802688599ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:39:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:41:00 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:52:03 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:53:09 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 118.32670897245407ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:39:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:41:01 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:52:03 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:53:09 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 79.92520797252655ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:41:00 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:45:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:53:09 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:57:19 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 78.83379197120667ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:41:01 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:45:10 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:53:09 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:57:19 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 116.52120900154114ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:45:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:46:18 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:57:19 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:58:31 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 19:34:05 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 19:58:18 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 144.45087498426437ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:45:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:46:19 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:57:19 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 19:58:31 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 19:34:05 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 19:58:18 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 161.3342919945717ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:46:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:53:25 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:58:31 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 20:05:38 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 71.89775002002716ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:46:19 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:53:25 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts. Last mtime: Thu Mar 09 2023 19:58:31 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24, Current mtime: Thu Mar 09 2023 20:05:38 GMT+0800 (中国标准时间)@e7c8c929-dc8f-4432-af13-2be38b869d24
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ./Poker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 64.84320795536041ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:53:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:56:22 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 19:58:18 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 20:08:35 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 80.49179202318192ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:53:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:56:22 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 19:58:18 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 20:08:35 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 63.450916051864624ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:56:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:56:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 20:08:35 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 20:09:07 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 71.49199998378754ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:56:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:56:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 20:08:35 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 20:09:07 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 112.36141699552536ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:56:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:57:15 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 20:09:07 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 20:09:28 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 134.16979199647903ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:56:54 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:57:15 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 20:09:07 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 20:09:28 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 104.53329104185104ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:57:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:58:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 20:09:28 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 20:10:18 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(editor) ends with cost 103.96612501144409ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:57:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 18:58:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts. Last mtime: Thu Mar 09 2023 20:09:28 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea, Current mtime: Thu Mar 09 2023 20:10:18 GMT+0800 (中国标准时间)@6fe3e365-3176-40f0-9696-c848a965ddea
+debug: Inspect file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/Docretors from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.
+debug: Resolve ../Base/Event/EventMgr from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts.
+debug: Resolve ../Enum from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts.
+debug: Resolve ../Model/GameDB from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts.
+debug: Resolve ../UI/UIPoker from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts.
+debug: Resolve ../Utils/Utils from file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts.
+debug: Target(preview) ends with cost 100.34020799398422ms.

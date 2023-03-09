@@ -2,7 +2,7 @@ import EventMgr from "../Base/Event/EventMgr"
 import { ECardDir, ENumSiut, EnumSuit, ESuitNum, EventGame_Enum } from "../Enum"
 import Poker from "./Poker"
 
-export class PokerGrop {
+export class PokerGroup {
     public index: number = null
     public _pokers: Poker[] = []
     public get pokers(): Poker[] {
@@ -55,14 +55,17 @@ export class PokerGrop {
     }
 }
 
-class ReceiveGroup extends PokerGrop {
+class ReceiveGroup extends PokerGroup {
     public suit: number = null
 
     public isNextPoker(poker: Poker) {
         if (ENumSiut[this.suit] === poker.suit) {
+            console.log('收牌组的花色', ENumSiut[this.suit])
+            console.log('this.groupTop', this.groupTop)
             if (this.groupTop) {
                 return this.groupTop.count + 1 == poker.count
             } else {
+                console.log('poker.count', poker.count)
                 return poker.count == 1
             }
         }
@@ -71,7 +74,7 @@ class ReceiveGroup extends PokerGrop {
     }
 }
 
-class PlayGroup extends PokerGrop {
+class PlayGroup extends PokerGroup {
     public removePoker(poker: Poker) {
         super.removePoker(poker)
         if (!this.groupIsEmpty()) {
@@ -88,7 +91,7 @@ class PlayGroup extends PokerGrop {
         }
 
         let topPoker = this.groupTop
-        console.log('topPoker', topPoker)
+        // console.log('topPoker', topPoker)
         if (topPoker.suit != poker.suit) {
             return topPoker.count - 1 == poker.count
         }
@@ -97,14 +100,14 @@ class PlayGroup extends PokerGrop {
     }
 }
 
-class CloseGroup extends PokerGrop {
+class CloseGroup extends PokerGroup {
     public addPoker(poker: Poker): Poker {
         super.addPoker(poker)
         poker.dir = ECardDir.CLOSE
         return poker
     }
 }
-class OpenGroup extends PokerGrop {
+class OpenGroup extends PokerGroup {
     public addPoker(poker: Poker): Poker {
         super.addPoker(poker)
         // poker.dir = ECardDir.OPEN
@@ -138,7 +141,7 @@ export default class GameDB {
     /** 收牌区数据*/
     private _receiveArea: ReceiveGroup[] = []
     /** 玩牌区数据*/
-    private _playArea: PokerGrop[] = []
+    private _playArea: PokerGroup[] = []
 
     constructor() {
         this.initEvent()
@@ -146,10 +149,9 @@ export default class GameDB {
 
     //绑定事件
     initEvent() {
-        EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, this.onPlayToReceive, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_PLAY_UPDATE_DB, this.onPlayToReceiveOrPlay, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_DB, this.onCloseToOpen, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_UPDATE_DB, this.onOpenToReceiveOrPlay, this)
-        // EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_UPDATE_DB, this.onOpenToPlay, this)
     }
 
     resetGame() {
@@ -239,15 +241,28 @@ export default class GameDB {
 
         // console.log('close剩下的牌数据', this._closeGroup.pokers)
     }
-    /**改变玩牌区到收牌区数据*/
-    onPlayToReceive(poker: Poker) {
+    /**改变玩牌区到收牌区PLAY区数据*/
+    onPlayToReceiveOrPlay(poker: Poker) {
         for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
             let group: ReceiveGroup = this._receiveArea[index]
             if (group.isNextPoker(poker)) {
-                let parent: PokerGrop = poker.parent
+                console.log('收牌区receive可以承接此牌', poker)
+                let parent: PlayGroup = poker.parent
                 parent.removePoker(poker)
                 group.addPoker(poker)
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, poker)
+                return
+            }
+        }
+
+        for (let index = 0; index < PLAY_AREA_COUNT; index++) {
+            let group: PlayGroup = this._playArea[index]
+            if (group.isNextPoker(poker)) {
+                console.log('PLAY区play可以承接此牌', poker)
+                let parent: PlayGroup = poker.parent
+                parent.removePoker(poker)
+                group.addPoker(poker)
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_PLAY_UPDATE_VIEW, poker)
             }
         }
     }
@@ -267,10 +282,11 @@ export default class GameDB {
         for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
             let group: ReceiveGroup = this._receiveArea[index]
             if (group.isNextPoker(poker)) {
-                // console.log('可以承接此牌', poker)
+                console.log('ReceiveGroup可以承接此牌', poker)
                 parent.removePoker(poker)
                 group.addPoker(poker)
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, poker)
+                return
             }
         }
         //检测play区能否承接
@@ -298,7 +314,7 @@ export default class GameDB {
             let pokers = gp.pokers
             let topPoker = pokers[pokers.length - 1]
             if (!topPoker)
-                return null
+                continue
 
             if (topPoker.count == poker.count && topPoker.suit == poker.suit)
                 return true
