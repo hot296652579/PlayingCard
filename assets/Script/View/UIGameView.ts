@@ -9,6 +9,8 @@ import { UIPoker } from '../UI/UIPoker';
 import TweenUtil, { moveWorld2Space } from '../Utils/Utils';
 const { ccclass, property } = _decorator;
 
+
+const PADDING_PLAY = 92
 @ccclass('UIGameView')
 export class UIGameView extends Component {
     @property(Prefab)
@@ -31,6 +33,7 @@ export class UIGameView extends Component {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TOPPOKER_UPDATE_VIEW, this.openTopPoker, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_VIEW, this.closeToOpen, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, this.openToReceive, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_PLAY_UPDATE_VIEW, this.openToPlay, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_CLOSE_UPDATE_VIEW, this.openToClose, this)
     }
 
@@ -78,12 +81,12 @@ export class UIGameView extends Component {
         node.setSiblingIndex(index)
 
         let delay = index * 0.1
-        let nodeEndPos = groupIndex * 92
+        let nodeEndPos = groupIndex * PADDING_PLAY
 
         if (i == 0) {
             tween(node)
                 .delay(delay)
-                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -30, 0) })
+                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -40, 0) })
                 .to(0.3, { scale: new Vec3(0, 1, 0) })
                 .call(() => {
                     poker.dir = ECardDir.OPEN
@@ -94,7 +97,7 @@ export class UIGameView extends Component {
         } else {
             tween(node)
                 .delay(delay)
-                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -30, 0) })
+                .to(0.3, { position: new Vec3(nodeEndPos, cardIndex * -40, 0) })
                 .start()
         }
 
@@ -125,7 +128,7 @@ export class UIGameView extends Component {
         } else if (GameDB.getInstance().onCheckInOpenArea(poker)) {
             // console.log('点击的区域是openArea')
             if (GameDB.getInstance().onCheckIndexByOpenTop(poker)) {
-                EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_DB, uiPoker.poker)
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_UPDATE_DB, uiPoker.poker)
             }
         }
     }
@@ -150,6 +153,23 @@ export class UIGameView extends Component {
         tween(node)
             .to(delay, { position: new Vec3(0, 0, 0) })
             .start()
+    }
+
+    moveUIPokerToPlayArea(poker: Poker) {
+        let node = poker.UIPoker.node
+        let groupIndex = poker.parent.index
+        let pokerIndex = poker.indexInGroup()
+        moveWorld2Space(node, this.playGruopRoot)
+        this.playGruopRoot.addChild(node)
+
+        let nodeEndPos = groupIndex * PADDING_PLAY
+        tween(node)
+            .to(0.5, { position: new Vec3(nodeEndPos, -40 * pokerIndex, 0) })
+            .start()
+    }
+
+    openToPlay(poker: Poker) {
+        this.moveUIPokerToPlayArea(poker)
     }
 
     openTopPoker(poker: Poker) {
@@ -179,7 +199,7 @@ export class UIGameView extends Component {
             .to(0.3, { scale: new Vec3(1, 1, 1) })
             .start()
 
-        let padding = -30
+        let padding = -40
         for (let index = 0; index <= 1; index++) {
             let p: Poker = GameDB.getInstance().openGroup.getPoker(-2 - index)
             if (p) {
@@ -193,7 +213,7 @@ export class UIGameView extends Component {
     checkCloseIsEmpty() {
         GameDB.getInstance().isCloseEmptyOpenToClose()
     }
-    @clickLock(0.1)
+    @clickLock(0.5)
     openToClose(pokers) {
         let index = 0
         for (const poker of pokers) {

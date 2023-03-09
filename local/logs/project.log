@@ -341,3 +341,36 @@ myProp = 0;
 2023-03-09T01:12:23.357Z - info: [Scene] [PHYSICS]: using builtin.
 2023-03-09T01:12:23.443Z - log: [Scene] Cocos Creator v3.6.0
 2023-03-09T01:12:23.443Z - info: [Scene] Forward render pipeline initialized.
+2023-03-09T09:47:20.961Z - error: [Preview]Cannot read properties of undefined (reading 'isNextPoker')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'isNextPoker')
+    at GameDB.onOpenToReceiveOrPlay (http://localhost:7456/scripting/x/chunks/8c/8c081c8d340c3d436dff2c0a988747ae61f891f1.js:416:24)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIGameView.clickCardHandler (http://localhost:7456/scripting/x/chunks/74/749fdb00ae4a87838942c1e32747f8be5173d5d1.js:275:55)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIPoker.touchEnd (http://localhost:7456/scripting/x/chunks/05/05abfae2f5700bc172eec230ed2917fb93fb0423.js:158:51)
+    at descriptor.value (http://localhost:7456/scripting/x/chunks/ef/ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8.js:27:17)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchEnd (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153294:16)' : ''
+2023-03-09T09:49:48.123Z - error: [Preview]Cannot read properties of undefined (reading 'isNextPoker')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'isNextPoker')
+    at GameDB.onOpenToReceiveOrPlay (http://localhost:7456/scripting/x/chunks/eb/ebf0d81cec1ef9761fd2647dcadf14e5d5a81823.js:416:24)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIGameView.clickCardHandler (http://localhost:7456/scripting/x/chunks/74/749fdb00ae4a87838942c1e32747f8be5173d5d1.js:275:55)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIPoker.touchEnd (http://localhost:7456/scripting/x/chunks/05/05abfae2f5700bc172eec230ed2917fb93fb0423.js:158:51)
+    at descriptor.value (http://localhost:7456/scripting/x/chunks/ef/ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8.js:27:17)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchEnd (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153294:16)' : ''
+2023-03-09T09:55:02.924Z - error: [Preview]this.parent.indexInGroup is not a functionerrorInfo.stack ? '/n TypeError: this.parent.indexInGroup is not a function
+    at Poker.indexInGroup (http://localhost:7456/scripting/x/chunks/2a/2a92db873ec562af8953f4442df1fc25d6983c58.js:89:30)
+    at UIGameView.moveUIPokerToPlayArea (http://localhost:7456/scripting/x/chunks/74/749fdb00ae4a87838942c1e32747f8be5173d5d1.js:308:34)
+    at UIGameView.openToPlay (http://localhost:7456/scripting/x/chunks/74/749fdb00ae4a87838942c1e32747f8be5173d5d1.js:320:16)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at GameDB.onOpenToReceiveOrPlay (http://localhost:7456/scripting/x/chunks/49/490893cbff65ec4596c508eec57bf8114b81a914.js:428:55)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIGameView.clickCardHandler (http://localhost:7456/scripting/x/chunks/74/749fdb00ae4a87838942c1e32747f8be5173d5d1.js:275:55)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIPoker.touchEnd (http://localhost:7456/scripting/x/chunks/05/05abfae2f5700bc172eec230ed2917fb93fb0423.js:158:51)
+    at descriptor.value (http://localhost:7456/scripting/x/chunks/ef/ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8.js:27:17)' : ''

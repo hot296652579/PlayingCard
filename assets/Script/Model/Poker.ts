@@ -39,4 +39,8 @@ export default class Poker {
     public isSimilarSuit(suit: EnumSuit) {
         return Number(ESuitNum[suit] + ESuitNum[this.suit]) % 2 == 0
     }
+
+    public indexInGroup() {
+        return this.parent.indexOfPoker(this)
+    }
 }

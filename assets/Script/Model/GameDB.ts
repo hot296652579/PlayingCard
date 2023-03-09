@@ -31,7 +31,6 @@ export class PokerGrop {
                 return p
             }
         }
-
     }
 
     public getPoker(index: number) {
@@ -42,7 +41,6 @@ export class PokerGrop {
             }
         }
         return null
-
     }
 
     public groupIsEmpty() {
@@ -51,6 +49,9 @@ export class PokerGrop {
 
     public get groupTop() {
         return this.groupIsEmpty() ? null : this._pokers[this._pokers.length - 1]
+    }
+    public indexOfPoker(poker: Poker): number {
+        return this.pokers.indexOf(poker)
     }
 }
 
@@ -80,6 +81,20 @@ class PlayGroup extends PokerGrop {
             EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TOPPOKER_UPDATE_VIEW, topPoker)
         }
     }
+
+    public isNextPoker?(poker: Poker) {
+        if (this.groupIsEmpty()) {
+            return poker.count == 13
+        }
+
+        let topPoker = this.groupTop
+        console.log('topPoker', topPoker)
+        if (topPoker.suit != poker.suit) {
+            return topPoker.count - 1 == poker.count
+        }
+
+        return false
+    }
 }
 
 class CloseGroup extends PokerGrop {
@@ -96,8 +111,9 @@ class OpenGroup extends PokerGrop {
         return poker
     }
 }
-
+/**4组*/
 export const RECEIVE_AREA_COUNT: number = 4
+/**7组*/
 export const PLAY_AREA_COUNT: number = 7
 export default class GameDB {
     private static instance: any = null
@@ -132,7 +148,8 @@ export default class GameDB {
     initEvent() {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_DB, this.onPlayToReceive, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_DB, this.onCloseToOpen, this)
-        EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_DB, this.onOpenToReceive, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_UPDATE_DB, this.onOpenToReceiveOrPlay, this)
+        // EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_UPDATE_DB, this.onOpenToPlay, this)
     }
 
     resetGame() {
@@ -243,10 +260,10 @@ export default class GameDB {
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_VIEW, poker)
     }
 
-    /**移除open顶部牌数据添加到receive区数据*/
-    onOpenToReceive(poker: Poker) {
+    /**移除open顶部牌数据添加到receiv或则open区数据*/
+    onOpenToReceiveOrPlay(poker: Poker) {
         let parent: OpenGroup = poker.parent
-
+        //检测receive区能否承接
         for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
             let group: ReceiveGroup = this._receiveArea[index]
             if (group.isNextPoker(poker)) {
@@ -254,6 +271,16 @@ export default class GameDB {
                 parent.removePoker(poker)
                 group.addPoker(poker)
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, poker)
+            }
+        }
+        //检测play区能否承接
+        for (let index = 0; index < PLAY_AREA_COUNT; index++) {
+            let group: PlayGroup = this._playArea[index]
+            if (group.isNextPoker(poker)) {
+                // console.log('可以承接此牌', poker)
+                parent.removePoker(poker)
+                group.addPoker(poker)
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_PLAY_UPDATE_VIEW, poker)
             }
         }
     }
