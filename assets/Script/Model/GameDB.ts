@@ -27,7 +27,7 @@ export class PokerGrop {
             let poker = this._pokers[index];
             if (poker.count == p.count && poker.suit == p.suit) {
                 this._pokers.splice(index, 1)
-                console.log('删除后的pokers', this._pokers)
+                // console.log('删除后的pokers', this._pokers)
                 return p
             }
         }
@@ -82,7 +82,13 @@ class PlayGroup extends PokerGrop {
     }
 }
 
-class CloseGroup extends PokerGrop { }
+class CloseGroup extends PokerGrop {
+    public addPoker(poker: Poker): Poker {
+        super.addPoker(poker)
+        poker.dir = ECardDir.CLOSE
+        return poker
+    }
+}
 class OpenGroup extends PokerGrop {
     public addPoker(poker: Poker): Poker {
         super.addPoker(poker)
@@ -315,6 +321,21 @@ export default class GameDB {
         }
 
         return false
+    }
+
+    /**检测close区是否是空的 是空就把open的数据过来*/
+    isCloseEmptyOpenToClose() {
+        let empty = this.closeGroup.groupIsEmpty()
+        if (empty) {
+            while (!this.openGroup.groupIsEmpty()) {
+                for (const poker of this.openGroup.pokers) {
+                    this.openGroup.removePoker(poker)
+                    this.closeGroup.addPoker(poker)
+                }
+            }
+
+            EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_CLOSE_UPDATE_VIEW, this.closeGroup.pokers)
+        }
     }
 
     public get pokers(): Poker[] { return this._pokers }

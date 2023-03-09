@@ -30,6 +30,7 @@ export class UIGameView extends Component {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TOPPOKER_UPDATE_VIEW, this.openTopPoker, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_VIEW, this.closeToOpen, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, this.openToReceive, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_CLOSE_UPDATE_VIEW, this.openToClose, this)
     }
 
     createAllCardByDB(pokers: Poker[]) {
@@ -185,6 +186,20 @@ export class UIGameView extends Component {
                     .to(0.2, { position: new Vec3(padding * (index + 1), 0, 0) })
                     .start()
             }
+        }
+    }
+
+    checkCloseIsEmpty() {
+        GameDB.getInstance().isCloseEmptyOpenToClose()
+    }
+
+    openToClose(pokers) {
+        let index = 0
+        for (const poker of pokers) {
+            let node = poker.UIPoker.node
+            moveWorld2Space(node, this.closeSendArea)
+            node.setPosition(0.5 * index, 0.2 * index, 0)
+            index++
         }
     }
 
