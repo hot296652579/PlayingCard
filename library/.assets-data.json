@@ -3630,5 +3630,9 @@
   "27bfa3d6-32d4-419b-bfdb-b5abb8af837b": {
     "url": "db://assets/Script/Base/Event/EventMgr.ts",
     "value": {}
+  },
+  "44025309-fcf4-43ca-8c8e-1b3e4b0489da": {
+    "url": "db://assets/Script/Base/Docretors.ts",
+    "value": {}
   }
 }

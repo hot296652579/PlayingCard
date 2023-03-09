@@ -731,7 +731,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts": {
-    "time": 1678278800413.913,
+    "time": 1678345531180.0156,
     "uuid": "27885772-8fa9-49e1-aba8-96e9ae5e1565",
     "missing": false
   },
@@ -747,7 +747,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": {
-    "time": 1678331714279.9482,
+    "time": 1678345512823.017,
     "uuid": "6fe3e365-3176-40f0-9696-c848a965ddea",
     "missing": false
   },
@@ -793,7 +793,7 @@
     "time": 1677812915007.934
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base": {
-    "time": 1677812914998.7976,
+    "time": 1678345234236.5571,
     "uuid": "662aea82-0fbb-4438-9a7e-9608fef7b297",
     "missing": false
   },
@@ -805,6 +805,14 @@
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts": {
     "time": 1677831059019.5532,
     "uuid": "27bfa3d6-32d4-419b-bfdb-b5abb8af837b",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts.meta": {
+    "time": 1678345234239.0889
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts": {
+    "time": 1678345490885.1936,
+    "uuid": "44025309-fcf4-43ca-8c8e-1b3e4b0489da",
     "missing": false
   }
 }

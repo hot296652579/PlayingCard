@@ -1,4 +1,5 @@
 import { _decorator, Component, Node, Prefab, Game, instantiate, Vec3, UITransform, Tween, tween } from 'cc';
+import { clickLock } from '../Base/Docretors';
 import EventMgr from '../Base/Event/EventMgr';
 import { ECardDir, EventGame_Enum } from '../Enum';
 import GameEngine from '../GameEngine';
@@ -192,11 +193,12 @@ export class UIGameView extends Component {
     checkCloseIsEmpty() {
         GameDB.getInstance().isCloseEmptyOpenToClose()
     }
-
+    @clickLock(0.1)
     openToClose(pokers) {
         let index = 0
         for (const poker of pokers) {
             let node = poker.UIPoker.node
+            Tween.stopAllByTag(node)
             moveWorld2Space(node, this.closeSendArea)
             node.setPosition(0.5 * index, 0.2 * index, 0)
             index++

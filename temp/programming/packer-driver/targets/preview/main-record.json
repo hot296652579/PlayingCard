@@ -409,11 +409,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 7381070.305625021,
-      "chunkId": "46cdbec9636fb7ec603b8064da54c9454d637e58",
+      "mTimestamp": 21198409.698417008,
+      "chunkId": "08cf1b97de99ce4e9d8aefc881f776d3037827ad",
       "imports": [
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -422,12 +422,12 @@
             },
             "end": {
               "line": 4,
-              "column": 93
+              "column": 88
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Event/EventMgr.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -436,12 +436,12 @@
             },
             "end": {
               "line": 5,
-              "column": 84
+              "column": 93
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -455,7 +455,7 @@
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/GameEngine.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -464,12 +464,12 @@
             },
             "end": {
               "line": 7,
-              "column": 86
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/GameDB.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -478,12 +478,12 @@
             },
             "end": {
               "line": 8,
-              "column": 85
+              "column": 86
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Model/Poker.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -492,12 +492,12 @@
             },
             "end": {
               "line": 9,
-              "column": 80
+              "column": 85
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/ResMgr.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -506,12 +506,12 @@
             },
             "end": {
               "line": 10,
-              "column": 84
+              "column": 80
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -520,12 +520,12 @@
             },
             "end": {
               "line": 11,
-              "column": 85
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UIGameScene.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -539,7 +539,7 @@
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts",
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Utils/Utils.ts",
           "resolved": "__unresolved_9",
           "loc": {
             "start": {
@@ -548,6 +548,20 @@
             },
             "end": {
               "line": 13,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
               "column": 89
             }
           }
@@ -555,6 +569,13 @@
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",
@@ -1390,10 +1411,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts": {
       "mTimestamp": {
-        "mtime": 1678278800413.913,
+        "mtime": 1678345531180.0156,
         "uuid": "27885772-8fa9-49e1-aba8-96e9ae5e1565"
       },
-      "chunkId": "3a7eb92c6c1d8db3b23a7eb925760ead0a712d75",
+      "chunkId": "05abfae2f5700bc172eec230ed2917fb93fb0423",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1419,12 +1440,12 @@
           }
         },
         {
-          "value": "../Base/Event/EventMgr",
+          "value": "../Base/Docretors",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 2,
-              "column": 21
+              "column": 26
             },
             "end": {
               "line": 2,
@@ -1433,43 +1454,57 @@
           }
         },
         {
-          "value": "../Enum",
+          "value": "../Base/Event/EventMgr",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 3,
-              "column": 41
+              "column": 21
             },
             "end": {
               "line": 3,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../Enum",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 41
+            },
+            "end": {
+              "line": 4,
               "column": 50
             }
           }
         },
         {
           "value": "../ResMgr",
-          "resolved": "__unresolved_3",
+          "resolved": "__unresolved_4",
           "loc": {
             "start": {
-              "line": 5,
+              "line": 6,
               "column": 19
             },
             "end": {
-              "line": 5,
+              "line": 6,
               "column": 30
             }
           }
         },
         {
           "value": "../Utils/Utils",
-          "resolved": "__unresolved_4",
+          "resolved": "__unresolved_5",
           "loc": {
             "start": {
-              "line": 6,
+              "line": 7,
               "column": 26
             },
             "end": {
-              "line": 6,
+              "line": 7,
               "column": 42
             }
           }
@@ -1502,6 +1537,13 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts"
           },
           "messages": []
         },
@@ -1642,10 +1684,10 @@
     },
     "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": {
       "mTimestamp": {
-        "mtime": 1678331714279.9482,
+        "mtime": 1678345512823.017,
         "uuid": "6fe3e365-3176-40f0-9696-c848a965ddea"
       },
-      "chunkId": "6e5518474dc291175b20a1b20c0908e5bc7c2077",
+      "chunkId": "7ad5402fd197c4217a7ee45b3cb94e827ff1eb9f",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1671,12 +1713,12 @@
           }
         },
         {
-          "value": "../Base/Event/EventMgr",
+          "value": "../Base/Docretors",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 2,
-              "column": 21
+              "column": 26
             },
             "end": {
               "line": 2,
@@ -1685,57 +1727,71 @@
           }
         },
         {
-          "value": "../Enum",
+          "value": "../Base/Event/EventMgr",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 3,
-              "column": 41
+              "column": 21
             },
             "end": {
               "line": 3,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "../Enum",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 41
+            },
+            "end": {
+              "line": 4,
               "column": 50
             }
           }
         },
         {
           "value": "../Model/GameDB",
-          "resolved": "__unresolved_3",
+          "resolved": "__unresolved_4",
           "loc": {
             "start": {
-              "line": 5,
+              "line": 6,
               "column": 40
             },
             "end": {
-              "line": 5,
+              "line": 6,
               "column": 57
             }
           }
         },
         {
           "value": "../UI/UIPoker",
-          "resolved": "__unresolved_4",
+          "resolved": "__unresolved_5",
           "loc": {
             "start": {
-              "line": 7,
+              "line": 8,
               "column": 24
             },
             "end": {
-              "line": 7,
+              "line": 8,
               "column": 39
             }
           }
         },
         {
           "value": "../Utils/Utils",
-          "resolved": "__unresolved_5",
+          "resolved": "__unresolved_6",
           "loc": {
             "start": {
-              "line": 8,
+              "line": 9,
               "column": 43
             },
             "end": {
-              "line": 8,
+              "line": 9,
               "column": 59
             }
           }
@@ -1768,6 +1824,13 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts"
           },
           "messages": []
         },
@@ -1964,6 +2027,28 @@
         "uuid": "27bfa3d6-32d4-419b-bfdb-b5abb8af837b"
       },
       "chunkId": "3bab273318489b6e8cef138aa78f8e0dbc77c4cd",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts": {
+      "mTimestamp": {
+        "mtime": 1678345490885.1936,
+        "uuid": "44025309-fcf4-43ca-8c8e-1b3e4b0489da"
+      },
+      "chunkId": "ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8",
       "imports": [
         {
           "value": "cc"

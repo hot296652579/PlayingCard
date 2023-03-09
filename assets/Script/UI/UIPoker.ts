@@ -1,4 +1,5 @@
 import { _decorator, Component, Node, SpriteFrame, Sprite, NodeEventType, path } from 'cc';
+import { clickLock } from '../Base/Docretors';
 import EventMgr from '../Base/Event/EventMgr';
 import { ECardDir, EventGame_Enum } from '../Enum';
 import Poker from '../Model/Poker';
@@ -68,7 +69,7 @@ export class UIPoker extends Component {
     touchMove() {
 
     }
-
+    @clickLock(0.5)
     touchEnd() {
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this._poker)
     }
