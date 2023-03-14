@@ -341,3 +341,36 @@ myProp = 0;
 2023-03-14T07:41:29.660Z - info: [Scene] [PHYSICS]: using builtin.
 2023-03-14T07:41:29.738Z - log: [Scene] Cocos Creator v3.6.0
 2023-03-14T07:41:29.738Z - info: [Scene] Forward render pipeline initialized.
+2023-03-14T09:44:35.323Z - error: [Preview]Cannot read properties of undefined (reading 'pokers')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'pokers')
+    at GameDB.onPlayToPlay (http://localhost:7456/scripting/x/chunks/d6/d66fde2d9d1512b6da3d909f9cd082c2387fbce5.js:444:58)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIGameView.clickCardHandler (http://localhost:7456/scripting/x/chunks/f9/f915fa003e7abc863e6071e6aa2335d2a5290f9c.js:266:57)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIPoker.touchEnd (http://localhost:7456/scripting/x/chunks/05/05abfae2f5700bc172eec230ed2917fb93fb0423.js:158:51)
+    at descriptor.value (http://localhost:7456/scripting/x/chunks/ef/ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8.js:27:17)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchEnd (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153294:16)' : ''
+2023-03-14T09:47:25.170Z - error: [Preview]Cannot read properties of undefined (reading 'pokers')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'pokers')
+    at GameDB.onPlayToPlay (http://localhost:7456/scripting/x/chunks/b7/b71d9a5d4986d13af30bac99b9d114fce5aa7ef9.js:446:58)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIGameView.clickCardHandler (http://localhost:7456/scripting/x/chunks/f9/f915fa003e7abc863e6071e6aa2335d2a5290f9c.js:266:57)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIPoker.touchEnd (http://localhost:7456/scripting/x/chunks/05/05abfae2f5700bc172eec230ed2917fb93fb0423.js:158:51)
+    at descriptor.value (http://localhost:7456/scripting/x/chunks/ef/ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8.js:27:17)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchEnd (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153294:16)' : ''
+2023-03-14T09:50:44.906Z - error: [Preview]Cannot read properties of undefined (reading '_pokers')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '_pokers')
+    at GameDB.onPlayToPlay (http://localhost:7456/scripting/x/chunks/e4/e4cc1d25c16899d2e46688b6925e243eda2aeeeb.js:446:58)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIGameView.clickCardHandler (http://localhost:7456/scripting/x/chunks/f9/f915fa003e7abc863e6071e6aa2335d2a5290f9c.js:266:57)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIPoker.touchEnd (http://localhost:7456/scripting/x/chunks/05/05abfae2f5700bc172eec230ed2917fb93fb0423.js:158:51)
+    at descriptor.value (http://localhost:7456/scripting/x/chunks/ef/ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8.js:27:17)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchEnd (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153294:16)' : ''

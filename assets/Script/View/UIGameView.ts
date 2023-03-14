@@ -182,10 +182,15 @@ export class UIGameView extends Component {
         this.moveUIPokerToPlayArea(poker)
     }
 
-    playPokerToOtherPlay(pokers: Poker[]) {
+    playPokerToOtherPlay(pokers: Poker[], openPoker: Poker) {
         for (let index = pokers.length - 1; index >= 0; index--) {
             let poker = pokers[index];
             this.moveUIPokerToPlayArea(poker)
+        }
+
+        if (openPoker) {
+            openPoker.dir = ECardDir.OPEN
+            openPoker.UIPoker.refreshView()
         }
     }
 

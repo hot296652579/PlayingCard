@@ -275,6 +275,8 @@ export default class GameDB {
     }
     /**改变玩牌区到其他玩牌区域*/
     onPlayToPlay(poker: Poker) {
+        // console.log('poker indexInGroup:', poker.indexInGroup())
+        let indexInGroup = poker.indexInGroup()
         for (let index = 0; index < PLAY_AREA_COUNT; index++) {
             let group: PlayGroup = this._playArea[index]
             if (group.isNextPoker(poker)) {
@@ -294,8 +296,18 @@ export default class GameDB {
                     let p = pokers[index];
                     group.addPoker(p)
                 }
-                console.log('pokers', pokers)
-                EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_OTHERPLAY_UPDATE_VIEW, pokers)
+
+
+                console.log('indexInGroup', indexInGroup)
+                console.log('this._playArea:', this._playArea)
+
+                let openPoker = null
+                let _pokers = this._playArea[indexInGroup]._pokers!
+                if (_pokers && _pokers.length > 0) {
+                    openPoker = this._playArea[indexInGroup].groupTop
+                }
+
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_OTHERPLAY_UPDATE_VIEW, pokers, openPoker)
             }
         }
     }
