@@ -31,6 +31,7 @@ export class UIGameView extends Component {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this.clickCardHandler, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, this.playPokerToReceive, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_PLAY_UPDATE_VIEW, this.playPokerToPlay, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_OTHERPLAY_UPDATE_VIEW, this.playPokerToOtherPlay, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TOPPOKER_UPDATE_VIEW, this.openTopPoker, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_VIEW, this.closeToOpen, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, this.openToReceive, this)
@@ -120,6 +121,10 @@ export class UIGameView extends Component {
                 if (uiPoker.isOpen()) {
                     EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_PLAY_UPDATE_DB, uiPoker.poker)
                 }
+            } else {
+                if (uiPoker.isOpen()) {
+                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_PLAY_UPDATE_DB, uiPoker.poker)
+                }
             }
         } else if (GameDB.getInstance().onCheckInCloseArea(poker)) {
             // console.log('点击的区域是CloseArea')
@@ -177,6 +182,13 @@ export class UIGameView extends Component {
         this.moveUIPokerToPlayArea(poker)
     }
 
+    playPokerToOtherPlay(pokers: Poker[]) {
+        for (let index = pokers.length - 1; index >= 0; index--) {
+            let poker = pokers[index];
+            this.moveUIPokerToPlayArea(poker)
+        }
+    }
+
     openTopPoker(poker: Poker) {
         let node = poker.UIPoker.node
         tween(node)
@@ -204,7 +216,7 @@ export class UIGameView extends Component {
             .to(0.3, { scale: new Vec3(1, 1, 1) })
             .start()
 
-        let padding = -75
+        let padding = -50
         for (let index = 0; index <= 1; index++) {
             let p: Poker = GameDB.getInstance().openGroup.getPoker(-2 - index)
             if (p) {

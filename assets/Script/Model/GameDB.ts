@@ -43,6 +43,12 @@ export class PokerGroup {
         return null
     }
 
+    public popPoker() {
+        let poker = this.pokers[this.pokers.length - 1]
+        this.pokers.length = this.pokers.length - 1
+        return poker
+    }
+
     public groupIsEmpty() {
         return this._pokers.length == 0
     }
@@ -150,6 +156,7 @@ export default class GameDB {
     //绑定事件
     initEvent() {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_PLAY_UPDATE_DB, this.onPlayToReceiveOrPlay, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_PLAY_UPDATE_DB, this.onPlayToPlay, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_DB, this.onCloseToOpen, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_UPDATE_DB, this.onOpenToReceiveOrPlay, this)
     }
@@ -266,6 +273,33 @@ export default class GameDB {
             }
         }
     }
+    /**改变玩牌区到其他玩牌区域*/
+    onPlayToPlay(poker: Poker) {
+        for (let index = 0; index < PLAY_AREA_COUNT; index++) {
+            let group: PlayGroup = this._playArea[index]
+            if (group.isNextPoker(poker)) {
+                //连接操作
+                let parent: PlayGroup = poker.parent
+                let pokers = []
+
+                while (true) {
+                    let top = parent.popPoker()
+                    pokers.push(top)
+
+                    if (top == poker)
+                        break
+                }
+
+                for (let index = pokers.length - 1; index >= 0; index--) {
+                    let p = pokers[index];
+                    group.addPoker(p)
+                }
+                console.log('pokers', pokers)
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_OTHERPLAY_UPDATE_VIEW, pokers)
+            }
+        }
+    }
+
     /**移除close顶部牌数据添加到open区数据*/
     onCloseToOpen(poker: Poker) {
         let parent: CloseGroup = poker.parent as CloseGroup
