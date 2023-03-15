@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, SpriteFrame, Sprite, NodeEventType, path } from 'cc';
+import { _decorator, Component, Node, SpriteFrame, Sprite, NodeEventType, path, Event, EventTouch, Vec2, Vec3, UITransform, tween } from 'cc';
 import { clickLock } from '../Base/Docretors';
 import EventMgr from '../Base/Event/EventMgr';
 import { ECardDir, EventGame_Enum } from '../Enum';
@@ -13,6 +13,15 @@ export class UIPoker extends Component {
     cardBgNode: Node = null
 
     cardSpFrame: Sprite = null
+    m_touchStartFlag: boolean = false
+    m_dragFlag: boolean = false
+    m_startDragFunc: Function = null
+
+    touchStartLocation: Vec2 = null
+    // startNodePos: Vec2 = null
+    startNodePosX: number = null
+    startNodePosY: number = null
+
     private _poker: Poker
     public get poker() {
         return this._poker
@@ -28,6 +37,14 @@ export class UIPoker extends Component {
         this.node.on(NodeEventType.TOUCH_START, this.touchStart, this);  // if "this" is component and the "memberFunction" declared in CCClass.
         this.node.on(NodeEventType.TOUCH_MOVE, this.touchMove, this);
         this.node.on(NodeEventType.TOUCH_END, this.touchEnd, this);
+        this.node.on(NodeEventType.TOUCH_CANCEL, this.touchEnd, this);
+    }
+
+    onDestroy() {
+        this.node.off(NodeEventType.TOUCH_START, this.touchStart, this);  // if "this" is component and the "memberFunction" declared in CCClass.
+        this.node.off(NodeEventType.TOUCH_MOVE, this.touchMove, this);
+        this.node.off(NodeEventType.TOUCH_END, this.touchEnd, this);
+        this.node.off(NodeEventType.TOUCH_CANCEL, this.touchEnd, this);
     }
 
     init(poker: Poker) {
@@ -62,15 +79,61 @@ export class UIPoker extends Component {
         this.updateCardDir(this._poker)
     }
 
-    touchStart(event) {
-        // console.log('event.target,', event.target)
+    touchStart(event: EventTouch) {
+        console.log('Touchstart EventTouch,', event.target)
+        if (this.m_touchStartFlag)
+            return
+
+        this.m_touchStartFlag = true
+        this.m_dragFlag = false
+        this.m_startDragFunc = function () {
+            // console.log('start drag...')
+            this.m_dragFlag = true
+            this.startNodePosX = this.node.position.x
+            this.startNodePosY = this.node.position.y
+            console.log(this.startNodePosX, this.startNodePosY)
+        }
+        this.scheduleOnce(this.m_startDragFunc, 0.3)
     }
 
-    touchMove() {
+    touchMove(event: EventTouch) {
+        if (!this.m_touchStartFlag) return
 
+        if (this.m_touchStartFlag) {
+            // if (this.touchStartLocation == null) {
+            //     this.touchStartLocation = event.getLocation()
+            // }
+            // let dis: Vec2 = event.getLocation().subtract(this.touchStartLocation)
+            // let newARDis = this.node.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(dis.x, dis.y))
+            // if (this.startNodePos) {
+            //     let newPosX = newARDis.x + dis.x
+            //     let newPosY = newARDis.y + dis.y
+
+            //     this.node.setPosition(newPosX, newPosY)
+            // }
+
+            let delta = event.touch.getDelta()
+            let disx = this.node.position.x + delta.x
+            let disy = this.node.position.y + delta.y
+            this.node.setPosition(disx, disy)
+        }
     }
+
     @clickLock(0.5)
     touchEnd() {
+        console.log(this.startNodePosX, this.startNodePosY)
+        if (!this.m_touchStartFlag) return
+        this.m_touchStartFlag = false
+        this.unschedule(this.m_startDragFunc)
+        if (this.m_dragFlag) {
+            this.m_dragFlag = false
+
+            tween(this.node)
+                .to(0.2, { position: new Vec3(this.startNodePosX, this.startNodePosY) })
+                .start()
+
+        }
+
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this._poker)
     }
 

@@ -71,7 +71,7 @@ class ReceiveGroup extends PokerGroup {
             if (this.groupTop) {
                 return this.groupTop.count + 1 == poker.count
             } else {
-                console.log('poker.count', poker.count)
+                // console.log('poker.count', poker.count)
                 return poker.count == 1
             }
         }
@@ -254,7 +254,7 @@ export default class GameDB {
         for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
             let group: ReceiveGroup = this._receiveArea[index]
             if (group.isNextPoker(poker)) {
-                console.log('收牌区receive可以承接此牌', poker)
+                // console.log('收牌区receive可以承接此牌', poker)
                 let parent: PlayGroup = poker.parent
                 parent.removePoker(poker)
                 group.addPoker(poker)
@@ -266,7 +266,7 @@ export default class GameDB {
         for (let index = 0; index < PLAY_AREA_COUNT; index++) {
             let group: PlayGroup = this._playArea[index]
             if (group.isNextPoker(poker)) {
-                console.log('PLAY区play可以承接此牌', poker)
+                // console.log('PLAY区play可以承接此牌', poker)
                 let parent: PlayGroup = poker.parent
                 parent.removePoker(poker)
                 group.addPoker(poker)
@@ -277,7 +277,7 @@ export default class GameDB {
     }
     /**改变玩牌区到其他玩牌区域*/
     onPlayToPlay(poker: Poker) {
-        // console.log('poker indexInGroup:', poker.indexInGroup())
+        // console.log(`这张牌从第 '${poker.indexInGroup()}' 组移动`)
         let indexInGroup = poker.indexInGroup()
         for (let index = 0; index < PLAY_AREA_COUNT; index++) {
             let group: PlayGroup = this._playArea[index]
@@ -298,10 +298,6 @@ export default class GameDB {
                     let p = pokers[index];
                     group.addPoker(p)
                 }
-
-
-                console.log('indexInGroup', indexInGroup)
-                console.log('this._playArea:', this._playArea)
 
                 let openPoker = null
                 let _pokers = this._playArea[indexInGroup]._pokers!
@@ -331,7 +327,7 @@ export default class GameDB {
         for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
             let group: ReceiveGroup = this._receiveArea[index]
             if (group.isNextPoker(poker)) {
-                console.log('ReceiveGroup可以承接此牌', poker)
+                // console.log('ReceiveGroup可以承接此牌', poker)
                 parent.removePoker(poker)
                 group.addPoker(poker)
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, poker)

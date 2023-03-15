@@ -113,7 +113,8 @@ export class UIGameView extends Component {
     }
 
     clickCardHandler(poker: Poker) {
-        console.log('点击poker', poker)
+        console.log('点击的poker', poker)
+        console.log('当前poker所在的组index:' + poker.indexInGroup())
         let uiPoker = poker.UIPoker
 
         if (GameDB.getInstance().onCheckInPlayArea(poker)) {

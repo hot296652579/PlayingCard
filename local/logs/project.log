@@ -341,3 +341,1808 @@ myProp = 0;
 2023-03-15T01:51:35.764Z - info: [Scene] [PHYSICS]: using builtin.
 2023-03-15T01:51:36.030Z - log: [Scene] Cocos Creator v3.6.0
 2023-03-15T01:51:36.031Z - info: [Scene] Forward render pipeline initialized.
+2023-03-15T04:21:11.299Z - log: [im-plugin] Current version is 3.0.9
+2023-03-15T04:21:12.349Z - log: [Im-plugin] Check im-plugin version.
+2023-03-15T04:21:15.568Z - log: [Im-plugin] No online info of im-plugin.
+2023-03-15T04:22:03.175Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2023-03-15T04:22:03.175Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+2023-03-15T04:54:00.366Z - error: [Preview]Cannot read properties of undefined (reading '_pokers')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading '_pokers')
+    at GameDB.onPlayToPlay (http://localhost:7456/scripting/x/chunks/36/3679db0f157afe386505cf1289f2e512dacc888a.js:450:58)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIGameView.clickCardHandler (http://localhost:7456/scripting/x/chunks/09/09ddfd227ce8cafa5d7636086e2003c4812bcd73.js:271:57)
+    at EventMgr.emit (http://localhost:7456/scripting/x/chunks/3b/3bab273318489b6e8cef138aa78f8e0dbc77c4cd.js:79:18)
+    at UIPoker.touchEnd (http://localhost:7456/scripting/x/chunks/05/05abfae2f5700bc172eec230ed2917fb93fb0423.js:158:51)
+    at descriptor.value (http://localhost:7456/scripting/x/chunks/ef/ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8.js:27:17)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchEnd (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153294:16)' : ''
+2023-03-15T08:00:46.409Z - error: [Preview]Cannot read properties of undefined (reading 'uuid')errorInfo.stack ? '/n TypeError: Cannot read properties of undefined (reading 'uuid')
+    at Scheduler.schedule (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8822:33)
+    at UIPoker.schedule (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:93752:21)
+    at UIPoker.scheduleOnce (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:93774:16)
+    at UIPoker.touchStart (http://localhost:7456/scripting/x/chunks/6e/6ee36410af16b3c702398bb3ac2e83cb44d96a94.js:168:16)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchStart (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153257:18)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153228:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59779:43)' : ''
+2023-03-15T08:12:02.171Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/fc/fc77a16d2917076e586b1e5818095adf5589ddfb.js:175:53)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:12:12.803Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/fc/fc77a16d2917076e586b1e5818095adf5589ddfb.js:175:53)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:15:59.399Z - warn: 
+2023-03-15T08:16:00.650Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.661Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.662Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.662Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.663Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-03-15T08:16:00.663Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-03-15T08:16:00.670Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.670Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.670Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.671Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.671Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.671Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.671Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.671Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.671Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.671Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.671Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.671Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.672Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.672Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.672Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.672Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.672Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.672Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.672Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.672Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T08:16:00.690Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-03-15T08:16:00.716Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-03-15T08:16:00.716Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-03-15T08:16:00.716Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-03-15T08:16:00.716Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-03-15T08:16:00.773Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-03-15T08:16:00.779Z - info: [Scene] [PHYSICS]: using builtin.
+2023-03-15T08:16:00.854Z - log: [Scene] Cocos Creator v3.6.0
+2023-03-15T08:16:00.855Z - info: [Scene] Forward render pipeline initialized.
+2023-03-15T08:16:08.938Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/d2/d24fb68ce0dd1069b31a6230e35aa666a6d4d018.js:177:43)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:17:19.351Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/a1/a12e63b486903f4ed5f5693ef14e412c7c40be70.js:178:45)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:17:19.371Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/a1/a12e63b486903f4ed5f5693ef14e412c7c40be70.js:178:45)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:17:28.470Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/a1/a12e63b486903f4ed5f5693ef14e412c7c40be70.js:178:45)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:18:11.935Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/a6/a6a0390e7dfd4c8380808a8d92de29aed751ad13.js:182:61)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:26:19.995Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/ee/ee12f3a7f0ce8cc72680465a18a497f7c695bff3.js:177:53)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:27:26.111Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/5f/5f6cd2f78e8168dee4e1c5b8b30282bb61c61c6b.js:177:40)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:29:13.617Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/81/81fe11abea2b32b7a56d6571b436bcb3ecc47ddb.js:176:18)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:29:28.626Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/81/81fe11abea2b32b7a56d6571b436bcb3ecc47ddb.js:176:18)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:30:22.146Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/97/9731ce7dde16db4e2697adf0a4c59b5c6e560478.js:176:18)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:30:46.545Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/97/9731ce7dde16db4e2697adf0a4c59b5c6e560478.js:176:18)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)
+    at Input._dispatchOrPushEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:15001:20)' : ''
+2023-03-15T08:40:52.634Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.367Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.386Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.405Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.417Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.434Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.450Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.467Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.486Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.500Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.518Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.535Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.554Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.568Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.583Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.604Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.620Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.634Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.666Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.686Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.703Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.716Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.753Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.768Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.883Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.903Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.919Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.936Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.953Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.970Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:57.983Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:58.000Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:58.018Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:58.034Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:58.051Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T08:40:58.070Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at Vec2.subtract (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:133955:27)
+    at UIPoker.touchMove (http://localhost:7456/scripting/x/chunks/2b/2b51a16f87f7a1b9a2f52ddfeced90774909696d.js:166:41)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchMove (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153274:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153231:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T10:52:13.083Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.104Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.114Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.129Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.149Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.165Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.183Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.198Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.216Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.232Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.249Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.266Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.282Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.297Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.316Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.332Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.348Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.366Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.382Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.400Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.415Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.433Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.450Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.466Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.482Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.499Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.516Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.533Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.547Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.566Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.584Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.599Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.617Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.632Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.649Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.663Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.682Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.696Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.713Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.734Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.749Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.765Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.781Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.796Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.816Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.830Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.849Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.865Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.882Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.899Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.915Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.930Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.951Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.967Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.982Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:13.999Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:14.001Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchEnd (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:210:52)
+    at descriptor.value (http://localhost:7456/scripting/x/chunks/ef/ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8.js:27:17)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchEnd (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153294:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153234:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T10:52:33.998Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.024Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.030Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.049Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.065Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.082Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.098Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.116Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.132Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.149Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.166Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.182Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.199Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.216Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.232Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.249Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.267Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.281Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.298Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.313Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.330Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.350Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.366Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.382Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.399Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.417Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.430Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.449Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.468Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.482Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.499Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.515Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.532Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.549Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.565Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.584Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.597Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.614Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.631Z - error: [Preview]this.node.getLocation is not a functionerrorInfo.stack ? '/n TypeError: this.node.getLocation is not a function
+    at UIPoker.m_startDragFunc (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:175:43)
+    at CallbackTimer.trigger (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8528:28)
+    at CallbackTimer.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8501:24)
+    at Scheduler.update (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:8728:34)
+    at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5773:34)
+    at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
+    at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-03-15T10:52:34.634Z - error: [Preview]Cannot read properties of null (reading 'x')errorInfo.stack ? '/n TypeError: Cannot read properties of null (reading 'x')
+    at UIPoker.touchEnd (http://localhost:7456/scripting/x/chunks/da/dab9b33cb9e0221cfe53209a2f0b4bfaab286d09.js:210:52)
+    at descriptor.value (http://localhost:7456/scripting/x/chunks/ef/ef5a77c75a5a931bc4c9e4c44bf21a5e7646b3a8.js:27:17)
+    at CallbacksInvoker.emit (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:118511:28)
+    at NodeEventProcessor.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:152885:33)
+    at Node.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:150289:32)
+    at NodeEventProcessor._handleTouchEnd (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153294:16)
+    at NodeEventProcessor._handleEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:153234:27)
+    at PointerEventDispatcher.dispatchEventTouch (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59794:41)
+    at PointerEventDispatcher.dispatchEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:59699:25)
+    at Input._emitEvent (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:14891:29)' : ''
+2023-03-15T10:57:55.250Z - warn: 
+2023-03-15T10:57:56.516Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.527Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.528Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.528Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.529Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-03-15T10:57:56.529Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-03-15T10:57:56.536Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.536Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.536Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.536Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.537Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.538Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.538Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.538Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.538Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2023-03-15T10:57:56.556Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-03-15T10:57:56.580Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-03-15T10:57:56.580Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-03-15T10:57:56.580Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-03-15T10:57:56.580Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-03-15T10:57:56.635Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-03-15T10:57:56.641Z - info: [Scene] [PHYSICS]: using builtin.
+2023-03-15T10:57:56.712Z - log: [Scene] Cocos Creator v3.6.0
+2023-03-15T10:57:56.712Z - info: [Scene] Forward render pipeline initialized.
