@@ -66,8 +66,8 @@ class ReceiveGroup extends PokerGroup {
 
     public isNextPoker(poker: Poker) {
         if (ENumSiut[this.suit] === poker.suit) {
-            console.log('收牌组的花色', ENumSiut[this.suit])
-            console.log('this.groupTop', this.groupTop)
+            // console.log('收牌组的花色', ENumSiut[this.suit])
+            // console.log('this.groupTop', this.groupTop)
             if (this.groupTop) {
                 return this.groupTop.count + 1 == poker.count
             } else {
@@ -159,6 +159,7 @@ export default class GameDB {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_PLAYAREA_TO_PLAY_UPDATE_DB, this.onPlayToPlay, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_CLOSEAREA_TO_OPEN_UPDATE_DB, this.onCloseToOpen, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_UPDATE_DB, this.onOpenToReceiveOrPlay, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_RECEIVE_TO_PLAY_DB, this.onReceiveToPlay, this)
     }
 
     resetGame() {
@@ -270,6 +271,7 @@ export default class GameDB {
                 parent.removePoker(poker)
                 group.addPoker(poker)
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_PLAY_UPDATE_VIEW, poker)
+                break
             }
         }
     }
@@ -308,6 +310,7 @@ export default class GameDB {
                 }
 
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_OTHERPLAY_UPDATE_VIEW, pokers, openPoker)
+                break
             }
         }
     }
@@ -343,6 +346,21 @@ export default class GameDB {
                 parent.removePoker(poker)
                 group.addPoker(poker)
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_PLAY_UPDATE_VIEW, poker)
+                break
+            }
+        }
+    }
+
+    //移除receive区数据到play区
+    onReceiveToPlay(poker: Poker) {
+        let parent: ReceiveGroup = poker.parent
+        for (let index = 0; index < PLAY_AREA_COUNT; index++) {
+            let group: PlayGroup = this._playArea[index]
+            if (group.isNextPoker(poker)) {
+                parent.removePoker(poker)
+                group.addPoker(poker)
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_RECEIVE_TO_PLAY_VIEW, poker)
+                break
             }
         }
     }
@@ -354,7 +372,7 @@ export default class GameDB {
         ).length > 0
     }
 
-    //检测是否在顶部
+    //检测是否在play顶部
     onCheckIndexTop(poker: Poker) {
         for (const gp of this._playArea) {
             let pokers = gp.pokers
@@ -398,6 +416,28 @@ export default class GameDB {
         ).length > 0
     }
 
+    //检测这张牌是否在receive area
+    onCheckInReceiveArea(poker: Poker): boolean {
+        return this._receiveArea.filter(
+            pg => pg.pokers.filter(p => p.count == poker.count && p.suit == poker.suit).length > 0
+        ).length > 0
+    }
+
+    //检测是否在receive顶部
+    onCheckIndexReceiveTop(poker: Poker) {
+        for (const gp of this._receiveArea) {
+            let pokers = gp.pokers
+            let topPoker = pokers[pokers.length - 1]
+            if (!topPoker)
+                continue
+
+            if (topPoker.count == poker.count && topPoker.suit == poker.suit)
+                return true
+        }
+
+        return false
+    }
+
     //检测是否在openArea顶部
     onCheckIndexByOpenTop(poker: Poker) {
         if (this.openGroup.pokers.length <= 0)
@@ -429,8 +469,8 @@ export default class GameDB {
 
     public get pokers(): Poker[] { return this._pokers }
     public get closeGroup(): CloseGroup { return this._closeGroup }
-    public get openGroup(): CloseGroup { return this._openGroup }
+    public get openGroup(): OpenGroup { return this._openGroup }
     public get openPokers(): Poker[] { return this._openPokers }
     public get playArea(): PlayGroup[] { return this._playArea }
-    public get receiveArea(): ReceiveGroup[] { return this._receiveArea }
+    public get receiveGroup(): ReceiveGroup[] { return this._receiveArea }
 }

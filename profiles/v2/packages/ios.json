@@ -1,0 +1,29 @@
+{
+  "common": {
+    "outputName": "ios",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "ios"
+  },
+  "options": {
+    "ios": {
+      "packageName": "com.cocos.playcard",
+      "renderBackEnd": {
+        "metal": true
+      },
+      "skipUpdateXcodeProject": false,
+      "orientation": {
+        "portrait": true,
+        "upsideDown": false,
+        "landscapeRight": false,
+        "landscapeLeft": false
+      },
+      "osTarget": {
+        "iphoneos": false,
+        "simulator": true
+      },
+      "targetVersion": "12.0",
+      "__version__": "1.0.0",
+      "developerTeam": "B4M4ZH3ZY2"
+    }
+  }
+}

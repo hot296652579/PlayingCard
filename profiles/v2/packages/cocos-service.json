@@ -1,0 +1,17 @@
+{
+  "options": {
+    "web-desktop": {
+      "configID": "55ede8",
+      "services": []
+    },
+    "ios": {
+      "configID": "55ede8",
+      "services": []
+    }
+  },
+  "builder-options": {
+    "configID": "55ede8",
+    "services": [],
+    "__version__": "3.0.5"
+  }
+}

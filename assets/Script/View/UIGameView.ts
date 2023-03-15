@@ -37,6 +37,7 @@ export class UIGameView extends Component {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW, this.openToReceive, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_PLAY_UPDATE_VIEW, this.openToPlay, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_CLOSE_UPDATE_VIEW, this.openToClose, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_RECEIVE_TO_PLAY_VIEW, this.receiveToPlay, this)
     }
 
     createAllCardByDB(pokers: Poker[]) {
@@ -136,6 +137,11 @@ export class UIGameView extends Component {
             if (GameDB.getInstance().onCheckIndexByOpenTop(poker)) {
                 EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_UPDATE_DB, uiPoker.poker)
             }
+        } else if (GameDB.getInstance().onCheckInReceiveArea(poker)) {
+            // console.log('点击的区域是receiveArea')
+            if (GameDB.getInstance().onCheckIndexReceiveTop(poker)) {
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_RECEIVE_TO_PLAY_DB, uiPoker.poker)
+            }
         }
     }
 
@@ -175,6 +181,10 @@ export class UIGameView extends Component {
     }
 
     openToPlay(poker: Poker) {
+        this.moveUIPokerToPlayArea(poker)
+    }
+
+    receiveToPlay(poker: Poker) {
         this.moveUIPokerToPlayArea(poker)
     }
 
