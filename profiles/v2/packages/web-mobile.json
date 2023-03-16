@@ -1,18 +1,15 @@
 {
   "common": {
+    "outputName": "web-mobile",
     "polyfills": {
       "asyncFunctions": true
     },
-    "outputName": "web-desktop",
     "mainBundleCompressionType": "merge_dep",
-    "platform": "web-desktop"
+    "platform": "web-mobile"
   },
   "options": {
-    "web-desktop": {
-      "resolution": {
-        "designWidth": 720,
-        "designHeight": 1280
-      },
+    "web-mobile": {
+      "orientation": "portrait",
       "__version__": "1.0.1"
     }
   }

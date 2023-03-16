@@ -6,9 +6,9 @@
     "polyfills": {
       "asyncFunctions": true
     },
-    "outputName": "ios",
+    "outputName": "web-desktop",
     "mainBundleCompressionType": "merge_dep",
-    "platform": "ios"
+    "platform": "web-desktop"
   },
   "BuildTaskManager": {
     "taskMap": {
@@ -84,6 +84,61 @@
           "__version__": "1.3.3"
         },
         "time": "2023-3-14 21:37",
+        "dirty": false
+      },
+      "1678880073557": {
+        "type": "build",
+        "id": "1678880073557",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2023-3-15 19:35 Build success in 52929 ms!",
+        "options": {
+          "name": "PlayingCard",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "replaceSplashScreen": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "e224a049-b1c4-4726-a1f4-f65599f55eaf",
+          "outputName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/Game.scene",
+              "uuid": "e224a049-b1c4-4726-a1f4-f65599f55eaf",
+              "inBundle": false
+            }
+          ],
+          "web-mobile": [],
+          "packages": {
+            "web-desktop": {
+              "resolution": {
+                "designWidth": 720,
+                "designHeight": 1280
+              },
+              "__version__": "1.0.1"
+            },
+            "cocos-service": {
+              "configID": "55ede8",
+              "services": [],
+              "__version__": "3.0.5"
+            }
+          },
+          "__version__": "1.3.3",
+          "web-desktop": []
+        },
+        "time": "2023-3-15 19:34",
         "dirty": false
       }
     }
