@@ -93,7 +93,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script": {
-    "time": 1677812914997.6035,
+    "time": 1679299590883.3472,
     "uuid": "e6b88ca3-21e6-4927-b649-623fa6c67761",
     "missing": false
   },
@@ -113,7 +113,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Enum/index.ts": {
-    "time": 1678851638433.1106,
+    "time": 1678969915124.8206,
     "uuid": "54f6a9b1-5b6f-40bf-ac51-ca5217b1c286",
     "missing": false
   },
@@ -731,7 +731,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UI/UIPoker.ts": {
-    "time": 1678964812104.1226,
+    "time": 1678970607896.4172,
     "uuid": "27885772-8fa9-49e1-aba8-96e9ae5e1565",
     "missing": false
   },
@@ -747,7 +747,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/View/UIGameView.ts": {
-    "time": 1678865000649.651,
+    "time": 1678971823403.0752,
     "uuid": "6fe3e365-3176-40f0-9696-c848a965ddea",
     "missing": false
   },
@@ -755,7 +755,7 @@
     "time": 1677744411224.78
   },
   "/Users/super_javan/cocoscreator/PlayCard/assets/Prefabs/UIGameView.prefab": {
-    "time": 1678783753721.0264,
+    "time": 1678972100645.9446,
     "uuid": "9f730f7f-a718-404f-a0db-3d450d4e8710",
     "missing": false
   },
@@ -813,6 +813,38 @@
   "/Users/super_javan/cocoscreator/PlayCard/assets/Script/Base/Docretors.ts": {
     "time": 1678345490885.1936,
     "uuid": "44025309-fcf4-43ca-8c8e-1b3e4b0489da",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/StartScene.scene.meta": {
+    "time": 1678972116296.7515
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/StartScene.scene": {
+    "time": 1678972181127.8723,
+    "uuid": "94a2385f-dfb9-4375-93e7-09095f40acf4",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/reslist.ts": {
+    "time": 1679297975534.4238,
+    "uuid": "4be394b3-4921-4566-91b8-036ac344f034",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/reslist.ts.meta": {
+    "time": 1679297122919.013
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Loading.scene.meta": {
+    "time": 1679298054419.825
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Loading.scene": {
+    "time": 1679397304596.9465,
+    "uuid": "8cf7c1ec-7eeb-493e-a64c-669a4bb431f3",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UILoading.ts.meta": {
+    "time": 1679299590884.3835
+  },
+  "/Users/super_javan/cocoscreator/PlayCard/assets/Script/UILoading.ts": {
+    "time": 1679397368393.4473,
+    "uuid": "4f7db0b9-8a09-411b-9224-d4841b0d54b6",
     "missing": false
   }
 }

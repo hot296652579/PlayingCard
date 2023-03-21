@@ -119,7 +119,7 @@ export class UIPoker extends Component {
 
     @clickLock(0.5)
     touchEnd() {
-        console.log(this.startNodePosX, this.startNodePosY)
+        // console.log(this.startNodePosX, this.startNodePosY)
         if (!this.m_touchStartFlag) return
         this.m_touchStartFlag = false
         this.unschedule(this.m_startDragFunc)
@@ -129,9 +129,11 @@ export class UIPoker extends Component {
             tween(this.node)
                 .to(0.2, { position: new Vec3(this.startNodePosX, this.startNodePosY) })
                 .start()
-        }
 
-        // EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this._poker)
+            EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_POKER_END, this._poker)
+        } else {
+            EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE, this._poker)
+        }
     }
 
     public isOpen(): boolean {

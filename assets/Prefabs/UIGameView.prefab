@@ -40,14 +40,14 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 112
+        "__id__": 114
       },
       {
-        "__id__": 114
+        "__id__": 116
       }
     ],
     "_prefab": {
-      "__id__": 116
+      "__id__": 118
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -2108,15 +2108,18 @@
       },
       {
         "__id__": 108
+      },
+      {
+        "__id__": 111
       }
     ],
     "_prefab": {
-      "__id__": 111
+      "__id__": 113
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -277.193,
-      "y": 99.639,
+      "x": 0,
+      "y": -561.6,
       "z": 0
     },
     "_lrot": {
@@ -2202,8 +2205,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 200,
+      "height": 80
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2237,11 +2240,11 @@
       "b": 0,
       "a": 255
     },
-    "_string": "button",
+    "_string": "RestartGame",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 20,
-    "_fontSize": 20,
+    "_actualFontSize": 30,
+    "_fontSize": 30,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 1,
@@ -2283,8 +2286,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 200,
+      "height": 80
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2425,6 +2428,41 @@
     "customEventData": ""
   },
   {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 97
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 112
+    },
+    "_alignFlags": 20,
+    "_target": null,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0.03,
+    "_horizontalCenter": 0,
+    "_verticalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": false,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0,
+    "_alignMode": 2,
+    "_lockFlags": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "366zZlfSdMFZ4rdPcpuI1F"
+  },
+  {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
@@ -2443,7 +2481,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 113
+      "__id__": 115
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -2470,7 +2508,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 115
+      "__id__": 117
     },
     "cardPrefab": {
       "__uuid__": "060c875e-2769-4766-a981-aa63efa6957f",

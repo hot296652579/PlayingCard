@@ -3,7 +3,7 @@ import { clickLock } from '../Base/Docretors';
 import EventMgr from '../Base/Event/EventMgr';
 import { ECardDir, EventGame_Enum } from '../Enum';
 import GameEngine from '../GameEngine';
-import GameDB, { PLAY_AREA_COUNT } from '../Model/GameDB';
+import GameDB, { PLAY_AREA_COUNT, RECEIVE_AREA_COUNT } from '../Model/GameDB';
 import Poker from '../Model/Poker';
 import { UIPoker } from '../UI/UIPoker';
 import TweenUtil, { moveWorld2Space } from '../Utils/Utils';
@@ -38,6 +38,8 @@ export class UIGameView extends Component {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_PLAY_UPDATE_VIEW, this.openToPlay, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_OPEN_TO_CLOSE_UPDATE_VIEW, this.openToClose, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_RECEIVE_TO_PLAY_VIEW, this.receiveToPlay, this)
+
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_POKER_END, this.dragPokerEnd, this)
     }
 
     createAllCardByDB(pokers: Poker[]) {
@@ -113,8 +115,8 @@ export class UIGameView extends Component {
     }
 
     clickCardHandler(poker: Poker) {
-        console.log('点击的poker', poker)
-        console.log('当前poker所在的组index:' + poker.indexInGroup())
+        // console.log('点击的poker', poker)
+        // console.log('当前poker所在的组index:' + poker.indexInGroup())
         let uiPoker = poker.UIPoker
 
         if (GameDB.getInstance().onCheckInPlayArea(poker)) {
@@ -240,6 +242,23 @@ export class UIGameView extends Component {
                     .to(0.2, { position: new Vec3(padding * (index + 1), 0, 0) })
                     .start()
             }
+        }
+    }
+
+    dragPokerEnd(poker: Poker) {
+        let uiPoker = poker.UIPoker
+        let pokerW = 92
+        let spacX = 5
+        for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
+            let receiveNode = this.receiveAreaList[index]
+            let worldPos = uiPoker.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0))
+            let spcaeAr = receiveNode.getComponent(UITransform).convertToNodeSpaceAR(worldPos)
+            console.log(spcaeAr)
+            // console.log('Math.abs(spcaeAr.x)', Math.abs(spcaeAr.x))
+            // if (Math.abs(spcaeAr.x) < 92 && Math.abs(spcaeAr.y) < 136) {
+            //     // console.log('index', index)
+            //     return
+            // }
         }
     }
 
