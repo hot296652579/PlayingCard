@@ -29,7 +29,8 @@
     "enableAcceleration": true,
     "far2D": 10000,
     "near2D": 1,
-    "wheelSpeed2D": 6
+    "wheelSpeed2D": 6,
+    "size": "__default_design__"
   },
   "camera-infos": {
     "c77ecaa8-c936-46c4-a5b0-98692673ed87": {
@@ -52,8 +53,8 @@
     },
     "e224a049-b1c4-4726-a1f4-f65599f55eaf": {
       "position": {
-        "x": 360,
-        "y": 622.7385892116182,
+        "x": 802.7585111037085,
+        "y": 561.2220394731564,
         "z": 5000
       },
       "rotation": {
@@ -70,8 +71,8 @@
     },
     "94a2385f-dfb9-4375-93e7-09095f40acf4": {
       "position": {
-        "x": 378.9844632230619,
-        "y": 644.1551739834076,
+        "x": 360,
+        "y": 640,
         "z": 5000
       },
       "rotation": {
@@ -88,8 +89,8 @@
     },
     "8cf7c1ec-7eeb-493e-a64c-669a4bb431f3": {
       "position": {
-        "x": 360,
-        "y": 640.0000000000001,
+        "x": 325.4348885510874,
+        "y": 685.5826580906225,
         "z": 5000
       },
       "rotation": {
@@ -106,7 +107,7 @@
     }
   },
   "camera-uuids": [
-    "8cf7c1ec-7eeb-493e-a64c-669a4bb431f3"
+    "e224a049-b1c4-4726-a1f4-f65599f55eaf"
   ],
   "float-window": {
     "position": {
@@ -120,5 +121,10 @@
         }
       }
     }
+  },
+  "__version__": "1.0.0",
+  "builder": {},
+  "": {
+    "sculpt_brush_rotate": 0
   }
 }

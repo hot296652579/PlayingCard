@@ -12,9 +12,9 @@
         ],
         "indexView": {
           "offset": 72632,
-          "length": 24576,
+          "length": 12288,
           "count": 6144,
-          "stride": 4
+          "stride": 2
         }
       }
     ],
@@ -68,6 +68,6 @@
       "z": 0.5
     }
   },
-  "_hash": 1338612902,
+  "_hash": 4053809100,
   "_allowDataAccess": true
 }

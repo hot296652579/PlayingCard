@@ -110,10 +110,9 @@ export class UIPoker extends Component {
             //     this.node.setPosition(newPosX, newPosY)
             // }
 
-            let delta = event.touch.getDelta()
-            let disx = this.node.position.x + delta.x
-            let disy = this.node.position.y + delta.y
-            this.node.setPosition(disx, disy)
+            let delta = event.touch.getUILocation();
+            let pos = this.node.parent.getComponent(UITransform).convertToNodeSpaceAR(new Vec3(delta.x, delta.y, 1));
+            this.node.setPosition(pos);
         }
     }
 

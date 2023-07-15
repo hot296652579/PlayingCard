@@ -1,39 +1,39 @@
-2023-03-21T10:35:20.446Z - log: [Package] menu@1.0.0 enable
-2023-03-21T10:35:20.448Z - log: [Package] profile@1.0.0 enable
-2023-03-21T10:35:20.456Z - log: [Package] project@1.0.2 enable
-2023-03-21T10:35:20.459Z - log: [Package] messages@1.0.0 enable
-2023-03-21T10:35:20.461Z - log: [Package] program@1.0.0 enable
-2023-03-21T10:35:20.467Z - log: [Package] tester@1.0.0 enable
-2023-03-21T10:35:20.470Z - log: [Package] preferences@1.0.0 enable
-2023-03-21T10:35:22.425Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
-2023-03-21T10:35:22.430Z - log: [Package] engine@1.0.6 enable
-2023-03-21T10:35:22.994Z - log: [Package] programming@1.0.0 enable
-2023-03-21T10:35:23.043Z - warn: 
-2023-03-21T10:35:23.062Z - warn: 
-2023-03-21T10:35:23.274Z - log: [Package] device@1.0.1 enable
-2023-03-21T10:35:23.302Z - log: [Package] ui-kit@1.0.1 enable
-2023-03-21T10:35:23.333Z - log: [Package] engine-extends@1.0.0 enable
-2023-03-21T10:35:23.377Z - log: [Package] asset-db@1.0.0 enable
-2023-03-21T10:35:23.377Z - warn: 
-2023-03-21T10:35:23.408Z - log: [Package] scene@1.0.0 enable
-2023-03-21T10:35:23.510Z - log: [Package] server@1.0.0 enable
-2023-03-21T10:35:23.540Z - log: [Package] utils@1.0.0 enable
-2023-03-21T10:35:24.043Z - warn: Browserslist: caniuse-lite is outdated. Please run:
+2023-05-29T14:23:53.048Z - log: [Package] menu@1.0.0 enable
+2023-05-29T14:23:53.050Z - log: [Package] profile@1.0.0 enable
+2023-05-29T14:23:53.056Z - log: [Package] project@1.0.2 enable
+2023-05-29T14:23:53.060Z - log: [Package] messages@1.0.0 enable
+2023-05-29T14:23:53.064Z - log: [Package] program@1.0.0 enable
+2023-05-29T14:23:53.069Z - log: [Package] tester@1.0.0 enable
+2023-05-29T14:23:53.073Z - log: [Package] preferences@1.0.0 enable
+2023-05-29T14:23:56.096Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2023-05-29T14:23:56.105Z - log: [Package] engine@1.0.6 enable
+2023-05-29T14:23:57.017Z - log: [Package] programming@1.0.0 enable
+2023-05-29T14:23:57.082Z - warn: 
+2023-05-29T14:23:57.105Z - warn: 
+2023-05-29T14:23:57.289Z - log: [Package] device@1.0.1 enable
+2023-05-29T14:23:57.317Z - log: [Package] ui-kit@1.0.1 enable
+2023-05-29T14:23:57.345Z - log: [Package] engine-extends@1.0.0 enable
+2023-05-29T14:23:57.401Z - log: [Package] asset-db@1.0.0 enable
+2023-05-29T14:23:57.401Z - warn: 
+2023-05-29T14:23:57.444Z - log: [Package] scene@1.0.0 enable
+2023-05-29T14:23:57.586Z - log: [Package] server@1.0.0 enable
+2023-05-29T14:23:57.611Z - log: [Package] utils@1.0.0 enable
+2023-05-29T14:23:58.374Z - warn: Browserslist: caniuse-lite is outdated. Please run:
 npx browserslist@latest --update-db
 
 Why you should do it regularly:
 https://github.com/browserslist/browserslist#browsers-data-updating
-2023-03-21T10:35:27.294Z - warn: 
-2023-03-21T10:35:27.294Z - warn: 
-2023-03-21T10:35:27.294Z - warn: 
-2023-03-21T10:35:27.307Z - warn: 
-2023-03-21T10:35:27.307Z - warn: 
-2023-03-21T10:35:27.307Z - warn: 
-2023-03-21T10:35:28.109Z - warn: 
-2023-03-21T10:35:28.154Z - log: [Package] preview@1.0.1 enable
-2023-03-21T10:35:28.184Z - log: [Package] animator@1.0.0 enable
-2023-03-21T10:35:28.219Z - log: pluginManager init: 0.118ms
-2023-03-21T10:35:28.206Z - warn: [Programming] Browserslist: caniuse-lite is outdated. Please run:
+2023-05-29T14:24:00.980Z - warn: 
+2023-05-29T14:24:00.980Z - warn: 
+2023-05-29T14:24:00.980Z - warn: 
+2023-05-29T14:24:00.998Z - warn: 
+2023-05-29T14:24:00.998Z - warn: 
+2023-05-29T14:24:00.998Z - warn: 
+2023-05-29T14:24:02.040Z - warn: 
+2023-05-29T14:24:02.089Z - log: [Package] preview@1.0.1 enable
+2023-05-29T14:24:02.127Z - log: [Package] animator@1.0.0 enable
+2023-05-29T14:24:02.168Z - log: pluginManager init: 0.136ms
+2023-05-29T14:24:02.199Z - warn: [Programming] Browserslist: caniuse-lite is outdated. Please run:
   npx update-browserslist-db@latest
   Why you should do it regularly: https://github.com/browserslist/update-db#readme[Programming] Browserslist: caniuse-lite is outdated. Please run:
   npx update-browserslist-db@latest
@@ -46,75 +46,75 @@ at resolveTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Con
 at getTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@cocos/creator-programming-mod-lo/node_modules/@babel/helper-compilation-targets/lib/index.js:210:27)  
 at getLocalTargets (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@cocos/creator-programming-mod-lo/node_modules/@babel/preset-env/lib/index.js:227:48)  
 at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@cocos/creator-programming-mod-lo/node_modules/@babel/preset-env/lib/index.js:288:15
-2023-03-21T10:35:28.464Z - warn: 
-2023-03-21T10:35:28.464Z - warn: 
-2023-03-21T10:35:28.464Z - warn: 
-2023-03-21T10:35:28.877Z - log: [Package] builder@1.3.3 enable
-2023-03-21T10:35:28.906Z - log: [Package] shortcuts@1.0.1 enable
-2023-03-21T10:35:28.931Z - log: [Package] animation-graph@1.0.0 enable
-2023-03-21T10:35:28.957Z - log: [Package] about@1.0.0 enable
-2023-03-21T10:35:28.986Z - log: [Package] assets@1.0.0 enable
-2023-03-21T10:35:29.012Z - log: [Package] console@1.0.0 enable
-2023-03-21T10:35:29.119Z - log: [Package] extension@3.0.16 enable
-2023-03-21T10:35:29.144Z - log: [Package] hierarchy@1.0.0 enable
-2023-03-21T10:35:29.171Z - log: [Package] inspector@1.0.0 enable
-2023-03-21T10:35:29.198Z - log: [Package] lightmap@1.0.4 enable
-2023-03-21T10:35:29.421Z - log: [Package] localization-editor@1.0.0 enable
-2023-03-21T10:35:29.426Z - log: [Build-plugin] register pkg localization-editor: 3.271ms
-2023-03-21T10:35:29.451Z - log: [Package] node-library@1.0.1 enable
-2023-03-21T10:35:29.474Z - log: [Package] package-asset@1.0.0 enable
-2023-03-21T10:35:29.501Z - log: [Package] process@1.0.0 enable
-2023-03-21T10:35:29.528Z - log: [Package] reference-image@1.0.0 enable
-2023-03-21T10:35:29.552Z - log: [Package] alipay-mini-game@1.0.1 enable
-2023-03-21T10:35:29.553Z - log: [Build-plugin] register pkg alipay-mini-game: 0.499ms
-2023-03-21T10:35:29.577Z - log: [Package] android@1.0.1 enable
-2023-03-21T10:35:29.580Z - log: [Build-plugin] register pkg android: 3.042ms
-2023-03-21T10:35:29.602Z - log: [Package] baidu-mini-game@1.0.1 enable
-2023-03-21T10:35:29.604Z - log: [Build-plugin] register pkg baidu-mini-game: 1.774ms
-2023-03-21T10:35:29.649Z - log: [Package] bytedance-mini-game@1.0.2 enable
-2023-03-21T10:35:29.651Z - log: [Build-plugin] register pkg bytedance-mini-game: 1.619ms
-2023-03-21T10:35:29.673Z - log: [Package] certificate@1.0.0 enable
-2023-03-21T10:35:29.698Z - log: [Package] channel-upload-tools@1.0.0 enable
-2023-03-21T10:35:29.725Z - log: [Package] cocos-play@1.0.1 enable
-2023-03-21T10:35:29.727Z - log: [Build-plugin] register pkg cocos-play: 2.152ms
-2023-03-21T10:35:29.752Z - log: [Package] huawei-agc@1.0.0 enable
-2023-03-21T10:35:29.754Z - log: [Build-plugin] register pkg huawei-agc: 1.672ms
-2023-03-21T10:35:29.780Z - log: [Package] huawei-quick-game@1.0.1 enable
-2023-03-21T10:35:29.782Z - log: [Build-plugin] register pkg huawei-quick-game: 2.005ms
-2023-03-21T10:35:32.122Z - log: [Package] ios@1.0.0 enable
-2023-03-21T10:35:32.125Z - log: [Build-plugin] register pkg ios: 2.646ms
-2023-03-21T10:35:32.148Z - log: [Package] linux@1.0.0 enable
-2023-03-21T10:35:32.148Z - log: [Build-plugin] register pkg linux: 0.517ms
-2023-03-21T10:35:32.175Z - log: [Package] mac@1.0.0 enable
-2023-03-21T10:35:32.178Z - log: [Build-plugin] register pkg mac: 2.635ms
-2023-03-21T10:35:32.239Z - log: [Package] native@1.0.2 enable
-2023-03-21T10:35:32.241Z - log: [Build-plugin] register pkg native: 1.785ms
-2023-03-21T10:35:32.266Z - log: [Package] ohos@1.0.0 enable
-2023-03-21T10:35:32.268Z - log: [Build-plugin] register pkg ohos: 1.915ms
-2023-03-21T10:35:32.295Z - log: [Package] open-harmonyos@1.0.0 enable
-2023-03-21T10:35:32.295Z - log: [Build-plugin] register pkg open-harmonyos: 0.459ms
-2023-03-21T10:35:32.320Z - log: [Package] oppo-mini-game@1.0.1 enable
-2023-03-21T10:35:32.322Z - log: [Build-plugin] register pkg oppo-mini-game: 1.834ms
-2023-03-21T10:35:32.347Z - log: [Package] runtime-dev-tools@1.0.0 enable
-2023-03-21T10:35:32.373Z - log: [Package] vivo-mini-game@1.0.1 enable
-2023-03-21T10:35:32.376Z - log: [Build-plugin] register pkg vivo-mini-game: 2.142ms
-2023-03-21T10:35:32.413Z - log: [Package] web-desktop@1.0.1 enable
-2023-03-21T10:35:32.415Z - log: [Build-plugin] register pkg web-desktop: 1.765ms
-2023-03-21T10:35:32.440Z - log: [Package] web-mobile@1.0.1 enable
-2023-03-21T10:35:32.442Z - log: [Build-plugin] register pkg web-mobile: 1.585ms
-2023-03-21T10:35:32.467Z - log: [Package] wechatgame@1.0.2 enable
-2023-03-21T10:35:32.469Z - log: [Build-plugin] register pkg wechatgame: 1.798ms
-2023-03-21T10:35:32.491Z - log: [Package] windows@1.0.1 enable
-2023-03-21T10:35:32.493Z - log: [Build-plugin] register pkg windows: 1.913ms
-2023-03-21T10:35:32.514Z - log: [Package] xiaomi-quick-game@1.0.1 enable
-2023-03-21T10:35:32.516Z - log: [Build-plugin] register pkg xiaomi-quick-game: 2.18ms
-2023-03-21T10:35:32.669Z - log: [Package] cocos-service@3.0.5 enable
-2023-03-21T10:35:32.671Z - log: [Build-plugin] register pkg cocos-service: 1.125ms
-2023-03-21T10:35:32.697Z - log: [Package] importer@1.0.0 enable
-2023-03-21T10:35:32.834Z - log: [Im-plugin] Check im-plugin version.
-2023-03-21T10:35:32.836Z - log: [Package] im-plugin@3.0.9 enable
-2023-03-21T10:35:33.581Z - log: [Im-plugin] No online info of im-plugin.
-2023-03-21T10:35:34.518Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
+2023-05-29T14:24:02.442Z - warn: 
+2023-05-29T14:24:02.442Z - warn: 
+2023-05-29T14:24:02.442Z - warn: 
+2023-05-29T14:24:03.088Z - log: [Package] builder@1.3.3 enable
+2023-05-29T14:24:03.127Z - log: [Package] shortcuts@1.0.1 enable
+2023-05-29T14:24:03.155Z - log: [Package] animation-graph@1.0.0 enable
+2023-05-29T14:24:03.184Z - log: [Package] about@1.0.0 enable
+2023-05-29T14:24:03.215Z - log: [Package] assets@1.0.0 enable
+2023-05-29T14:24:03.242Z - log: [Package] console@1.0.0 enable
+2023-05-29T14:24:03.382Z - log: [Package] extension@3.0.16 enable
+2023-05-29T14:24:03.414Z - log: [Package] hierarchy@1.0.0 enable
+2023-05-29T14:24:03.446Z - log: [Package] inspector@1.0.0 enable
+2023-05-29T14:24:03.475Z - log: [Package] lightmap@1.0.4 enable
+2023-05-29T14:24:03.789Z - log: [Package] localization-editor@1.0.0 enable
+2023-05-29T14:24:03.796Z - log: [Build-plugin] register pkg localization-editor: 5.204ms
+2023-05-29T14:24:03.830Z - log: [Package] node-library@1.0.1 enable
+2023-05-29T14:24:03.860Z - log: [Package] package-asset@1.0.0 enable
+2023-05-29T14:24:03.889Z - log: [Package] process@1.0.0 enable
+2023-05-29T14:24:03.918Z - log: [Package] reference-image@1.0.0 enable
+2023-05-29T14:24:03.948Z - log: [Package] alipay-mini-game@1.0.1 enable
+2023-05-29T14:24:03.948Z - log: [Build-plugin] register pkg alipay-mini-game: 0.767ms
+2023-05-29T14:24:03.973Z - log: [Package] android@1.0.1 enable
+2023-05-29T14:24:03.978Z - log: [Build-plugin] register pkg android: 4.219ms
+2023-05-29T14:24:04.003Z - log: [Package] baidu-mini-game@1.0.1 enable
+2023-05-29T14:24:04.006Z - log: [Build-plugin] register pkg baidu-mini-game: 2.821ms
+2023-05-29T14:24:04.064Z - log: [Package] bytedance-mini-game@1.0.2 enable
+2023-05-29T14:24:04.066Z - log: [Build-plugin] register pkg bytedance-mini-game: 1.752ms
+2023-05-29T14:24:04.095Z - log: [Package] certificate@1.0.0 enable
+2023-05-29T14:24:04.116Z - log: [Package] channel-upload-tools@1.0.0 enable
+2023-05-29T14:24:04.139Z - log: [Package] cocos-play@1.0.1 enable
+2023-05-29T14:24:04.142Z - log: [Build-plugin] register pkg cocos-play: 3.263ms
+2023-05-29T14:24:04.169Z - log: [Package] huawei-agc@1.0.0 enable
+2023-05-29T14:24:04.172Z - log: [Build-plugin] register pkg huawei-agc: 2.463ms
+2023-05-29T14:24:04.199Z - log: [Package] huawei-quick-game@1.0.1 enable
+2023-05-29T14:24:04.202Z - log: [Build-plugin] register pkg huawei-quick-game: 3.092ms
+2023-05-29T14:24:05.267Z - log: [Package] ios@1.0.0 enable
+2023-05-29T14:24:05.271Z - log: [Build-plugin] register pkg ios: 3.544ms
+2023-05-29T14:24:05.294Z - log: [Package] linux@1.0.0 enable
+2023-05-29T14:24:05.295Z - log: [Build-plugin] register pkg linux: 0.715ms
+2023-05-29T14:24:05.322Z - log: [Package] mac@1.0.0 enable
+2023-05-29T14:24:05.325Z - log: [Build-plugin] register pkg mac: 3.677ms
+2023-05-29T14:24:05.419Z - log: [Package] native@1.0.2 enable
+2023-05-29T14:24:05.423Z - log: [Build-plugin] register pkg native: 4.09ms
+2023-05-29T14:24:05.450Z - log: [Package] ohos@1.0.0 enable
+2023-05-29T14:24:05.453Z - log: [Build-plugin] register pkg ohos: 2.568ms
+2023-05-29T14:24:05.480Z - log: [Package] open-harmonyos@1.0.0 enable
+2023-05-29T14:24:05.480Z - log: [Build-plugin] register pkg open-harmonyos: 0.681ms
+2023-05-29T14:24:05.506Z - log: [Package] oppo-mini-game@1.0.1 enable
+2023-05-29T14:24:05.509Z - log: [Build-plugin] register pkg oppo-mini-game: 2.68ms
+2023-05-29T14:24:05.536Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2023-05-29T14:24:05.563Z - log: [Package] vivo-mini-game@1.0.1 enable
+2023-05-29T14:24:05.566Z - log: [Build-plugin] register pkg vivo-mini-game: 3.076ms
+2023-05-29T14:24:05.606Z - log: [Package] web-desktop@1.0.1 enable
+2023-05-29T14:24:05.609Z - log: [Build-plugin] register pkg web-desktop: 2.399ms
+2023-05-29T14:24:05.646Z - log: [Package] web-mobile@1.0.1 enable
+2023-05-29T14:24:05.649Z - log: [Build-plugin] register pkg web-mobile: 2.651ms
+2023-05-29T14:24:05.686Z - log: [Package] wechatgame@1.0.2 enable
+2023-05-29T14:24:05.689Z - log: [Build-plugin] register pkg wechatgame: 2.96ms
+2023-05-29T14:24:05.719Z - log: [Package] windows@1.0.1 enable
+2023-05-29T14:24:05.721Z - log: [Build-plugin] register pkg windows: 2.762ms
+2023-05-29T14:24:05.747Z - log: [Package] xiaomi-quick-game@1.0.1 enable
+2023-05-29T14:24:05.751Z - log: [Build-plugin] register pkg xiaomi-quick-game: 3.217ms
+2023-05-29T14:24:05.994Z - log: [Package] cocos-service@3.0.5 enable
+2023-05-29T14:24:05.997Z - log: [Build-plugin] register pkg cocos-service: 2.049ms
+2023-05-29T14:24:06.041Z - log: [Package] importer@1.0.0 enable
+2023-05-29T14:24:06.253Z - log: [Im-plugin] Check im-plugin version.
+2023-05-29T14:24:06.257Z - log: [Package] im-plugin@3.0.9 enable
+2023-05-29T14:24:07.007Z - log: [Im-plugin] No online info of im-plugin.
+2023-05-29T14:24:09.129Z - log: [Scene] Please specifiy a default value for "cc.EditorExtendable.__editorExtras__" property at its declaration:
 
  
 // Before:
@@ -123,7 +123,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.530Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
+2023-05-29T14:24:09.146Z - log: [Scene] Please specifiy a default value for "CCPropertyOverrideInfo.value" property at its declaration:
 
  
 // Before:
@@ -132,7 +132,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.531Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
+2023-05-29T14:24:09.147Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.asset" property at its declaration:
 
  
 // Before:
@@ -141,7 +141,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.531Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
+2023-05-29T14:24:09.147Z - log: [Scene] Please specifiy a default value for "cc.PrefabInfo.nestedPrefabInstanceRoots" property at its declaration:
 
  
 // Before:
@@ -150,9 +150,9 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.533Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
-2023-03-21T10:35:34.533Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
-2023-03-21T10:35:34.540Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
+2023-05-29T14:24:09.150Z - log: [Scene] The 'default' attribute of 'ColorDesc.beginAccesses' must be an array
+2023-05-29T14:24:09.150Z - log: [Scene] The 'default' attribute of 'ColorDesc.endAccesses' must be an array
+2023-05-29T14:24:09.161Z - log: [Scene] Please specifiy a default value for "cc.animation.TrackBinding.proxy" property at its declaration:
 
  
 // Before:
@@ -161,7 +161,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.540Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
+2023-05-29T14:24:09.161Z - log: [Scene] Please specifiy a default value for "cc.animation.Channel._curve" property at its declaration:
 
  
 // Before:
@@ -170,7 +170,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.541Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
+2023-05-29T14:24:09.161Z - log: [Scene] Please specifiy a default value for "cc.animation.SingleChannelTrack._channel" property at its declaration:
 
  
 // Before:
@@ -179,7 +179,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.541Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
+2023-05-29T14:24:09.162Z - log: [Scene] Please specifiy a default value for "cc.animation.VectorTrack._channels" property at its declaration:
 
  
 // Before:
@@ -188,7 +188,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.541Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
+2023-05-29T14:24:09.162Z - log: [Scene] Please specifiy a default value for "cc.animation.ColorTrack._channels" property at its declaration:
 
  
 // Before:
@@ -197,7 +197,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.541Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
+2023-05-29T14:24:09.162Z - log: [Scene] Please specifiy a default value for "cc.animation.SizeTrack._channels" property at its declaration:
 
  
 // Before:
@@ -206,7 +206,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.541Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
+2023-05-29T14:24:09.162Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.from" property at its declaration:
 
  
 // Before:
@@ -215,7 +215,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.541Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
+2023-05-29T14:24:09.162Z - log: [Scene] Please specifiy a default value for "cc.animation.Transition.to" property at its declaration:
 
  
 // Before:
@@ -224,7 +224,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.541Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
+2023-05-29T14:24:09.163Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._entryState" property at its declaration:
 
  
 // Before:
@@ -233,7 +233,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
+2023-05-29T14:24:09.163Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._exitState" property at its declaration:
 
  
 // Before:
@@ -242,7 +242,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
+2023-05-29T14:24:09.163Z - log: [Scene] Please specifiy a default value for "cc.animation.StateMachine._anyState" property at its declaration:
 
  
 // Before:
@@ -251,7 +251,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
+2023-05-29T14:24:09.163Z - log: [Scene] Please specifiy a default value for "cc.animation.Layer._stateMachine" property at its declaration:
 
  
 // Before:
@@ -260,7 +260,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
+2023-05-29T14:24:09.164Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._values" property at its declaration:
 
  
 // Before:
@@ -269,7 +269,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
+2023-05-29T14:24:09.164Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticVectorLikeTrackValues._isQuantized" property at its declaration:
 
  
 // Before:
@@ -278,7 +278,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
+2023-05-29T14:24:09.164Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.times" property at its declaration:
 
  
 // Before:
@@ -287,7 +287,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
+2023-05-29T14:24:09.164Z - log: [Scene] Please specifiy a default value for "cc.animation.ExoticTrack.values" property at its declaration:
 
  
 // Before:
@@ -296,7 +296,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
+2023-05-29T14:24:09.164Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.originalPrecision" property at its declaration:
 
  
 // Before:
@@ -305,7 +305,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
+2023-05-29T14:24:09.164Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.min" property at its declaration:
 
  
 // Before:
@@ -314,7 +314,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
+2023-05-29T14:24:09.164Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.extent" property at its declaration:
 
  
 // Before:
@@ -323,7 +323,7 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.542Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
+2023-05-29T14:24:09.164Z - log: [Scene] Please specifiy a default value for "cc.animation.QuantizedFloatArray.values" property at its declaration:
 
  
 // Before:
@@ -332,458 +332,13 @@ myProp;
 // After:
 @property(...)
 myProp = 0;
-2023-03-21T10:35:34.560Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
-2023-03-21T10:35:34.583Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
-2023-03-21T10:35:34.583Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
-2023-03-21T10:35:34.583Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
-2023-03-21T10:35:34.584Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
-2023-03-21T10:35:34.643Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-2023-03-21T10:35:34.649Z - info: [Scene] [PHYSICS]: using builtin.
-2023-03-21T10:35:34.731Z - log: [Scene] Cocos Creator v3.6.0
-2023-03-21T10:35:34.731Z - info: [Scene] Forward render pipeline initialized.
-2023-03-21T11:14:39.469Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.516Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.517Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.517Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.517Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.518Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.538Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.591Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.592Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.592Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.592Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.593Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.617Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.668Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.669Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.669Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.669Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.669Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.686Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.687Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.687Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.688Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.688Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.688Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.746Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.767Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.767Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.768Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.769Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.769Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.805Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.843Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.844Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.844Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.845Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.845Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.882Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.901Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.902Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.921Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.921Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.922Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.957Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.984Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.984Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:39.985Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:40.004Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:40.005Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:40.026Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:40.027Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:40.037Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:40.037Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.514Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.515Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.516Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.516Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.516Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.517Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.577Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.590Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.591Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.592Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.592Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.592Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.649Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.649Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.649Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.668Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.668Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.670Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.708Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.709Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.710Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.748Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.749Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.749Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.784Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.785Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.785Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.786Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.818Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.818Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.819Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.819Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.819Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:41.819Z - error: [Preview]Cannot set properties of null (setting 'string')errorInfo.stack ? '/n TypeError: Cannot set properties of null (setting 'string')
-    at UILoading.refreshProgress (http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:102:29)
-    at http://localhost:7456/scripting/x/chunks/38/3811fc5256ef186a8dbc3e5437e93f4ae5760082.js:91:20
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:102545:9
-    at http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:161136:9' : ''
-2023-03-21T11:14:56.726Z - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
-    at warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:132484:12)
-    at warnID (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:132698:5)
-    at SkyboxInfo.set envmap (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:152044:13)
-    at SkyboxInfo.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1185)
-    at AssetDump.decode (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/utils/dump/types/asset-dump.ccc:1:1049)
-    at _decodeByType (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/utils/dump/decode.ccc:1:4291)
-    at decodePatch (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/utils/dump/decode.ccc:1:5861)
-2023-03-21T11:14:56.772Z - warn: [Scene] Can not find environment map, disable IBL lightingError: [Scene] Can not find environment map, disable IBL lighting
-    at warn (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:132484:12)
-    at warnID (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:132698:5)
-    at SkyboxInfo.set envmap (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:152044:13)
-    at SkyboxInfo.<anonymous> (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/asset/asset-watcher.ccc:1:1185)
-    at AssetDump.decode (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/utils/dump/types/asset-dump.ccc:1:1049)
-    at _decodeByType (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/utils/dump/decode.ccc:1:4291)
-    at decodePatch (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/utils/dump/decode.ccc:1:5861)
+2023-05-29T14:24:09.194Z - log: [Scene] 'cc.ParticleSystem2D.color' hides inherited property 'cc.UIRenderer.color'. To make the current property override that implementation, add the `override: true` attribute please.
+2023-05-29T14:24:09.227Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._receiveShadow", which its default value is type of Boolean.
+2023-05-29T14:24:09.227Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._useNormalmap", which its default value is type of Boolean.
+2023-05-29T14:24:09.227Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._usePBR", which its default value is type of Boolean.
+2023-05-29T14:24:09.227Z - log: [Scene] No needs to indicate the 'cc.Boolean' attribute for "cc.Terrain._lodEnable", which its default value is type of Boolean.
+2023-05-29T14:24:09.309Z - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2023-05-29T14:24:09.318Z - info: [Scene] [PHYSICS]: using builtin.
+2023-05-29T14:24:09.413Z - log: [Scene] Cocos Creator v3.6.0
+2023-05-29T14:24:09.413Z - info: [Scene] Forward render pipeline initialized.
+2023-05-29T14:24:40.603Z - warn: Metrics: no valid info

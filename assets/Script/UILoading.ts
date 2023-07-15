@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, resources, SpriteFrame, ProgressBar, Label, director } from 'cc';
+import { _decorator, Component, Node, resources, SpriteFrame, ProgressBar, Label, director, native } from 'cc';
 import { reslist } from '../reslist';
 const { ccclass, property } = _decorator;
 
@@ -12,6 +12,9 @@ export class UILoading extends Component {
     @property(Label)
     laPre: Label = null
 
+    @property(Label)
+    testOcLb: Label = null
+
     start() {
         director.preloadScene('Game')
     }
@@ -19,6 +22,14 @@ export class UILoading extends Component {
     onLoad() {
         this.loadAllRelist()
         this.refreshProgress()
+
+        //test oc
+        // native.reflection.callStaticMethod("NewClass", "helloWorld")
+
+        // let ret = native.reflection.callStaticMethod("NewClass", "Add:Another:", 33, 'javan')
+        // if (ret) {
+        //     this.testOcLb.string = ret
+        // }
     }
 
     async loadAllRelist() {

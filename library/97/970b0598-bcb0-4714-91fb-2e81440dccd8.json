@@ -209,6 +209,94 @@
           "location": 0
         }
       ],
+      "descriptors": [
+        {
+          "rate": 0,
+          "blocks": [],
+          "samplerTextures": [],
+          "samplers": [],
+          "textures": [],
+          "buffers": [],
+          "images": [],
+          "subpassInputs": []
+        },
+        {
+          "rate": 1,
+          "blocks": [
+            {
+              "name": "Constant",
+              "members": [
+                {
+                  "name": "u_buffer0",
+                  "type": 16,
+                  "count": 1
+                },
+                {
+                  "name": "u_buffer1",
+                  "type": 16,
+                  "count": 1
+                },
+                {
+                  "name": "u_projection",
+                  "type": 25,
+                  "count": 1
+                }
+              ],
+              "defines": [],
+              "stageFlags": 1,
+              "binding": 0
+            },
+            {
+              "name": "Factor",
+              "members": [
+                {
+                  "name": "u_percent",
+                  "type": 13,
+                  "count": 1
+                }
+              ],
+              "defines": [],
+              "stageFlags": 16,
+              "binding": 1
+            }
+          ],
+          "samplerTextures": [
+            {
+              "name": "mainTexture",
+              "type": 28,
+              "count": 1,
+              "defines": [],
+              "stageFlags": 16,
+              "binding": 2
+            }
+          ],
+          "samplers": [],
+          "textures": [],
+          "buffers": [],
+          "images": [],
+          "subpassInputs": []
+        },
+        {
+          "rate": 2,
+          "blocks": [],
+          "samplerTextures": [],
+          "samplers": [],
+          "textures": [],
+          "buffers": [],
+          "images": [],
+          "subpassInputs": []
+        },
+        {
+          "rate": 3,
+          "blocks": [],
+          "samplerTextures": [],
+          "samplers": [],
+          "textures": [],
+          "buffers": [],
+          "images": [],
+          "subpassInputs": []
+        }
+      ],
       "hash": 3189094080,
       "glsl4": {
         "vert": "\nprecision mediump float;\nlayout(location = 0) in vec2 a_position;\nlayout(location = 1) in vec2 a_texCoord;\nlayout(location = 0) out vec2 v_uv;\nlayout(set = 1, binding = 0) uniform Constant {\n  vec4 u_buffer0;\n  vec4 u_buffer1;\n  mat4 u_projection;\n};\nvec4 vert () {\n  vec2 worldPos = a_position * u_buffer1.xy + u_buffer1.zw;\n  vec2 clipSpace = worldPos / u_buffer0.xy * 2.0 - 1.0;\n  vec4 screenPos = u_projection * vec4(clipSpace, 0.0, 1.0);\n  v_uv = a_texCoord;\n  return screenPos;\n}\nvoid main() { gl_Position = vert(); }",

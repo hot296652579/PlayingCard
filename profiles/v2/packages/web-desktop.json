@@ -1,19 +1,48 @@
 {
-  "common": {
-    "polyfills": {
-      "asyncFunctions": true
+  "builder": {
+    "taskOptionsMap": {
+      "1678880073557": {
+        "resolution": {
+          "designWidth": 720,
+          "designHeight": 1280
+        },
+        "__version__": "1.0.0"
+      }
     },
-    "outputName": "web-desktop",
-    "mainBundleCompressionType": "merge_dep",
-    "platform": "web-desktop"
-  },
-  "options": {
-    "web-desktop": {
-      "resolution": {
-        "designWidth": 720,
-        "designHeight": 1280
+    "__version__": "1.3.4",
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
       },
-      "__version__": "1.0.1"
+      "outputName": "web-desktop",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "web-desktop",
+      "scenes": [
+        {
+          "url": "db://assets/Game.scene",
+          "uuid": "e224a049-b1c4-4726-a1f4-f65599f55eaf",
+          "inBundle": false
+        },
+        {
+          "url": "db://assets/Loading.scene",
+          "uuid": "8cf7c1ec-7eeb-493e-a64c-669a4bb431f3"
+        },
+        {
+          "url": "db://assets/StartScene.scene",
+          "uuid": "94a2385f-dfb9-4375-93e7-09095f40acf4"
+        }
+      ],
+      "startScene": "94a2385f-dfb9-4375-93e7-09095f40acf4"
+    },
+    "options": {
+      "web-desktop": {
+        "resolution": {
+          "designWidth": 720,
+          "designHeight": 1280
+        },
+        "__version__": "1.0.1"
+      }
     }
-  }
+  },
+  "__version__": "1.0.1"
 }

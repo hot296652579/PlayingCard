@@ -3597,11 +3597,11 @@
     "value": {
       "depends": [
         "39fc10bb-d162-437e-9364-526275d9e6ac@f9941",
+        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941",
+        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941",
+        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941",
+        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941",
         "fa4a207d-68e7-4c6c-9995-45d05196864a@f9941",
-        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941",
-        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941",
-        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941",
-        "0cf4c09d-f1e7-47a5-9b24-6d93581d36d0@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
@@ -3663,6 +3663,18 @@
     }
   },
   "4f7db0b9-8a09-411b-9224-d4841b0d54b6": {
+    "url": "db://assets/Script/UILoading.ts",
+    "value": {}
+  },
+  "f0564052-b08a-47f5-bbc4-21493e7b73d6": {
+    "url": "db://assets/Script/UILoading copy.ts",
+    "value": {}
+  },
+  "58f97fd3-9fd6-4786-a34c-1f20bd3ce0f9": {
+    "url": "db://assets/Script/UIStartScene.ts",
+    "value": {}
+  },
+  "a949dd87-9d54-4ecd-a0fd-0d2b6fbb1667": {
     "url": "db://assets/Script/UILoading.ts",
     "value": {}
   }
