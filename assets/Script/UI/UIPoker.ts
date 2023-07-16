@@ -1,7 +1,7 @@
 import { _decorator, Component, Node, SpriteFrame, Sprite, NodeEventType, path, Event, EventTouch, Vec2, Vec3, UITransform, tween, v3 } from 'cc';
 import { clickLock } from '../Base/Docretors';
 import EventMgr from '../Base/Event/EventMgr';
-import { ECardDir, EventGame_Enum } from '../Enum';
+import { ECardDir, ENumSiut, EventGame_Enum } from '../Enum';
 import Poker from '../Model/Poker';
 import ResMgr from '../ResMgr';
 import { getSpPath } from '../Utils/Utils';

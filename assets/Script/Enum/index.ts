@@ -2,7 +2,7 @@
  * @Author: super_javan 296652579@qq.com
  * @Date: 2023-03-01 22:38:32
  * @LastEditors: super_javan 296652579@qq.com
- * @LastEditTime: 2023-07-16 17:25:40
+ * @LastEditTime: 2023-07-16 22:03:25
  * @FilePath: /PlayCard/assets/Script/Enum/index.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -66,7 +66,7 @@ export enum EventGame_Enum {
     //更新receive区到play区
     EVENT_RECEIVE_TO_PLAY_DB = 'EVENT_RECEIVE_TO_PLAY_DB',
     EVENT_RECEIVE_TO_PLAY_VIEW = 'EVENT_RECEIVE_TO_PLAY_VIEW',
-    EVENT_RECEIVE_TO_RECEIVE_CANNOT = 'EVENT_RECEIVE_TO_RECEIVE_CANNOT',
+    EVENT_RECEIVE_NO_CHANGE = 'EVENT_RECEIVE_NO_CHANGE',
 
     EVENT_OPEN_TOPPOKER_UPDATE_VIEW = 'EVENT_OPEN_TOPPOKER_UPDATE_VIEW',
 

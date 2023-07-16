@@ -464,29 +464,30 @@ export default class GameDB {
     }
 
     OnDragToReceive(poker: Poker, receiveIndex: number) {
-        let rgp: ReceiveGroup = this._receiveArea[receiveIndex];
-        if (rgp.isNextPoker(poker)) {
-            let parent: PokerGroup = poker.parent
-            if (this.onCheckInPlayArea(poker)) {
-                //DOTO上方有牌
-                parent.removePoker(poker)
-                rgp.addPoker(poker)
-                console.log('从play区域到receive收牌区...')
-                EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, poker)
-            } else if (this.onCheckInOpenArea(poker)) {
-                if (this.onCheckIndexByOpenTop(poker)) {
-                    //open区域顶部牌
+        if (poker.parent.popPoker() == poker) {
+            let rgp: ReceiveGroup = this._receiveArea[receiveIndex];
+            if (rgp.isNextPoker(poker)) {
+                let parent: PokerGroup = poker.parent
+                if (this.onCheckInPlayArea(poker)) {
+                    //DOTO上方有牌
                     parent.removePoker(poker)
                     rgp.addPoker(poker)
-                    console.log('从open 开牌区域到receive收牌区...')
-                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_OPEN_TO_RECEIVE_UPDATE_VIEW, poker)
+                    console.log('从play区域到receive收牌区...')
+                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, poker)
+                    return
+                } else if (this.onCheckInOpenArea(poker)) {
+                    if (this.onCheckIndexByOpenTop(poker)) {
+                        //open区域顶部牌
+                        parent.removePoker(poker)
+                        rgp.addPoker(poker)
+                        console.log('从open 开牌区域到receive收牌区...')
+                        EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_OPEN_TO_RECEIVE_UPDATE_VIEW, poker)
+                        return
+                    }
                 }
-            } else if (this.onCheckInReceiveArea(poker)) {
-                EventMgr.getInstance().emit(EventGame_Enum.EVENT_RECEIVE_TO_RECEIVE_CANNOT, poker)
             }
-        } else {
-            //DOTO 其他区域
         }
+        EventMgr.getInstance().emit(EventGame_Enum.EVENT_RECEIVE_NO_CHANGE, poker)
     }
 
     public get pokers(): Poker[] { return this._pokers }

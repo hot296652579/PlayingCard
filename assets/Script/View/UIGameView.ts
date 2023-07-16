@@ -40,6 +40,9 @@ export class UIGameView extends Component {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_RECEIVE_TO_PLAY_VIEW, this.receiveToPlay, this)
 
         EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_POKER_END, this.dragPokerEnd, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, this.playPokerToReceive, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_OPEN_TO_RECEIVE_UPDATE_VIEW, this.openToReceive, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_RECEIVE_NO_CHANGE, this.onDragPokerOnChange, this)
     }
 
     createAllCardByDB(pokers: Poker[]) {
@@ -154,6 +157,22 @@ export class UIGameView extends Component {
 
     openToReceive(poker: Poker) {
         this.moveUIPokerToReceiveArea(poker)
+    }
+
+    onDragPokerOnChange(poker: Poker) {
+        tween(poker.UIPoker.node)
+            .to(0.2, { position: this.getPokerTargetPosition(poker) })
+            .start()
+    }
+
+    private getPokerTargetPosition(poker) {
+        if (GameDB.getInstance().onCheckInPlayArea(poker)) {
+            let groupIndex = poker.parent.index
+            let pokerIndex = poker.indexInGroup()
+            let nodeEndPos = groupIndex * PADDING_PLAY
+            return new Vec3(nodeEndPos, -75 * pokerIndex, 0)
+        }
+        return null
     }
 
     moveUIPokerToReceiveArea(poker: Poker) {
