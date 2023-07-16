@@ -42,7 +42,7 @@ export class PokerGroup {
         }
         return null
     }
-
+    /**获取顶部的牌*/
     public popPoker() {
         let poker = this.pokers[this.pokers.length - 1]
         this.pokers.length = this.pokers.length - 1
@@ -460,6 +460,32 @@ export default class GameDB {
             }
 
             EventMgr.getInstance().emit(EventGame_Enum.EVENT_OPEN_TO_CLOSE_UPDATE_VIEW, this.closeGroup.pokers)
+        }
+    }
+
+    OnDragToReceive(poker: Poker, receiveIndex: number) {
+        let rgp: ReceiveGroup = this._receiveArea[receiveIndex];
+        if (rgp.isNextPoker(poker)) {
+            let parent: PokerGroup = poker.parent
+            if (this.onCheckInPlayArea(poker)) {
+                //DOTO上方有牌
+                parent.removePoker(poker)
+                rgp.addPoker(poker)
+                console.log('从play区域到receive收牌区...')
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, poker)
+            } else if (this.onCheckInOpenArea(poker)) {
+                if (this.onCheckIndexByOpenTop(poker)) {
+                    //open区域顶部牌
+                    parent.removePoker(poker)
+                    rgp.addPoker(poker)
+                    console.log('从open 开牌区域到receive收牌区...')
+                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_OPEN_TO_RECEIVE_UPDATE_VIEW, poker)
+                }
+            } else if (this.onCheckInReceiveArea(poker)) {
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_RECEIVE_TO_RECEIVE_CANNOT, poker)
+            }
+        } else {
+            //DOTO 其他区域
         }
     }
 

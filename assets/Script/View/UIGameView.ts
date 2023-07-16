@@ -246,6 +246,15 @@ export class UIGameView extends Component {
     }
 
     dragPokerEnd(poker: Poker) {
+        //DOTO拖拽到收牌区(Receive)
+        let receiveIndex = this.getPositionIndexOfReceive(poker);
+        if (receiveIndex != -1) {
+            GameDB.getInstance().OnDragToReceive(poker, receiveIndex);
+            return
+        }
+    }
+
+    private getPositionIndexOfReceive(poker): number {
         let uiPoker = poker.UIPoker
         let pokerW = 92
         let spacX = 5
@@ -253,13 +262,15 @@ export class UIGameView extends Component {
             let receiveNode = this.receiveAreaList[index]
             let worldPos = uiPoker.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0))
             let spcaeAr = receiveNode.getComponent(UITransform).convertToNodeSpaceAR(worldPos)
-            console.log(spcaeAr)
+            // console.log(spcaeAr)
             // console.log('Math.abs(spcaeAr.x)', Math.abs(spcaeAr.x))
-            // if (Math.abs(spcaeAr.x) < 92 && Math.abs(spcaeAr.y) < 136) {
-            //     // console.log('index', index)
-            //     return
-            // }
+            if (Math.abs(spcaeAr.x) < 92 && Math.abs(spcaeAr.y) < 136) {
+                console.log('index', index)
+                return index;
+            }
         }
+
+        return -1;
     }
 
     checkCloseIsEmpty() {

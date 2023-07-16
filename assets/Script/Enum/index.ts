@@ -1,3 +1,11 @@
+/*
+ * @Author: super_javan 296652579@qq.com
+ * @Date: 2023-03-01 22:38:32
+ * @LastEditors: super_javan 296652579@qq.com
+ * @LastEditTime: 2023-07-16 17:25:40
+ * @FilePath: /PlayCard/assets/Script/Enum/index.ts
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 /**类型枚举 */
 export enum EnumSuit {
     HeiTao = 'HeiTao',
@@ -38,6 +46,7 @@ export enum EventGame_Enum {
     //玩牌区到左上方收牌区或则PLAY区数据更新事件
     EVENT_PLAYAREA_TO_RECEIVE_PLAY_UPDATE_DB = 'EVENT_PLAYAREA_TO_RECEIVE_PLAY_UPDATE_DB',
     EVENT_PLAYAREA_TO_RECEIVE_UPDATE_VIEW = 'EVENT_PLAYAREA_TO_RECEIVE_UPDATE_VIEW',
+    EVENT_DRAG_PLAYAREA_TO_RECEIVE_UPDATE_VIEW = 'EVENT_DRAG_PLAYAREA_TO_RECEIVE_UPDATE_VIEW',
     EVENT_PLAYAREA_TO_PLAY_UPDATE_VIEW = 'EVENT_PLAYAREA_TO_PLAY_UPDATE_VIEW',
 
     //玩牌区到玩牌区其他地方
@@ -51,11 +60,13 @@ export enum EventGame_Enum {
     //更新open区域数据到收牌或则play区
     EVENT_OPEN_TO_UPDATE_DB = 'EVENT_OPEN_TO_UPDATE_DB',
     EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW = 'EVENT_OPEN_TO_RECEIVE_UPDATE_VIEW',
+    EVENT_DRAG_OPEN_TO_RECEIVE_UPDATE_VIEW = 'EVENT_DRAG_OPEN_TO_RECEIVE_UPDATE_VIEW',
     EVENT_OPEN_TO_PLAY_UPDATE_VIEW = 'EVENT_OPEN_TO_PLAY_UPDATE_VIEW',
 
     //更新receive区到play区
     EVENT_RECEIVE_TO_PLAY_DB = 'EVENT_RECEIVE_TO_PLAY_DB',
     EVENT_RECEIVE_TO_PLAY_VIEW = 'EVENT_RECEIVE_TO_PLAY_VIEW',
+    EVENT_RECEIVE_TO_RECEIVE_CANNOT = 'EVENT_RECEIVE_TO_RECEIVE_CANNOT',
 
     EVENT_OPEN_TOPPOKER_UPDATE_VIEW = 'EVENT_OPEN_TOPPOKER_UPDATE_VIEW',
 

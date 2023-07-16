@@ -5,6 +5,7 @@ import { ECardDir, EventGame_Enum } from '../Enum';
 import Poker from '../Model/Poker';
 import ResMgr from '../ResMgr';
 import { getSpPath } from '../Utils/Utils';
+import GameDB from '../Model/GameDB';
 const { ccclass, property } = _decorator;
 
 @ccclass('UIPoker')
@@ -86,8 +87,11 @@ export class UIPoker extends Component {
         this.m_startDragFunc = function () {
             // console.log('start drag...')
             if (this.isOpen()) {
-                this.startNodePos = new Vec2(this.node.position.x, this.node.position.y);
-                this.m_dragFlag = true
+                //open区域只允许最上方的牌拖动
+                if (!GameDB.getInstance().onCheckInOpenArea(this._poker) || GameDB.getInstance().onCheckIndexByOpenTop(this._poker)) {
+                    this.startNodePos = new Vec2(this.node.position.x, this.node.position.y);
+                    this.m_dragFlag = true
+                }
             }
         }
         this.scheduleOnce(this.m_startDragFunc, 0.3)
