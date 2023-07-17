@@ -11,22 +11,14 @@ export class PokerGroup {
 
     public addPoker(poker: Poker) {
         poker.parent = this
-        this._pokers.push(poker)
+        this.pokers.push(poker)
     }
 
     public removePoker(p) {
-        // let topPoker = this.groupTop
-        // if (poker == topPoker) {
-        //     this._pokers.length = this._pokers.length - 1
-        //     poker.parent = null
-
-        //     return poker
-        // }
-
-        for (let index = 0; index < this._pokers.length; index++) {
-            let poker = this._pokers[index];
+        for (let index = 0; index < this.pokers.length; index++) {
+            let poker = this.pokers[index];
             if (poker.count == p.count && poker.suit == p.suit) {
-                this._pokers.splice(index, 1)
+                this.pokers.splice(index, 1)
                 // console.log('删除后的pokers', this._pokers)
                 return p
             }
@@ -42,7 +34,7 @@ export class PokerGroup {
         }
         return null
     }
-    /**获取顶部的牌*/
+    /**获取顶部的牌 同时删除这张牌并返回*/
     public popPoker() {
         let poker = this.pokers[this.pokers.length - 1]
         this.pokers.length = this.pokers.length - 1
@@ -50,7 +42,7 @@ export class PokerGroup {
     }
 
     public groupIsEmpty() {
-        return this._pokers.length == 0
+        return this.pokers.length == 0
     }
 
     public get groupTop() {
@@ -84,6 +76,7 @@ class PlayGroup extends PokerGroup {
     public removePoker(poker: Poker) {
         super.removePoker(poker)
         if (!this.groupIsEmpty()) {
+            console.log('当前牌组不是空，且开一张牌!!!!!!')
             let topPoker = this.groupTop
             topPoker.dir = ECardDir.OPEN
 
@@ -251,6 +244,7 @@ export default class GameDB {
     }
     /**改变玩牌区到收牌区PLAY区数据*/
     onPlayToReceiveOrPlay(poker: Poker) {
+        if (poker.dir != ECardDir.OPEN) return
         for (let index = 0; index < RECEIVE_AREA_COUNT; index++) {
             let group: ReceiveGroup = this._receiveArea[index]
             if (group.isNextPoker(poker)) {
@@ -277,6 +271,7 @@ export default class GameDB {
     }
     /**改变玩牌区到其他玩牌区域*/
     onPlayToPlay(poker: Poker) {
+        if (poker.dir != ECardDir.OPEN) return
         // console.log(`这张牌从第 '${poker.indexInGroup()}' 组移动`)
         let indexInGroup = poker.indexInGroup()
         for (let index = 0; index < PLAY_AREA_COUNT; index++) {
@@ -300,7 +295,7 @@ export default class GameDB {
                 }
 
                 let openPoker = null
-                let _pokers = this._playArea[indexInGroup]._pokers!
+                let _pokers = this._playArea[indexInGroup]._pokers;
                 if (_pokers && _pokers.length > 0) {
                     openPoker = this._playArea[indexInGroup].groupTop
                 }
@@ -464,7 +459,7 @@ export default class GameDB {
     }
 
     OnDragToReceive(poker: Poker, receiveIndex: number) {
-        if (poker.parent.popPoker() == poker) {
+        if (poker.parent.groupTop() == poker) {
             let rgp: ReceiveGroup = this._receiveArea[receiveIndex];
             if (rgp.isNextPoker(poker)) {
                 let parent: PokerGroup = poker.parent
@@ -488,6 +483,10 @@ export default class GameDB {
             }
         }
         EventMgr.getInstance().emit(EventGame_Enum.EVENT_RECEIVE_NO_CHANGE, poker)
+    }
+
+    OnDragToPlay(poker: Poker, playIndex: number) {
+        //DOTO
     }
 
     public get pokers(): Poker[] { return this._pokers }

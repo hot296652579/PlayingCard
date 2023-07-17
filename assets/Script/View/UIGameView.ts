@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Prefab, Game, instantiate, Vec3, UITransform, Tween, tween } from 'cc';
+import { _decorator, Component, Node, Prefab, Game, instantiate, Vec3, UITransform, Tween, tween, v2, v3 } from 'cc';
 import { clickLock } from '../Base/Docretors';
 import EventMgr from '../Base/Event/EventMgr';
 import { ECardDir, EventGame_Enum } from '../Enum';
@@ -124,12 +124,10 @@ export class UIGameView extends Component {
 
         if (GameDB.getInstance().onCheckInPlayArea(poker)) {
             // console.log('点击的区域是PlayArea')
-            if (GameDB.getInstance().onCheckIndexTop(poker)) {
-                if (uiPoker.isOpen()) {
+            if (uiPoker.isOpen()) {
+                if (GameDB.getInstance().onCheckIndexTop(poker)) {
                     EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_RECEIVE_PLAY_UPDATE_DB, uiPoker.poker)
-                }
-            } else {
-                if (uiPoker.isOpen()) {
+                } else {
                     EventMgr.getInstance().emit(EventGame_Enum.EVENT_PLAYAREA_TO_PLAY_UPDATE_DB, uiPoker.poker)
                 }
             }
@@ -173,6 +171,12 @@ export class UIGameView extends Component {
             return new Vec3(nodeEndPos, -75 * pokerIndex, 0)
         }
         return null
+    }
+
+    private getPokerTargetWorldPosOfPlay(playIndex, pokerIndex) {
+        let x = playIndex * PADDING_PLAY
+        let y = -75 * pokerIndex
+        return this.playGruopRoot.getComponent(UITransform).convertToWorldSpaceAR(v3(x, y, 0))
     }
 
     moveUIPokerToReceiveArea(poker: Poker) {
@@ -271,6 +275,15 @@ export class UIGameView extends Component {
             GameDB.getInstance().OnDragToReceive(poker, receiveIndex);
             return
         }
+
+        //拖拽到play区
+        let playIndex = this.getPositionIndexOfPlay(poker);
+        if (playIndex != -1) {
+            GameDB.getInstance().OnDragToPlay(poker, playIndex);
+            return
+        }
+
+        EventMgr.getInstance().emit(EventGame_Enum.EVENT_RECEIVE_NO_CHANGE, poker.UIPoker.poker)
     }
 
     private getPositionIndexOfReceive(poker): number {
@@ -286,6 +299,33 @@ export class UIGameView extends Component {
             if (Math.abs(spcaeAr.x) < 92 && Math.abs(spcaeAr.y) < 136) {
                 console.log('index', index)
                 return index;
+            }
+        }
+
+        return -1;
+    }
+
+    private getPositionIndexOfPlay(poker): number {
+        let uiPoker = poker.UIPoker
+        let pokerWorld = uiPoker.convertToWorldSpaceAR(new Vec3(0, 0, 0));
+        let pokerW = 92
+        let pokerH = 136;
+        let spacX = 5
+
+        let playGroup = GameDB.getInstance().playArea;
+        for (let playIndex = 0; playIndex < PLAY_AREA_COUNT; playIndex++) {
+            let pg = playGroup[playIndex];
+            if (pg.groupIsEmpty()) {
+                let wp0 = this.getPokerTargetWorldPosOfPlay(playIndex, 0);
+                if (Math.abs(wp0.x - pokerWorld.x) < Math.floor(pokerW / 2) && Math.abs(wp0.y - pokerWorld.y) < (pokerH / 2)) {
+                    return playIndex;
+                }
+            } else {
+                let pokerIndex = pg.groupTop().indexInGroup();
+                let wp0 = this.getPokerTargetWorldPosOfPlay(playIndex, pokerIndex);
+                if (Math.abs(wp0.x - pokerWorld.x) < Math.floor(pokerW / 2) && Math.abs(wp0.y - pokerWorld.y) < (pokerH / 2)) {
+                    return playIndex;
+                }
             }
         }
 
