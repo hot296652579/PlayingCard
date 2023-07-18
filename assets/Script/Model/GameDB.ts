@@ -356,7 +356,7 @@ export default class GameDB {
         }
     }
 
-    //检测这张牌是否在play area
+    /**检测这张牌是否在play area*/
     onCheckInPlayArea(poker: Poker): boolean {
         return this.playArea.filter(
             pg => pg.pokers.filter(p => p.count == poker.count && p.suit == poker.suit).length > 0
@@ -482,11 +482,34 @@ export default class GameDB {
                 }
             }
         }
-        EventMgr.getInstance().emit(EventGame_Enum.EVENT_RECEIVE_NO_CHANGE, poker)
+        EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_POKER_NO_CHANGE, poker)
     }
 
     OnDragToPlay(poker: Poker, playIndex: number) {
         //DOTO
+        if(poker.parent.groupTop() == poker){
+            let playGroup:PlayGroup = this.playArea[playIndex];
+            if(playGroup.isNextPoker(poker)){
+                if(this.onCheckInPlayArea(poker)){
+                    console.assert(true,'//DO玩牌区到玩牌区其他组...')
+                    poker.parent.removePoker(poker)
+                    playGroup.addPoker(poker)
+                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_PLAYAREA_TO_PLAY, poker)
+                }else if(this.onCheckInReceiveArea(poker)){
+                    poker.parent.removePoker(poker)
+                    playGroup.addPoker(poker)
+                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_RECEIVE_TO_PLAY, poker)
+                }else if(this.onCheckInOpenArea(poker)){
+                    poker.parent.removePoker(poker)
+                    playGroup.addPoker(poker)
+                    EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_OPEN_TO_PLAY, poker)
+                }
+            }else{
+                EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_POKER_NO_CHANGE, poker)
+            }
+        }else{
+
+        }
     }
 
     public get pokers(): Poker[] { return this._pokers }

@@ -3,7 +3,7 @@ import { clickLock } from '../Base/Docretors';
 import EventMgr from '../Base/Event/EventMgr';
 import { ECardDir, EventGame_Enum } from '../Enum';
 import GameEngine from '../GameEngine';
-import GameDB, { PLAY_AREA_COUNT, RECEIVE_AREA_COUNT } from '../Model/GameDB';
+import GameDB, { PLAY_AREA_COUNT, PokerGroup, RECEIVE_AREA_COUNT } from '../Model/GameDB';
 import Poker from '../Model/Poker';
 import { UIPoker } from '../UI/UIPoker';
 import TweenUtil, { moveWorld2Space } from '../Utils/Utils';
@@ -42,7 +42,10 @@ export class UIGameView extends Component {
         EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_POKER_END, this.dragPokerEnd, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_PLAYAREA_TO_RECEIVE_UPDATE_VIEW, this.playPokerToReceive, this)
         EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_OPEN_TO_RECEIVE_UPDATE_VIEW, this.openToReceive, this)
-        EventMgr.getInstance().on(EventGame_Enum.EVENT_RECEIVE_NO_CHANGE, this.onDragPokerOnChange, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_PLAYAREA_TO_PLAY, this.playPokerToPlay, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_RECEIVE_TO_PLAY, this.playPokerToPlay, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_OPEN_TO_PLAY, this.playPokerToPlay, this)
+        EventMgr.getInstance().on(EventGame_Enum.EVENT_DRAG_POKER_NO_CHANGE, this.onDragPokerOnChange, this)
     }
 
     createAllCardByDB(pokers: Poker[]) {
@@ -283,7 +286,7 @@ export class UIGameView extends Component {
             return
         }
 
-        EventMgr.getInstance().emit(EventGame_Enum.EVENT_RECEIVE_NO_CHANGE, poker.UIPoker.poker)
+        EventMgr.getInstance().emit(EventGame_Enum.EVENT_DRAG_POKER_NO_CHANGE, poker.UIPoker.poker)
     }
 
     private getPositionIndexOfReceive(poker): number {
@@ -307,21 +310,21 @@ export class UIGameView extends Component {
 
     private getPositionIndexOfPlay(poker): number {
         let uiPoker = poker.UIPoker
-        let pokerWorld = uiPoker.convertToWorldSpaceAR(new Vec3(0, 0, 0));
+        let pokerWorld = uiPoker.getComponent(UITransform).convertToWorldSpaceAR(new Vec3(0, 0, 0));
         let pokerW = 92
         let pokerH = 136;
         let spacX = 5
 
-        let playGroup = GameDB.getInstance().playArea;
+        let playGroup:PokerGroup = GameDB.getInstance().playArea;
         for (let playIndex = 0; playIndex < PLAY_AREA_COUNT; playIndex++) {
-            let pg = playGroup[playIndex];
+            let pg:PokerGroup = playGroup[playIndex];
             if (pg.groupIsEmpty()) {
                 let wp0 = this.getPokerTargetWorldPosOfPlay(playIndex, 0);
                 if (Math.abs(wp0.x - pokerWorld.x) < Math.floor(pokerW / 2) && Math.abs(wp0.y - pokerWorld.y) < (pokerH / 2)) {
                     return playIndex;
                 }
             } else {
-                let pokerIndex = pg.groupTop().indexInGroup();
+                let pokerIndex = pg.groupTop.indexInGroup();
                 let wp0 = this.getPokerTargetWorldPosOfPlay(playIndex, pokerIndex);
                 if (Math.abs(wp0.x - pokerWorld.x) < Math.floor(pokerW / 2) && Math.abs(wp0.y - pokerWorld.y) < (pokerH / 2)) {
                     return playIndex;
